@@ -5,6 +5,8 @@ public class Hand : MonoBehaviour
 {
     public Cards card;
     public Image cardImage;
+    public bool isDefundHand;
+    [SerializeField] private GameObject defundHand;
 
     private void Start()
     {
@@ -13,6 +15,10 @@ public class Hand : MonoBehaviour
 
     public void AddCard(Cards newCard)
     {
+        if (isDefundHand && card != null)
+        {
+            defundHand.GetComponent<DefundHand>().AddDefundCard(card);
+        }
         card = newCard;
         cardImage.sprite = newCard.cardImage;
         cardImage.color = new Color(cardImage.color.r, cardImage.color.g, cardImage.color.b, 255f);
@@ -23,6 +29,10 @@ public class Hand : MonoBehaviour
         card = null;
         cardImage.sprite = null;
         cardImage.color = new Color(cardImage.color.r, cardImage.color.g, cardImage.color.b, 0f);
+        if (isDefundHand && defundHand.GetComponent<DefundHand>().defundDeckCard.Count > 0)
+        {
+            AddCard(defundHand.GetComponent<DefundHand>().RemoveDefundCard());
+        }
     }
 
     public void PlayCard()
