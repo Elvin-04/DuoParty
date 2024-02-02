@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RoundByRound : MonoBehaviour
 {
@@ -12,12 +13,16 @@ public class RoundByRound : MonoBehaviour
     private List<SpriteRenderer> playerOneSprites;
     private List<SpriteRenderer> playerTwoSprites;
 
+    public static RoundByRound instance {  get; private set; }
+
     //Turn 0 = player 1
     //Turn 1 = player 2
-    private int turn = 0;
+    public int turn {  get; private set; }
 
     private void Start()
     {
+        instance = this;
+        turn = 0;
         playerOneSprites = playerOne.GetComponentsInChildren<SpriteRenderer>().ToList();
         playerTwoSprites = playerTwo.GetComponentsInChildren<SpriteRenderer>().ToList();
 
