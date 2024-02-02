@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 
 public class Deck : MonoBehaviour
@@ -47,7 +46,7 @@ public class Deck : MonoBehaviour
     {
         if (deckCard.Count > 0 && hand.card == null)
         {
-            hand.Pull(deckCard[deckCard.Count - 1]);
+            hand.AddCard(deckCard[deckCard.Count - 1]);
             deckCard[deckCard.Count - 1] = null;
             deckCard.RemoveAt(deckCard.Count - 1);
         }

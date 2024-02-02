@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -11,6 +10,8 @@ public class DragnDrop : MonoBehaviour
     private bool draging = false;
     [SerializeField] private GameObject DragNDrop;
     [SerializeField] private GameObject cardHand;
+    [SerializeField] private GameObject redTrashHand;
+    [SerializeField] private GameObject greenTrashHand;
 
     private void Update()
     {
@@ -38,19 +39,40 @@ public class DragnDrop : MonoBehaviour
             }
 
             // stop drag and drop
-            else if (!draging && cardHand != null)
+            else if (!draging && cardHand != null && result.name == cardHand.GetComponent<Hand>().cardImage.name)
             {
                 result.transform.SetParent(cardHand.transform);
             }
             // dragging card
-            if (result.tag == "Card" && Input.GetMouseButtonDown(0) && result.GetComponentInParent<Hand>().card != null)
+            if (result.tag == "Card" && Input.GetMouseButtonDown(0) && result.GetComponentInParent<Hand>().card != null && !draging)
             {
                 draging = true;
                 cardHand = result.transform.parent.gameObject;
             }
-            else if (draging && Input.GetMouseButtonUp(0)) 
+            else if (draging && Input.GetMouseButtonUp(0) && result.tag == "Card") 
             {
                 draging = false;
+                // discard a card
+                if (results.Count > 1 && results[1].gameObject.tag == "Trash")
+                {
+                    switch(cardHand.gameObject.tag)
+                    {
+                        case ("Player1"):
+                        {
+                            greenTrashHand.GetComponent<Hand>().AddCard(cardHand.GetComponent<Hand>().card);
+                            cardHand.GetComponent<Hand>().RemoveCard();
+                            break;
+                        }
+                        case ("Player2"):
+                        {
+                            redTrashHand.GetComponent<Hand>().AddCard(cardHand.GetComponent<Hand>().card);
+                            cardHand.GetComponent<Hand>().RemoveCard();
+                            break;
+                        }
+
+                    }
+                }
+
                 CardReturn(result.gameObject);
             }
         }
