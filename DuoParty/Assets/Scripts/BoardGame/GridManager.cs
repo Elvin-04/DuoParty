@@ -1,6 +1,4 @@
-using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class GridManager : MonoBehaviour
@@ -15,11 +13,13 @@ public class GridManager : MonoBehaviour
         {
             if (_case.GetSpawn() && _case.GetColor() == "Red")
             {
-                Instantiate(redPlayer, _case.transform.position, Quaternion.identity);
+                //Instantiate(redPlayer, _case.transform.position, Quaternion.identity);
+                redPlayer.transform.position = _case.transform.position;
             }
             if (_case.GetSpawn() && _case.GetColor() == "Green")
             {
-                Instantiate(greenPlayer, _case.transform.position, Quaternion.identity);
+                //Instantiate(greenPlayer, _case.transform.position, Quaternion.identity);
+                greenPlayer.transform.position = _case.transform.position;
             }
         }
     }

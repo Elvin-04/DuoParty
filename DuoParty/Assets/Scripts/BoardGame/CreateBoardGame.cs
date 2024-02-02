@@ -1,7 +1,6 @@
-using System.Collections;
-using UnityEngine.InputSystem;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class CreateBoardGame : MonoBehaviour
 {
