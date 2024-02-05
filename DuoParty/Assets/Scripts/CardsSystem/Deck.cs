@@ -40,6 +40,7 @@ public class Deck : MonoBehaviour
                 tPathLeft--;
             }
         }
+        PullCard();
     }
 
     public void PullCard()

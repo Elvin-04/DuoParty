@@ -13,6 +13,10 @@ MonoBehaviour:
   m_Name: GreenCorridor
   m_EditorClassIdentifier: 
   cardName: Green Corner
-  cardImage: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  cardImage: {fileID: 21300000, guid: 8b71f4522a4a4754ea744cf3b88cc2f9, type: 3}
   cardType: 0
   cardColor: 1
+  canMoveUp: 1
+  canMoveDown: 1
+  canMoveLeft: 0
+  canMoveRight: 0

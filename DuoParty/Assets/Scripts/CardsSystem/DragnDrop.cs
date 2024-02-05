@@ -82,6 +82,7 @@ public class DragnDrop : MonoBehaviour
                     if (hit.collider != null && hit.collider.TryGetComponent<Case>(out Case _case) && _case.GetInteractible() && hit.collider.gameObject.GetComponent<Case>().GetCard() == null)
                     {
                         hit.collider.gameObject.GetComponent<Case>().AddCard(cardHand.GetComponent<Hand>().card);
+                        hit.collider.gameObject.transform.Rotate(0f, 0f, cardHand.GetComponent<Hand>().rotation);
                         cardHand.GetComponent<Hand>().RemoveCard();
                     }
                 }
