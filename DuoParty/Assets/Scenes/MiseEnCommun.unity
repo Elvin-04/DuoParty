@@ -7405,6 +7405,12 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   corridorCard: {fileID: 11400000, guid: 601be17a4948f644dabe4451b2cdb6bc, type: 2}
   cornerCard: {fileID: 11400000, guid: bec70f560fcf69346a7bfd3e82a9620e, type: 2}
   tPathCard: {fileID: 11400000, guid: 7da73d4ad13e86546bc9d182a74f9e11, type: 2}
@@ -24664,7 +24670,7 @@ MonoBehaviour:
   cardHand: {fileID: 0}
   redTrashHand: {fileID: 907713372}
   greenTrashHand: {fileID: 1899071066}
-  camera: {fileID: 0}
+  stopAll: {fileID: 1613845222}
 --- !u!1 &1177842208
 GameObject:
   m_ObjectHideFlags: 0
@@ -28269,6 +28275,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deckCard:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -32710,6 +32722,7 @@ GameObject:
   - component: {fileID: 1613845220}
   - component: {fileID: 1613845219}
   - component: {fileID: 1613845218}
+  - component: {fileID: 1613845222}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -32841,6 +32854,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1613845222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613845217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f39f0817f2d14d64e91c7a9e54ae8089, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roundByRound: {fileID: 1613845220}
 --- !u!1 &1614923414
 GameObject:
   m_ObjectHideFlags: 0
