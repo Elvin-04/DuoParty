@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Case : MonoBehaviour
@@ -37,6 +38,14 @@ public class Case : MonoBehaviour
     {
         card = _card;
         gameObject.GetComponent<SpriteRenderer>().sprite = card.cardImage;
+        if (card.cardColor == cardcolors.red)
+        { color = "Red"; }
+        if (card.cardColor == cardcolors.green)
+        { color = "Green"; }
+        if(card.cardColor == cardcolors.redAndGreen)
+        {
+            
+        }
     }
-    
+
 }
