@@ -6,7 +6,7 @@ public class Case : MonoBehaviour
     [SerializeField] private bool isSpawn;
     [SerializeField] private bool isEnd;
     [SerializeField] private Cards card;
-    [SerializeField] private string color;
+    [SerializeField] private cardcolors color;
 
     public bool GetInteractible()
     {
@@ -23,7 +23,7 @@ public class Case : MonoBehaviour
         return isEnd;
     }
 
-    public string GetColor()
+    public cardcolors GetColor()
     {
         return color;
     }

@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private string color;
+    [SerializeField] private cardcolors color;
 
     public int caseSize;
     public float speed;
@@ -20,7 +20,7 @@ public class PlayerMovement : MonoBehaviour
     {
         isMoving = false;
 
-        if(color ==  "Red")
+        if(color ==  cardcolors.red)
             turn = 1;
         else
             turn = 0;
@@ -54,7 +54,7 @@ public class PlayerMovement : MonoBehaviour
 
             RaycastHit2D hit = Physics2D.Raycast(dest, Vector2.zero);
 
-            if (hit.collider != null && hit.collider.TryGetComponent<Case>(out Case _case) && (_case.GetColor() == color || _case.GetColor() == ""))
+            if (hit.collider != null && hit.collider.TryGetComponent<Case>(out Case _case) && (_case.GetColor() == color || _case.GetColor() == cardcolors.none))
             {
                 isMoving = true;
             }

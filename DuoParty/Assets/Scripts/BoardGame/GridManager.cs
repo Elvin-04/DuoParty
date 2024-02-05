@@ -11,12 +11,12 @@ public class GridManager : MonoBehaviour
     {
         foreach(Case _case in cases)
         {
-            if (_case.GetSpawn() && _case.GetColor() == "Red")
+            if (_case.GetSpawn() && _case.GetColor() == cardcolors.red)
             {
                 //Instantiate(redPlayer, _case.transform.position, Quaternion.identity);
                 redPlayer.transform.position = _case.transform.position;
             }
-            if (_case.GetSpawn() && _case.GetColor() == "Green")
+            if (_case.GetSpawn() && _case.GetColor() == cardcolors.green)
             {
                 //Instantiate(greenPlayer, _case.transform.position, Quaternion.identity);
                 greenPlayer.transform.position = _case.transform.position;
