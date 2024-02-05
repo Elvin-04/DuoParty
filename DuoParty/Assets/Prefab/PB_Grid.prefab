@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 4511082767107927951}
   m_Layer: 0
   m_Name: PB_Grid
-  m_TagString: Untagged
+  m_TagString: Case
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -399,6 +399,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isInteractible: 1
+  isSpawn: 0
+  isEnd: 0
+  card: {fileID: 0}
+  color: 
 --- !u!1 &6484088778218334719
 GameObject:
   m_ObjectHideFlags: 0

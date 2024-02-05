@@ -7,9 +7,13 @@ public class Deck : MonoBehaviour
     [SerializeField] private Cards corridorCard;
     [SerializeField] private Cards cornerCard;
     [SerializeField] private Cards tPathCard;
+    [SerializeField] private Cards TwoColorsCross;
+    [SerializeField] private Cards TwoCorners;
     private int corriderLeft = 13;
     private int cornerLeft = 8;
     private int tPathLeft = 9;
+    private int doubleCornerLeft = 3;
+    private int twoColorsCrossLeft = 3;
     private int cardNumber;
     [SerializeField] private Hand hand;
 
@@ -34,12 +38,23 @@ public class Deck : MonoBehaviour
                 deckCard[i] = cornerCard;
                 cornerLeft--;
             }
+            else if (randomFactor > (corriderLeft + cornerLeft) && randomFactor < (corriderLeft + cornerLeft + doubleCornerLeft) && doubleCornerLeft > 0)
+            {
+                deckCard[i] = TwoColorsCross;
+                doubleCornerLeft--;
+            }
+            else if (randomFactor > (corriderLeft + cornerLeft + doubleCornerLeft) && randomFactor < (corriderLeft + cornerLeft + doubleCornerLeft + twoColorsCrossLeft) && twoColorsCrossLeft > 0)
+            {
+                deckCard[i] = cornerCard;
+                twoColorsCrossLeft--;
+            }
             else
             {
-                deckCard[i] = tPathCard;
+                deckCard[i] = TwoCorners;
                 tPathLeft--;
             }
         }
+        PullCard();
     }
 
     public void PullCard()

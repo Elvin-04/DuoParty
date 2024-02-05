@@ -8,6 +8,7 @@ TagManager:
   - Trash
   - Player1
   - Player2
+  - Case
   layers:
   - Default
   - TransparentFX

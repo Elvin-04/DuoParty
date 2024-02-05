@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49568711f7c02a24da74c0f5f963ebdb, type: 3}
-  m_Name: GreenCorner
+  m_Name: TwoColorCross
   m_EditorClassIdentifier: 
-  cardName: Green corner
-  cardImage: {fileID: 21300000, guid: 4b16b888adc21ea4fae7d252dfe1d02b, type: 3}
-  cardType: 1
-  cardColor: 1
-  canMoveUp: 0
+  cardName: Tow Color Cross
+  cardImage: {fileID: 21300000, guid: dabd09072d44e3a49ab62541c8c4be84, type: 3}
+  cardType: 3
+  cardColor: 2
+  canMoveUp: 1
   canMoveDown: 1
-  canMoveLeft: 0
+  canMoveLeft: 1
   canMoveRight: 1

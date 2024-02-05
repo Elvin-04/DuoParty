@@ -6,12 +6,10 @@ public class Hand : MonoBehaviour
     public Cards card;
     public Image cardImage;
     public bool isDefundHand;
+    public float rotation;
     [SerializeField] private GameObject defundHand;
+    [SerializeField] private Deck deck;
 
-    private void Start()
-    {
-        cardImage.color = new Color(cardImage.color.r, cardImage.color.g, cardImage.color.b, 0f);
-    }
 
     public void AddCard(Cards newCard)
     {
@@ -26,18 +24,50 @@ public class Hand : MonoBehaviour
 
     public void RemoveCard()
     {
+        rotation = 0f;
         card = null;
         cardImage.sprite = null;
         cardImage.color = new Color(cardImage.color.r, cardImage.color.g, cardImage.color.b, 0f);
-        if (isDefundHand && defundHand.GetComponent<DefundHand>().defundDeckCard.Count > 0)
+        cardImage.transform.rotation = Quaternion.Euler(new Vector3 (0f, 0f, 0f));
+        if (isDefundHand)
         {
-            AddCard(defundHand.GetComponent<DefundHand>().RemoveDefundCard());
+            if (defundHand.GetComponent<DefundHand>().defundDeckCard.Count > 0)
+                AddCard(defundHand.GetComponent<DefundHand>().RemoveDefundCard());
         }
+        else
+            deck.PullCard();
     }
+      /*****************************************/
+     /*              turn cards               */
+    /*****************************************/
+    public void TrunCardRight()
+    {
+        if (card != null)
+        {
+            card.TurnRight();
+            rotation = (rotation == 270 ? 0f : rotation += 90f);
+            cardImage.transform.Rotate(0f, 0f, 90f);
+        }
+        
+    }
+
+    public void TrunCardLeft()
+    {
+        if (card != null)
+        {
+            card.TurnRight();
+            rotation = (rotation == 0f ? 270f : rotation -= 90f);
+            cardImage.transform.Rotate(0f, 0f, -90f);
+        }
+
+    }
+
+      /*****************************************/
+     /*              turn cards               */
+    /*****************************************/
 
     public void PlayCard()
     {
-        // add code to play card here
         RemoveCard();
     }
 }
