@@ -1162,9 +1162,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: G
+  _coordinatesWidth: 4
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &38820633
 BoxCollider2D:
@@ -1565,9 +1572,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: A
+  _coordinatesWidth: 1
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &49254898
 BoxCollider2D:
@@ -2359,9 +2373,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: B
+  _coordinatesWidth: 1
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &82695817
 BoxCollider2D:
@@ -2678,9 +2699,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: D
+  _coordinatesWidth: 4
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &99305416
 BoxCollider2D:
@@ -2913,9 +2941,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: I
+  _coordinatesWidth: 4
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &100592901
 BoxCollider2D:
@@ -3400,9 +3435,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: C
+  _coordinatesWidth: 7
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &112958849
 BoxCollider2D:
@@ -3551,9 +3593,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: D
+  _coordinatesWidth: 8
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &115183672
 BoxCollider2D:
@@ -3702,9 +3751,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: A
+  _coordinatesWidth: 9
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &115253198
 BoxCollider2D:
@@ -3853,9 +3909,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: H
+  _coordinatesWidth: 3
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &121300156
 BoxCollider2D:
@@ -4088,9 +4151,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: C
+  _coordinatesWidth: 1
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &123367376
 BoxCollider2D:
@@ -4407,9 +4477,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: C
+  _coordinatesWidth: 8
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &136401145
 BoxCollider2D:
@@ -4894,9 +4971,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: F
+  _coordinatesWidth: 6
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &162896784
 BoxCollider2D:
@@ -5213,9 +5297,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: A
+  _coordinatesWidth: 3
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &176995470
 BoxCollider2D:
@@ -5532,9 +5623,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: C
+  _coordinatesWidth: 4
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &193833710
 BoxCollider2D:
@@ -5851,9 +5949,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: C
+  _coordinatesWidth: 3
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &203708739
 BoxCollider2D:
@@ -6170,9 +6275,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: C
+  _coordinatesWidth: 5
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &216938340
 BoxCollider2D:
@@ -6489,9 +6601,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: B
+  _coordinatesWidth: 6
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &232784403
 BoxCollider2D:
@@ -6976,9 +7095,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: I
+  _coordinatesWidth: 8
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &278269805
 BoxCollider2D:
@@ -7211,9 +7337,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: H
+  _coordinatesWidth: 2
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &306027100
 BoxCollider2D:
@@ -7950,9 +8083,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: E
+  _coordinatesWidth: 9
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &339781595
 BoxCollider2D:
@@ -8351,6 +8491,8 @@ MonoBehaviour:
   - {fileID: 2028499795}
   redPlayer: {fileID: 1472543723}
   greenPlayer: {fileID: 49397137}
+  _borderCases: []
+  _centerCases: []
 --- !u!4 &350744200
 Transform:
   m_ObjectHideFlags: 0
@@ -8730,9 +8872,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: A
+  _coordinatesWidth: 8
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &372686714
 BoxCollider2D:
@@ -9469,9 +9618,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: G
+  _coordinatesWidth: 8
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &429728084
 BoxCollider2D:
@@ -10712,9 +10868,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: I
+  _coordinatesWidth: 6
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &506243746
 BoxCollider2D:
@@ -11031,9 +11194,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: F
+  _coordinatesWidth: 3
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &529076222
 BoxCollider2D:
@@ -11266,9 +11436,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: E
+  _coordinatesWidth: 7
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &530280462
 BoxCollider2D:
@@ -11417,9 +11594,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: F
+  _coordinatesWidth: 7
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &530409498
 BoxCollider2D:
@@ -11988,9 +12172,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: H
+  _coordinatesWidth: 4
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &557891369
 BoxCollider2D:
@@ -12139,9 +12330,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: B
+  _coordinatesWidth: 8
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &558272942
 BoxCollider2D:
@@ -13558,9 +13756,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: B
+  _coordinatesWidth: 7
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &616090574
 BoxCollider2D:
@@ -13793,9 +13998,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: I
+  _coordinatesWidth: 3
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &624765246
 BoxCollider2D:
@@ -14364,9 +14576,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: E
+  _coordinatesWidth: 6
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &641073256
 BoxCollider2D:
@@ -14515,9 +14734,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: I
+  _coordinatesWidth: 1
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &658328463
 BoxCollider2D:
@@ -14834,9 +15060,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: G
+  _coordinatesWidth: 7
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &681162170
 BoxCollider2D:
@@ -15069,9 +15302,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: F
+  _coordinatesWidth: 2
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &691450725
 BoxCollider2D:
@@ -15808,9 +16048,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: D
+  _coordinatesWidth: 6
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &716675274
 BoxCollider2D:
@@ -15959,9 +16206,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: F
+  _coordinatesWidth: 9
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &732769538
 BoxCollider2D:
@@ -17790,9 +18044,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: A
+  _coordinatesWidth: 2
   isInteractible: 0
   isSpawn: 1
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: Red
 --- !u!61 &887501637
 BoxCollider2D:
@@ -18193,9 +18454,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: A
+  _coordinatesWidth: 6
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &904287614
 BoxCollider2D:
@@ -18596,9 +18864,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: H
+  _coordinatesWidth: 8
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &919149012
 BoxCollider2D:
@@ -19167,9 +19442,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: I
+  _coordinatesWidth: 7
   isInteractible: 0
   isSpawn: 0
   isEnd: 1
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: Red
 --- !u!61 &946068078
 BoxCollider2D:
@@ -19571,9 +19853,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: H
+  _coordinatesWidth: 9
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &958196102
 BoxCollider2D:
@@ -19722,9 +20011,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: D
+  _coordinatesWidth: 7
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &958994306
 BoxCollider2D:
@@ -20041,9 +20337,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: E
+  _coordinatesWidth: 3
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &976970072
 BoxCollider2D:
@@ -20360,9 +20663,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: C
+  _coordinatesWidth: 6
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &997348243
 BoxCollider2D:
@@ -21015,9 +21325,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: F
+  _coordinatesWidth: 8
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &1028322752
 BoxCollider2D:
@@ -21334,9 +21651,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: E
+  _coordinatesWidth: 4
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &1046089775
 BoxCollider2D:
@@ -22073,9 +22397,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: E
+  _coordinatesWidth: 5
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &1061954617
 BoxCollider2D:
@@ -22644,9 +22975,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: B
+  _coordinatesWidth: 2
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &1128278016
 BoxCollider2D:
@@ -23047,9 +23385,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: E
+  _coordinatesWidth: 8
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &1144188600
 BoxCollider2D:
@@ -23282,9 +23627,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: A
+  _coordinatesWidth: 4
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &1167160686
 BoxCollider2D:
@@ -23517,9 +23869,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: A
+  _coordinatesWidth: 5
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &1171437510
 BoxCollider2D:
@@ -24088,9 +24447,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: D
+  _coordinatesWidth: 1
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &1183111655
 BoxCollider2D:
@@ -24239,9 +24605,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: E
+  _coordinatesWidth: 2
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &1183124888
 BoxCollider2D:
@@ -24642,9 +25015,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: D
+  _coordinatesWidth: 3
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &1196384600
 BoxCollider2D:
@@ -25129,9 +25509,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: B
+  _coordinatesWidth: 4
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &1217128421
 BoxCollider2D:
@@ -25396,9 +25783,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: H
+  _coordinatesWidth: 7
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &1235832348
 BoxCollider2D:
@@ -25631,9 +26025,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: I
+  _coordinatesWidth: 2
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &1245576032
 BoxCollider2D:
@@ -25950,9 +26351,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: H
+  _coordinatesWidth: 5
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &1269570176
 BoxCollider2D:
@@ -26185,9 +26593,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: G
+  _coordinatesWidth: 2
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &1271315409
 BoxCollider2D:
@@ -26336,9 +26751,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: I
+  _coordinatesWidth: 5
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &1272051982
 BoxCollider2D:
@@ -29566,9 +29988,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: B
+  _coordinatesWidth: 5
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &1478027463
 BoxCollider2D:
@@ -30389,9 +30818,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: H
+  _coordinatesWidth: 1
   isInteractible: 0
   isSpawn: 0
   isEnd: 1
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: Green
 --- !u!61 &1550563581
 BoxCollider2D:
@@ -30541,9 +30977,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: B
+  _coordinatesWidth: 3
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &1554986495
 BoxCollider2D:
@@ -30692,9 +31135,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: F
+  _coordinatesWidth: 4
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &1559640219
 BoxCollider2D:
@@ -31431,9 +31881,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: F
+  _coordinatesWidth: 1
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &1602133906
 BoxCollider2D:
@@ -31961,9 +32418,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: D
+  _coordinatesWidth: 5
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &1646457824
 BoxCollider2D:
@@ -32784,9 +33248,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: H
+  _coordinatesWidth: 6
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &1685231626
 BoxCollider2D:
@@ -33775,9 +34246,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: G
+  _coordinatesWidth: 6
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &1750102936
 BoxCollider2D:
@@ -34346,9 +34824,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: B
+  _coordinatesWidth: 9
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &1817223940
 BoxCollider2D:
@@ -35253,9 +35738,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: D
+  _coordinatesWidth: 9
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &1855771248
 BoxCollider2D:
@@ -35908,9 +36400,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: C
+  _coordinatesWidth: 2
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &1915631358
 BoxCollider2D:
@@ -36479,9 +36978,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: G
+  _coordinatesWidth: 1
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &1941322894
 BoxCollider2D:
@@ -36882,9 +37388,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: F
+  _coordinatesWidth: 5
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &1951715989
 BoxCollider2D:
@@ -37621,9 +38134,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: G
+  _coordinatesWidth: 9
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &1983799455
 BoxCollider2D:
@@ -38108,9 +38628,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: D
+  _coordinatesWidth: 2
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &2014922195
 BoxCollider2D:
@@ -38511,9 +39038,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: I
+  _coordinatesWidth: 9
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &2028499796
 BoxCollider2D:
@@ -38998,9 +39532,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: G
+  _coordinatesWidth: 5
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &2053217520
 BoxCollider2D:
@@ -39317,9 +39858,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: A
+  _coordinatesWidth: 7
   isInteractible: 0
   isSpawn: 1
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: Green
 --- !u!61 &2063699778
 BoxCollider2D:
@@ -39720,9 +40268,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: C
+  _coordinatesWidth: 9
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &2083293365
 BoxCollider2D:
@@ -40207,9 +40762,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: E
+  _coordinatesWidth: 1
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &2108126900
 BoxCollider2D:
@@ -40526,9 +41088,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc72a89c200efb4db140fc6ff8bb2b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinatesLength: G
+  _coordinatesWidth: 3
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
+  isKey: 0
+  isAccessCard: 0
+  isHammer: 0
+  isBomb: 0
+  isArmouredDoor: 0
   color: 
 --- !u!61 &2119596376
 BoxCollider2D:
