@@ -7,15 +7,31 @@ public class Case : MonoBehaviour
     [SerializeField] string _coordinatesWidth;
 
     [SerializeField] bool isInteractible = true;
-    [SerializeField] private bool isSpawn;
-    [SerializeField] private bool isEnd;
-    [SerializeField] private bool isKey;
-    [SerializeField] private bool isAccessCard;
-    [SerializeField] private bool isHammer;
-    [SerializeField] private bool isBomb;
-    [SerializeField] private bool isArmouredDoor;
+
+    public bool isSpawn;
+    public bool isEnd;
+    public bool isKey;
+    public bool isVaccine;
+    public bool isAccessCard;
+    public bool isHammer;
+    public bool isBomb;
+    public bool isArmouredDoor;
+
+    [SerializeField] private Sprite keySprite;
+    [SerializeField] private Sprite vaccineSprite;
 
     [SerializeField] private string color;
+    public bool IsEmpty()
+    {
+        if(!isSpawn && !isVaccine && !isEnd && !isKey && !isAccessCard && !isHammer && !isBomb && !isArmouredDoor)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
 
     public bool GetInteractible()
     {
@@ -40,6 +56,10 @@ public class Case : MonoBehaviour
     public bool GetKey()
     {
         return isKey;
+    }
+    public bool GetVaccine()
+    {
+        return isVaccine;
     }
     public bool GetAccessCard()
     {
@@ -66,5 +86,17 @@ public class Case : MonoBehaviour
     public string GetCoordinatesWidth()
     {
         return _coordinatesWidth;
+    }
+
+    public void Setkey()
+    {
+        isKey = true;
+        GetComponent<SpriteRenderer>().sprite = keySprite;
+    }
+
+    public void Setvaccine()
+    {
+        isKey = true;
+        GetComponent<SpriteRenderer>().sprite = vaccineSprite;
     }
 }

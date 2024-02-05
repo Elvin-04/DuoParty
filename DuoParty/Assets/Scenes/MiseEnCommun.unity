@@ -8491,6 +8491,11 @@ MonoBehaviour:
   - {fileID: 2028499795}
   redPlayer: {fileID: 1472543723}
   greenPlayer: {fileID: 49397137}
+  _keyCount: 2
+  _hammerCount: 2
+  _AccessCardCount: 4
+  _bombCount: 1
+  _ArmouredDoorCount: 2
   _borderCases: []
   _centerCases: []
 --- !u!4 &350744200
@@ -34829,7 +34834,7 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  isKey: 0
+  isKey: 1
   isAccessCard: 0
   isHammer: 0
   isBomb: 0
