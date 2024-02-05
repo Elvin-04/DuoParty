@@ -45,8 +45,8 @@ public class Hand : MonoBehaviour
         if (card != null)
         {
             card.TurnRight();
-            rotation = (rotation == 270 ? 0f : rotation += 90f);
-            cardImage.transform.Rotate(0f, 0f, 90f);
+            rotation = (rotation == 0f ? 270f : rotation -= 90f);
+            cardImage.transform.Rotate(0f, 0f, -90f);
         }
         
     }
@@ -55,9 +55,9 @@ public class Hand : MonoBehaviour
     {
         if (card != null)
         {
-            card.TurnRight();
-            rotation = (rotation == 0f ? 270f : rotation -= 90f);
-            cardImage.transform.Rotate(0f, 0f, -90f);
+            card.TurnLeft();
+            rotation = (rotation == 270 ? 0f : rotation += 90f);
+            cardImage.transform.Rotate(0f, 0f, 90f);
         }
 
     }

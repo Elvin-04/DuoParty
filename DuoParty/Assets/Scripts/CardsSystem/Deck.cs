@@ -9,7 +9,7 @@ public class Deck : MonoBehaviour
     [SerializeField] private Cards tPathCard;
     [SerializeField] private Cards TwoColorsCross;
     [SerializeField] private Cards TwoCorners;
-    private int corriderLeft = 13;
+    private int corridorLeft = 13;
     private int cornerLeft = 8;
     private int tPathLeft = 9;
     private int doubleCornerLeft = 3;
@@ -20,37 +20,43 @@ public class Deck : MonoBehaviour
 
     void Start()
     {
-        cardNumber = corriderLeft + cornerLeft + tPathLeft - 1;
+        cardNumber = corridorLeft + cornerLeft + tPathLeft + doubleCornerLeft + twoColorsCrossLeft - 1;
         
         //add all cards to the player deck
         for (int i = cardNumber; i > -1; i--)
         {
             int randomFactor = Random.Range(0, i);
-            if (randomFactor >= 0 && randomFactor < corriderLeft && corriderLeft > 0)
+            // add corridor
+            if (randomFactor >= 0 && randomFactor < corridorLeft && corridorLeft > 0)
             {
                 deckCard[i] = corridorCard;
-                corriderLeft--;
+                corridorLeft--;
 
             }
-            else if ((randomFactor > corriderLeft &&  randomFactor < (corriderLeft + cornerLeft) && cornerLeft > 0)
-                || (corriderLeft <= 0 && tPathLeft <= 0 && cornerLeft > 0))
+            // add corner
+            else if ((randomFactor > corridorLeft &&  randomFactor < (corridorLeft + cornerLeft) && cornerLeft > 0)
+                || (corridorLeft <= 0 && tPathLeft <= 0 && cornerLeft > 0))
             {
                 deckCard[i] = cornerCard;
                 cornerLeft--;
             }
-            else if (randomFactor > (corriderLeft + cornerLeft) && randomFactor < (corriderLeft + cornerLeft + doubleCornerLeft) && doubleCornerLeft > 0)
+            // add double coner 
+            else if (randomFactor > (corridorLeft + cornerLeft) && randomFactor < (corridorLeft + cornerLeft + doubleCornerLeft) && doubleCornerLeft > 0)
             {
                 deckCard[i] = TwoColorsCross;
                 doubleCornerLeft--;
             }
-            else if (randomFactor > (corriderLeft + cornerLeft + doubleCornerLeft) && randomFactor < (corriderLeft + cornerLeft + doubleCornerLeft + twoColorsCrossLeft) && twoColorsCrossLeft > 0)
-            {
-                deckCard[i] = cornerCard;
-                twoColorsCrossLeft--;
-            }
-            else
+            // add two colors cross
+            else if (randomFactor > (corridorLeft + cornerLeft + doubleCornerLeft) && randomFactor < (corridorLeft + cornerLeft + doubleCornerLeft + twoColorsCrossLeft) && twoColorsCrossLeft > 0)
             {
                 deckCard[i] = TwoCorners;
+                twoColorsCrossLeft--;
+            }
+            // add T path
+            
+            else
+            {
+                deckCard[i] = tPathCard;
                 tPathLeft--;
             }
         }

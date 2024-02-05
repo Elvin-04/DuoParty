@@ -1,6 +1,4 @@
-using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -54,6 +52,18 @@ public class RoundByRound : MonoBehaviour
             {
                 ChangeColor(sprite, grayColor);
             }
+        }
+    }
+
+    public void StopAllCardsPlays()
+    {
+        foreach (var sprite in playerOneSprites)
+        {
+            ChangeColor(sprite, grayColor);
+        }
+        foreach (var sprite in playerTwoSprites)
+        {
+            ChangeColor(sprite, grayColor);
         }
     }
 
