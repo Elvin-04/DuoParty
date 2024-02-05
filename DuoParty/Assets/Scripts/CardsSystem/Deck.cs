@@ -62,6 +62,7 @@ public class Deck : MonoBehaviour
         if (deckCard.Count > 0 && hand.card == null)
         {
             hand.AddCard(deckCard[deckCard.Count - 1]);
+            
             deckCard[deckCard.Count - 1] = null;
             deckCard.RemoveAt(deckCard.Count - 1);
         }
