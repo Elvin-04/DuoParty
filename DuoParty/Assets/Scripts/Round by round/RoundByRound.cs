@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -5,13 +6,11 @@ using UnityEngine.UI;
 
 public class RoundByRound : MonoBehaviour
 {
-    [SerializeField] private Transform playerOne;
-    [SerializeField] private Transform playerTwo;
 
     [SerializeField] private Color grayColor;
 
-    private List<SpriteRenderer> playerOneSprites;
-    private List<SpriteRenderer> playerTwoSprites;
+    [SerializeField] private List<Transform> playerOneSprites;
+    [SerializeField] private List<Transform> playerTwoSprites;
 
     public static RoundByRound instance {  get; private set; }
 
@@ -23,25 +22,13 @@ public class RoundByRound : MonoBehaviour
     {
         instance = this;
         turn = 0;
-        playerOneSprites = playerOne.GetComponentsInChildren<SpriteRenderer>().ToList();
-        playerTwoSprites = playerTwo.GetComponentsInChildren<SpriteRenderer>().ToList();
 
         SwitchTurn();
     }
 
-    private void Update()
-    {
-        //Temp (test)
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            SwitchTurn();
-        }
-        //////////////////////////
-    }
-
 
     //Next player's turn
-    private void SwitchTurn()
+    public void SwitchTurn()
     {
         //TODO : change isInterractible of the cards
         if(turn == 0) 
@@ -49,11 +36,11 @@ public class RoundByRound : MonoBehaviour
             turn = 1;
             foreach (var sprite in playerOneSprites)
             {
-                sprite.color = Color.white;
+                ChangeColor(sprite, Color.white);
             }
             foreach (var sprite in playerTwoSprites)
             {
-                sprite.color = grayColor;
+                ChangeColor(sprite, grayColor);
             }
         }
         else
@@ -61,12 +48,39 @@ public class RoundByRound : MonoBehaviour
             turn = 0;
             foreach (var sprite in playerTwoSprites)
             {
-                sprite.color = Color.white;
+                ChangeColor(sprite, Color.white);
             }
             foreach (var sprite in playerOneSprites)
             {
-                sprite.color = grayColor;
+                ChangeColor(sprite, grayColor);
             }
         }
     }
+
+    private void ChangeColor(Transform obj,  Color color)
+    {
+        if(obj.TryGetComponent<SpriteRenderer>(out SpriteRenderer sprite))
+        {
+            sprite.color = color;
+        }
+        else if(obj.TryGetComponent<Image>(out Image img) && img.color.a != 0)
+        {
+            img.color = color;
+
+            if (color == Color.white)
+                img.raycastTarget = true;
+            else
+                img.raycastTarget = false;
+
+        }
+
+        if(obj.TryGetComponent<Button>(out Button button))
+        {
+            if (color == Color.white)
+                button.interactable = true;
+            else
+                button.interactable = false;
+        }
+    }
+
 }
