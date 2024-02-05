@@ -41,9 +41,9 @@ public class PlayerMovement : MonoBehaviour
 
     public void GridMovementPlayer(InputAction.CallbackContext ctx)
     {
-
         if (ctx.performed && !isMoving && RoundByRound.instance.turn == turn)
         {
+
             if(ctx.ReadValue<Vector2>().x != 0 && ctx.ReadValue<Vector2>().y != 0)
             {
                 return;
