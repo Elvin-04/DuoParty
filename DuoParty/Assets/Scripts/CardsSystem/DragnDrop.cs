@@ -12,15 +12,16 @@ public class DragnDrop : MonoBehaviour
     [SerializeField] private GameObject cardHand;
     [SerializeField] private GameObject redTrashHand;
     [SerializeField] private GameObject greenTrashHand;
+    [SerializeField] private Camera camera;
 
     private void Update()
     {
         //get mouse pos
-        Vector3 MousePos = Input.mousePosition;
+        Vector3 mousePos = Input.mousePosition;
         PointerEventData pointerEventData = new PointerEventData(eventSystem);
-        pointerEventData.position = MousePos;
+        pointerEventData.position = mousePos;
 
-        DragNDrop.transform.position = MousePos;
+        DragNDrop.transform.position = mousePos;
 
         List<RaycastResult> results = new List<RaycastResult>();
 
@@ -35,7 +36,7 @@ public class DragnDrop : MonoBehaviour
             if (draging)
             {
                 result.transform.SetParent(DragNDrop.transform);
-                DragNDrop.transform.position = MousePos;
+                DragNDrop.transform.position = mousePos;
             }
 
             // stop drag and drop
@@ -55,21 +56,33 @@ public class DragnDrop : MonoBehaviour
                 // discard a card
                 if (results.Count > 1 && results[1].gameObject.tag == "Trash")
                 {
-                    switch(cardHand.gameObject.tag)
+                    switch (cardHand.gameObject.tag)
                     {
                         case ("Player1"):
-                        {
-                            greenTrashHand.GetComponent<Hand>().AddCard(cardHand.GetComponent<Hand>().card);
-                            cardHand.GetComponent<Hand>().RemoveCard();
-                            break;
-                        }
+                            {
+                                greenTrashHand.GetComponent<Hand>().AddCard(cardHand.GetComponent<Hand>().card);
+                                cardHand.GetComponent<Hand>().RemoveCard();
+                                break;
+                            }
                         case ("Player2"):
-                        {
-                            redTrashHand.GetComponent<Hand>().AddCard(cardHand.GetComponent<Hand>().card);
-                            cardHand.GetComponent<Hand>().RemoveCard();
-                            break;
-                        }
+                            {
+                                redTrashHand.GetComponent<Hand>().AddCard(cardHand.GetComponent<Hand>().card);
+                                cardHand.GetComponent<Hand>().RemoveCard();
+                                break;
+                            }
 
+                    }
+                }
+
+                // place card in game
+                else
+                {
+                    RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
+
+                    if (hit.collider != null && hit.collider.TryGetComponent<Case>(out Case _case) && _case.GetInteractible() && hit.collider.gameObject.GetComponent<Case>().GetCard() == null)
+                    {
+                        hit.collider.gameObject.GetComponent<Case>().AddCard(cardHand.GetComponent<Hand>().card);
+                        cardHand.GetComponent<Hand>().RemoveCard();
                     }
                 }
 
@@ -77,6 +90,7 @@ public class DragnDrop : MonoBehaviour
             }
         }
     }
+
 
     private void CardReturn(GameObject card)
     {
