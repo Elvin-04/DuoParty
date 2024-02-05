@@ -8,13 +8,17 @@ public class GridManager : MonoBehaviour
     [SerializeField] private GameObject greenPlayer;
 
     [SerializeField] private int _keyCount;
-    [SerializeField] private int _vaccineCount;
+    [SerializeField] private int _vaccineRedCount;
+    [SerializeField] private int _vaccineGreenCount;
     [SerializeField] private int _hammerCount;
     [SerializeField] private int _AccessCardCount;
     [SerializeField] private int _bombCount;
     [SerializeField] private int _ArmouredDoorCount;
+    [SerializeField] private int _spawnCount;
+    [SerializeField] private int _endCount;
 
     private int _total;
+    private int _totalBase;
 
     public List<Case> _borderCases;
     public List<Case> _centerCases;
@@ -22,10 +26,15 @@ public class GridManager : MonoBehaviour
     private void Start()
     {
         SetBorderList();
-        _total = _keyCount + _hammerCount + _AccessCardCount + _bombCount + _ArmouredDoorCount + _vaccineCount;
+        _total = _keyCount + _hammerCount + _AccessCardCount + _bombCount + _ArmouredDoorCount + _vaccineRedCount + _vaccineGreenCount;
         for (int i = 0; i <= _total; i++)
         {
             InvestmentElement();
+        }
+        _totalBase = _spawnCount + _endCount;
+        for (int i = 0; i <= _totalBase; i++)
+        {
+            InvestmentBaseElement();
         }
 
         foreach (Case _case in cases)
@@ -82,20 +91,25 @@ public class GridManager : MonoBehaviour
 
     public void InvestmentElement()
     {
-        int _rand = Random.Range(0,_centerCases.Count) ;
+        int _rand = Random.Range(0, _centerCases.Count);
         if (_centerCases[_rand].IsEmpty())
         {
-            if (_keyCount > 0) 
+            if (_keyCount > 0)
             {
-                _centerCases[_rand].Setkey();
+                _centerCases[_rand].SetKey();
                 _keyCount--;
             }
-            else if (_vaccineCount > 0)
+            else if (_vaccineRedCount > 0)
             {
-                _centerCases[_rand].Setvaccine();
-                _vaccineCount--;
+                _centerCases[_rand].SetVaccineRed();
+                _vaccineRedCount--;
             }
-            else if (_hammerCount > 0) 
+            else if (_vaccineGreenCount > 0)
+            {
+                _centerCases[_rand].SetVaccineGreen();
+                _vaccineGreenCount--;
+            }
+            else if (_hammerCount > 0)
             {
                 _centerCases[_rand].isHammer = true;
                 _hammerCount--;
@@ -119,6 +133,39 @@ public class GridManager : MonoBehaviour
         else
         {
             InvestmentElement();
+            return;
+        }
+    }
+
+    public void InvestmentBaseElement()
+    {
+        int _rand = Random.Range(0, _borderCases.Count);
+        if (_borderCases[_rand].IsEmpty())
+        {
+            if (_spawnCount == 2) 
+            {
+                _borderCases[_rand].SetSpawnRed();
+                _spawnCount--;
+            }
+            else if (_spawnCount == 1)
+            {
+                _borderCases[_rand].SetSpawnGreen();
+                _spawnCount--;
+            }
+            else if (_endCount == 2)
+            {
+                _borderCases[_rand].SetEndRed();
+                _endCount--;
+            }
+            else if (_endCount == 1)
+            {
+                _borderCases[_rand].SetEndGreen();
+                _endCount--;
+            }
+        }
+        else
+        {
+            InvestmentBaseElement();
             return;
         }
     }
