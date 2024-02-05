@@ -37,6 +37,15 @@ public class DragnDrop : MonoBehaviour
             {
                 result.transform.SetParent(DragNDrop.transform);
                 DragNDrop.transform.position = mousePos;
+                // rotate dragged card
+                if (Input.GetKeyDown(KeyCode.Q))
+                {
+                    cardHand.GetComponent<Hand>().TrunCardLeft();
+                }
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    cardHand.GetComponent<Hand>().TrunCardRight();
+                }
             }
 
             // stop drag and drop

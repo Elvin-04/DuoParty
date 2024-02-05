@@ -86,5 +86,6 @@ public enum cardcolors
 {
     red = 0,
     green = 1,
+    redAndGreen = 2,
 
 }
