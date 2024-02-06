@@ -12,7 +12,7 @@ public class DragnDrop : MonoBehaviour
     [SerializeField] private GameObject cardHand;
     [SerializeField] private GameObject redTrashHand;
     [SerializeField] private GameObject greenTrashHand;
-    [SerializeField] private Camera camera;
+    [SerializeField] private OneCardPerRound stopAll;
 
     private void Update()
     {
@@ -68,19 +68,19 @@ public class DragnDrop : MonoBehaviour
                     switch (cardHand.gameObject.tag)
                     {
                         case ("Player1"):
-                            {
-                                greenTrashHand.GetComponent<Hand>().AddCard(cardHand.GetComponent<Hand>().card);
-                                cardHand.GetComponent<Hand>().RemoveCard();
-                                break;
-                            }
+                        {
+                            greenTrashHand.GetComponent<Hand>().AddCard(cardHand.GetComponent<Hand>().card);
+                            cardHand.GetComponent<Hand>().RemoveCard();
+                            break;
+                        }
                         case ("Player2"):
-                            {
-                                redTrashHand.GetComponent<Hand>().AddCard(cardHand.GetComponent<Hand>().card);
-                                cardHand.GetComponent<Hand>().RemoveCard();
-                                break;
-                            }
-
+                        {
+                            redTrashHand.GetComponent<Hand>().AddCard(cardHand.GetComponent<Hand>().card);
+                            cardHand.GetComponent<Hand>().RemoveCard();
+                            break;
+                        }
                     }
+                    stopAll.StopAllCards();
                 }
 
                 // place card in game
@@ -93,9 +93,10 @@ public class DragnDrop : MonoBehaviour
                         hit.collider.gameObject.GetComponent<Case>().AddCard(cardHand.GetComponent<Hand>().card);
                         hit.collider.gameObject.transform.Rotate(0f, 0f, cardHand.GetComponent<Hand>().rotation);
                         cardHand.GetComponent<Hand>().RemoveCard();
+                        stopAll.StopAllCards();
                     }
                 }
-
+                // return image in his place
                 CardReturn(result.gameObject);
             }
         }
