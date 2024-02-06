@@ -1629,7 +1629,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 49397137}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -30443,7 +30443,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1472543723}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -32881,7 +32881,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player1: {fileID: 1472543723}
+  player1Deck: {fileID: 1321750200}
+  player1DefundHand: {fileID: 907713377}
+  player1Hand: {fileID: 959354402}
   player2: {fileID: 49397137}
+  player2Deck: {fileID: 285024363}
+  player2DefundHand: {fileID: 1899071071}
+  player2Hand: {fileID: 350448769}
   grid: {fileID: 350744199}
   player1Finish: 0
   player2Finish: 0

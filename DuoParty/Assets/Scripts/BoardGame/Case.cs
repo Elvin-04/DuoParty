@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Case : MonoBehaviour
@@ -7,6 +8,7 @@ public class Case : MonoBehaviour
     [SerializeField] private bool isEnd;
     [SerializeField] private Cards card;
     [SerializeField] private cardcolors color;
+    public List<Case> cases;
 
     public bool GetInteractible()
     {
