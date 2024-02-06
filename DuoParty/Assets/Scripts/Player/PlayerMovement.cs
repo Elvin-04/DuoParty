@@ -65,15 +65,26 @@ public class PlayerMovement : MonoBehaviour
                 destCase = _case;
                 _case.GetCard();
                 //MovementOnCard();
-                if (ctx.ReadValue<Vector2>().x == 1 && _case.card != null && _case.card.canMoveLeft && (actCase.card == null || actCase.card.canMoveRight))
-                {
-                    isMoving = true;
-                    Debug.Log("caca");
-                }
-                else if (_case.card == null)
+                if (ctx.ReadValue<Vector2>().x == 1 && _case != null && _case.canMoveLeft && (actCase == null || actCase.canMoveRight))
                 {
                     isMoving = true;
                 }
+                else if (ctx.ReadValue<Vector2>().x == -1 && _case != null && _case.canMoveRight && (actCase == null || actCase.canMoveLeft))
+                {
+                    isMoving = true;
+                }
+                else if (ctx.ReadValue<Vector2>().y == 1 && _case != null && _case.canMoveDown && (actCase == null || actCase.canMoveUp))
+                {
+                    isMoving = true;
+                }
+                else if (ctx.ReadValue<Vector2>().y == -1 && _case != null && _case.canMoveUp && (actCase == null || actCase.canMoveDown))
+                {
+                    isMoving = true;
+                }
+               /* else if (_case.card == null)
+                {
+                    isMoving = true;
+                }*/
             }
         }
     }

@@ -15,6 +15,29 @@ public class Cards : ScriptableObject
 
     private void Awake()
     {
+        CardAwake();
+    }
+
+    public void TurnRight()
+    {
+        bool temp = canMoveUp;
+        canMoveUp = canMoveLeft;
+        canMoveLeft = canMoveDown;
+        canMoveDown = canMoveRight;
+        canMoveRight = temp;
+    }
+
+    public void TurnLeft()
+    {
+        bool temp = canMoveUp;
+        canMoveUp = canMoveRight;
+        canMoveRight = canMoveDown;
+        canMoveDown = canMoveLeft;
+        canMoveLeft = temp;
+    }
+
+    public void CardAwake()
+    {
         switch (cardType)
         {
             case (cardTypes.corridor):
@@ -35,9 +58,9 @@ public class Cards : ScriptableObject
                 }
             case (cardTypes.tPath):
                 {
-                    canMoveUp = true;
+                    canMoveUp = false;
                     canMoveDown = true;
-                    canMoveLeft = false;
+                    canMoveLeft = true;
                     canMoveRight = true;
                     break;
                 }
@@ -50,26 +73,13 @@ public class Cards : ScriptableObject
                     break;
                 }
         }
-        
     }
 
-    public void TurnRight()
+    public void ResetRotation()
     {
-        bool temp = canMoveUp;
-        canMoveUp = canMoveLeft;
-        canMoveLeft = canMoveDown;
-        canMoveDown = canMoveRight;
-        canMoveRight = temp;
+        CardAwake();
     }
 
-    public void TurnLeft()
-    {
-        bool temp = canMoveUp;
-        canMoveUp = canMoveRight;
-        canMoveRight = canMoveDown;
-        canMoveDown = canMoveLeft;
-        canMoveLeft = temp;
-    }
 
 }
 
