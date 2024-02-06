@@ -6,8 +6,8 @@ public class Case : MonoBehaviour
     [SerializeField] bool isInteractible = true;
     [SerializeField] private bool isSpawn;
     [SerializeField] private bool isEnd;
-    [SerializeField] private Cards card;
     [SerializeField] private string color;
+    public Cards card;
 
     public bool GetInteractible()
     {
@@ -47,5 +47,6 @@ public class Case : MonoBehaviour
             
         }
     }
+
 
 }

@@ -15,6 +15,9 @@ public class PlayerMovement : MonoBehaviour
     int turn;
 
     RaycastHit hit;
+    public Cards card;
+    public Case actCase;
+    public Case destCase;
 
     private void Start()
     {
@@ -33,6 +36,8 @@ public class PlayerMovement : MonoBehaviour
             transform.position = Vector2.MoveTowards(transform.position, dest, speed*Time.deltaTime);
             if(Vector2.Distance(dest, transform.position) < 0.05f)
             {
+                actCase = destCase;
+                destCase = null;
                 transform.position = dest;
                 isMoving = false;
             }
@@ -56,8 +61,28 @@ public class PlayerMovement : MonoBehaviour
 
             if (hit.collider != null && hit.collider.TryGetComponent<Case>(out Case _case) && (_case.GetColor() == color || _case.GetColor() == ""))
             {
-                isMoving = true;
+
+                destCase = _case;
+                _case.GetCard();
+                //MovementOnCard();
+                if (ctx.ReadValue<Vector2>().x == 1 && _case.card != null && _case.card.canMoveLeft && (actCase.card == null || actCase.card.canMoveRight))
+                {
+                    isMoving = true;
+                    Debug.Log("caca");
+                }
+                else if (_case.card == null)
+                {
+                    isMoving = true;
+                }
             }
+        }
+    }
+
+    public void MovementOnCard()
+    {
+        if(card.cardType == cardTypes.corridor)
+        {
+            new Vector2(0, transform.position.y);
         }
     }
 
