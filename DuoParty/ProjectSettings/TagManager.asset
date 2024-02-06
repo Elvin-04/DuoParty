@@ -8,6 +8,10 @@ TagManager:
   - Trash
   - Player1
   - Player2
+  - KeySlot
+  - VaccineSlot
+  - HammerSlot
+  - AccessCardSlot
   layers:
   - Default
   - TransparentFX
