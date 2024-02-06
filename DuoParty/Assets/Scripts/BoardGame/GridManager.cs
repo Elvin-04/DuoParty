@@ -23,4 +23,34 @@ public class GridManager : MonoBehaviour
             }
         }
     }
+
+    public List<Case> GetGrid()
+    {
+        return cases;
+    }
+
+    public Case GetSpawnOfColor(cardcolors color)
+    {
+        foreach(Case _case in cases)
+        {
+            if (_case.GetSpawn() && _case.GetColor() == color)
+            {
+                return _case;
+            }
+        }
+        return null;
+    }
+
+    public Case GetEndOfColor(cardcolors color)
+    {
+        foreach (Case _case in cases)
+        {
+            if (_case.GetEnd() && _case.GetColor() == color)
+            {
+                return _case;
+            }
+        }
+        return null;
+    }
+
 }

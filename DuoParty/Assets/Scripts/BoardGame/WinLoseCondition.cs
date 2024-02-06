@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -21,15 +22,80 @@ public class WinLoseCondition : MonoBehaviour
 
     public void Win()
     {
+        //TODO  Switch scene to win scene
         Debug.Log("WIN");
     }
 
     public void Lose()
     {
         Debug.Log("LOSE");
+        //TODO  switch scene to game over scene
     }
 
+    private bool PathToExitExist(cardcolors color)
+    {
+        Case startCase = grid.GetSpawnOfColor(color);
+        Case EndCase = grid.GetEndOfColor(color);
+        List<Case> nullCases = new List<Case>();
+        List<Case> inVerification = new List<Case>();
+        List<Case> verifiedCases = new List<Case>();
+        List<Case> nextVerificationList = new List<Case>();
 
+        // initialisation
+        foreach (Case _case in startCase.cases)
+        {
+            if (_case == null || _case.GetCard() != null)
+                nullCases.Add(_case);
+            else
+                inVerification.Add(_case);
+        }
+
+        // verification
+         for (int i = 0; i < 15; i++)
+         {
+            if (inVerification.Count == 0)
+            {
+                print("fin");
+                return false;
+            }
+                
+            foreach (Case _case in inVerification)
+            {
+                foreach (Case _nextCase in _case.cases)
+                {
+                    Debug.Log("vérifie : " + _case);
+                    if (_case.gameObject.name == EndCase.gameObject.name)
+                        return true;
+
+                    else if (_case == null || _case.GetCard() != null)
+                        nullCases.Add(_case);
+                    else
+                        nextVerificationList.Add(_case);
+
+                    verifiedCases.Add(_case);
+                }
+            }
+            inVerification.Clear();
+
+            foreach (Case _case in nextVerificationList)
+            {
+                bool isNotVerified = true;
+                foreach (Case _case2 in verifiedCases)
+                {
+                    if (_case == _case2)
+                    {
+                        isNotVerified = false;
+                    }
+                }
+                if (isNotVerified)
+                    inVerification.Add(_case);
+            }
+            nextVerificationList.Clear();
+         }
+ 
+
+        return false;
+    }
 
 
 
@@ -39,6 +105,7 @@ public class WinLoseCondition : MonoBehaviour
            /**********************************************/
           /*********** condition de victoire ************/
          /**********************************************/
+
         RaycastHit2D hit1 = Physics2D.Raycast(new Vector2(player1.transform.position.x, player1.transform.position.y), Vector2.zero);
 
         if (hit1.collider != null && hit1.collider.GetComponent<Case>() && hit1.collider.GetComponent<Case>().GetEnd() && hit1.collider.GetComponent<Case>().GetColor() == cardcolors.red)
@@ -75,6 +142,13 @@ public class WinLoseCondition : MonoBehaviour
         {
             Lose();
         }
+
+        if (PathToExitExist(cardcolors.red))
+        {
+            Debug.Log("trouver");
+        }
+        else
+            Debug.Log("pas trouver");
 
           /**********************************************/
          /*********** conditions de défaite ************/
