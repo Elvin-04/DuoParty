@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 
@@ -5,79 +7,81 @@ using UnityEngine;
 public class Cards : ScriptableObject
 {
     public string cardName;
+    public string type;
     public Sprite cardImage;
     public cardTypes cardType;
     public cardcolors cardColor;
-    public bool canMoveUp;
-    public bool canMoveDown;
-    public bool canMoveLeft;
-    public bool canMoveRight;
+
+    public Path greenPath;
+    public Path redPath;
+
+    [HideInInspector] public Path instantiatedGreenPath;
+    [HideInInspector] public Path instantiatedRedPath;
+
+    private List<Path> pathList = new();
 
     private void Awake()
     {
-        CardAwake();
+        ResetPaths();
+    }
+
+
+    private void ResetPaths()
+    {
+        pathList.Clear();
+
+        instantiatedGreenPath = greenPath;
+        instantiatedRedPath = redPath;
+
+        pathList.Add(instantiatedGreenPath);
+        pathList.Add(instantiatedRedPath);
+    }
+
+    private void ApplyPath()
+    {
+        instantiatedGreenPath = pathList[0];
+        instantiatedRedPath = pathList[1];
     }
 
     public void TurnRight()
     {
-        bool temp = canMoveUp;
-        canMoveUp = canMoveLeft;
-        canMoveLeft = canMoveDown;
-        canMoveDown = canMoveRight;
-        canMoveRight = temp;
+        for (int i = 0; i< pathList.Count; i++)
+        {
+            var p = pathList[i];
+
+            bool temp = p.canMoveUp;
+            p.canMoveUp = p.canMoveLeft;
+            p.canMoveLeft = p.canMoveDown;
+            p.canMoveDown = p.canMoveRight;
+            p.canMoveRight = temp;
+
+            pathList[i] = p;
+        }
+
+        ApplyPath();
     }
 
     public void TurnLeft()
     {
-        bool temp = canMoveUp;
-        canMoveUp = canMoveRight;
-        canMoveRight = canMoveDown;
-        canMoveDown = canMoveLeft;
-        canMoveLeft = temp;
-    }
-
-    public void CardAwake()
-    {
-        switch (cardType)
+        for (int i = 0; i < pathList.Count; i++)
         {
-            case (cardTypes.corridor):
-                {
-                    canMoveUp = true;
-                    canMoveDown = true;
-                    canMoveLeft = false;
-                    canMoveRight = false;
-                    break;
-                }
-            case (cardTypes.corner):
-                {
-                    canMoveUp = false;
-                    canMoveDown = true;
-                    canMoveLeft = false;
-                    canMoveRight = true;
-                    break;
-                }
-            case (cardTypes.tPath):
-                {
-                    canMoveUp = false;
-                    canMoveDown = true;
-                    canMoveLeft = true;
-                    canMoveRight = true;
-                    break;
-                }
-            case (cardTypes.cross):
-                {
-                    canMoveUp = true;
-                    canMoveDown = true;
-                    canMoveLeft = true;
-                    canMoveRight = true;
-                    break;
-                }
+            var p = pathList[i];
+
+            bool temp = p.canMoveUp;
+            p.canMoveUp = p.canMoveRight;
+            p.canMoveRight = p.canMoveDown;
+            p.canMoveDown = p.canMoveLeft;
+            p.canMoveLeft = temp;
+
+            pathList[i] = p;
         }
+
+        ApplyPath();
     }
 
     public void ResetRotation()
     {
-        CardAwake();
+        ResetPaths();
     }
 
 

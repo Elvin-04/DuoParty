@@ -1,6 +1,4 @@
-using System;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 public class Case : MonoBehaviour
 {
@@ -10,10 +8,21 @@ public class Case : MonoBehaviour
     [SerializeField] private string color;
     public Cards card;
 
-    public bool canMoveUp;
-    public bool canMoveDown;
-    public bool canMoveLeft;
-    public bool canMoveRight;
+    public Path greenPath;
+    public Path redPath;
+
+    public Path GetPathByColor(string color)
+    {
+        switch (color)
+        {
+            case "Green":
+                return greenPath;
+            case "Red":
+                return redPath;
+            default:
+                return greenPath;
+        }
+    }
 
     public bool GetInteractible()
     {
@@ -46,10 +55,8 @@ public class Case : MonoBehaviour
 
         gameObject.GetComponent<SpriteRenderer>().sprite = card.cardImage;
 
-        canMoveRight = _card.canMoveRight;
-        canMoveLeft = _card.canMoveLeft;
-        canMoveUp = _card.canMoveUp;
-        canMoveDown = _card.canMoveDown;
+        greenPath = card.instantiatedGreenPath; 
+        redPath = card.instantiatedRedPath;
         _card.ResetRotation();
 
         if (card.cardColor == cardcolors.red)
@@ -61,4 +68,13 @@ public class Case : MonoBehaviour
     }
 
 
+}
+
+[System.Serializable]
+public struct Path
+{
+    public bool canMoveUp;
+    public bool canMoveDown;
+    public bool canMoveLeft;
+    public bool canMoveRight;
 }
