@@ -1081,8 +1081,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &38820633
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1485,8 +1495,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &49254898
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1614,7 +1634,6 @@ GameObject:
   - component: {fileID: 49397140}
   - component: {fileID: 49397139}
   - component: {fileID: 49397141}
-  - component: {fileID: 49397138}
   m_Layer: 0
   m_Name: Pawn2
   m_TagString: Untagged
@@ -1622,41 +1641,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!58 &49397138
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 49397137}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.5
 --- !u!212 &49397139
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1741,7 +1725,14 @@ MonoBehaviour:
   caseSize: 1
   speed: 10
   moveDist: {x: 1, y: 1}
+  canModeDown: 0
+  canModeUp: 0
+  canMoveRight: 0
+  canMoveLeft: 0
   isMoving: 0
+  card: {fileID: 0}
+  actCase: {fileID: 0}
+  destCase: {fileID: 0}
 --- !u!1 &56128207
 GameObject:
   m_ObjectHideFlags: 0
@@ -2280,8 +2271,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &82695817
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2600,8 +2601,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &99305416
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2836,8 +2847,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &100592901
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3324,8 +3345,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &112958849
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3476,8 +3507,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &115183672
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3628,8 +3669,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &115253198
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3780,8 +3831,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &121300156
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4150,8 +4211,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &123367376
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4470,8 +4541,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &136401145
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4958,8 +5039,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &162896784
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5278,8 +5369,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &176995470
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5673,8 +5774,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &193833710
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5993,8 +6104,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &203708739
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6313,8 +6434,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &216938340
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6633,8 +6764,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &232784403
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7121,8 +7262,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &278269805
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7451,8 +7602,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &306027100
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8191,8 +8352,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &339781595
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9067,8 +9238,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &372686714
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9885,8 +10066,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &429728084
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11129,8 +11320,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &506243746
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11449,8 +11650,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &529076222
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11685,8 +11896,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &530280462
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11837,8 +12058,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &530409498
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12409,8 +12640,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &557891369
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12561,8 +12802,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &558272942
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13981,8 +14232,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &616090574
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14217,8 +14478,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &624765246
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14789,8 +15060,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &641073256
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14941,8 +15222,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &658328463
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15261,8 +15552,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &681162170
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15497,8 +15798,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &691450725
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16237,8 +16548,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &716675274
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16389,8 +16710,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &732769538
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18300,8 +18631,18 @@ MonoBehaviour:
   isInteractible: 0
   isSpawn: 1
   isEnd: 0
-  card: {fileID: 0}
   color: Red
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 1
+    canMoveDown: 1
+    canMoveLeft: 1
+    canMoveRight: 1
 --- !u!61 &887501637
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18704,8 +19045,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &904287614
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19217,8 +19568,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &919149012
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19789,8 +20150,18 @@ MonoBehaviour:
   isInteractible: 0
   isSpawn: 0
   isEnd: 1
-  card: {fileID: 0}
   color: Red
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 1
+    canMoveDown: 1
+    canMoveLeft: 1
+    canMoveRight: 1
 --- !u!61 &946068078
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20269,8 +20640,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &958196102
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20421,8 +20802,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &958994306
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20836,8 +21227,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &976970072
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21156,8 +21557,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &997348243
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21812,8 +22223,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &1028322752
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22132,8 +22553,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &1046089775
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22872,8 +23303,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &1061954617
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23542,8 +23983,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &1128278016
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23946,8 +24397,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &1144188600
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24182,8 +24643,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &1167160686
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24418,8 +24889,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &1171437510
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25041,8 +25522,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &1183111655
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25193,8 +25684,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &1183124888
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25597,8 +26098,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &1196384600
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26085,8 +26596,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &1217128421
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26321,8 +26842,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &1235832348
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26557,8 +27088,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &1245576032
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26877,8 +27418,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &1269570176
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27113,8 +27664,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &1271315409
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27265,8 +27826,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &1272051982
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30428,7 +30999,6 @@ GameObject:
   - component: {fileID: 1472543727}
   - component: {fileID: 1472543726}
   - component: {fileID: 1472543725}
-  - component: {fileID: 1472543724}
   m_Layer: 0
   m_Name: Pawn1
   m_TagString: Untagged
@@ -30436,41 +31006,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!58 &1472543724
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1472543723}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.5
 --- !u!114 &1472543725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30487,7 +31022,14 @@ MonoBehaviour:
   caseSize: 1
   speed: 10
   moveDist: {x: 1, y: 1}
+  canModeDown: 0
+  canModeUp: 0
+  canMoveRight: 0
+  canMoveLeft: 0
   isMoving: 0
+  card: {fileID: 0}
+  actCase: {fileID: 0}
+  destCase: {fileID: 0}
 --- !u!212 &1472543726
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -30590,8 +31132,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &1478027463
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31414,8 +31966,18 @@ MonoBehaviour:
   isInteractible: 0
   isSpawn: 0
   isEnd: 1
-  card: {fileID: 0}
   color: Green
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 1
+    canMoveDown: 1
+    canMoveLeft: 1
+    canMoveRight: 1
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &1550563581
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31567,8 +32129,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &1554986495
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31719,8 +32291,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &1559640219
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32592,8 +33174,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &1602133906
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33228,8 +33820,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &1646457824
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34052,8 +34654,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &1685231626
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35044,8 +35656,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &1750102936
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35651,8 +36273,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &1817223940
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36638,8 +37270,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &1855771248
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37403,8 +38045,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &1915631358
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37975,8 +38627,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &1941322894
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38379,8 +39041,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &1951715989
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39119,8 +39791,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &1983799455
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39607,8 +40289,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &2014922195
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40011,8 +40703,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &2028499796
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40499,8 +41201,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &2053217520
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40819,8 +41531,18 @@ MonoBehaviour:
   isInteractible: 0
   isSpawn: 1
   isEnd: 0
-  card: {fileID: 0}
   color: Green
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 1
+    canMoveDown: 1
+    canMoveLeft: 1
+    canMoveRight: 1
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &2063699778
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41223,8 +41945,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &2083293365
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41711,8 +42443,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &2108126900
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -42031,8 +42773,18 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  card: {fileID: 0}
   color: 
+  card: {fileID: 0}
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
 --- !u!61 &2119596376
 BoxCollider2D:
   m_ObjectHideFlags: 0

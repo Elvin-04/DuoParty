@@ -72,7 +72,6 @@ public class PlayerMovement : MonoBehaviour
                 Path lastPath = actCase.GetPathByColor(color);
 
                 _case.GetCard();
-                //MovementOnCard();
                 if (ctx.ReadValue<Vector2>().x == 1 && _case != null && newPath.canMoveLeft && (actCase == null || lastPath.canMoveRight))
                 {
                     isMoving = true;
@@ -89,27 +88,8 @@ public class PlayerMovement : MonoBehaviour
                 {
                     isMoving = true;
                 }
-
-               /* else if (_case.card == null)
-                {
-                    isMoving = true;
-                }*/
-
-                if(_case.card.type == "Cross")
-                {
-                    Debug.Log("cross");
-                }
             }
 
         }
     }
-
-    public void MovementOnCard()
-    {
-        if(card.cardType == cardTypes.corridor)
-        {
-            new Vector2(0, transform.position.y);
-        }
-    }
-
 }
