@@ -14,10 +14,25 @@ public class Case : MonoBehaviour
     [SerializeField] private Case left;
     public List<Case> cases;
 
+
+
+    [Header("For the pathfinding")]
+    public int x;
+    public int y;
+    public Case parent;
+
+    public int gCost;
+    public int hCost;
+    public int fCost
+    {
+        get { return gCost + hCost; }
+    }
+
     private void Start()
     {
 
         RaycastHit2D hit;
+        Physics2D.queriesStartInColliders = false;
 
         for (int i = -1; i < 2; i += 2)
         {
@@ -29,10 +44,6 @@ public class Case : MonoBehaviour
                 else
                     up = hit.collider.gameObject.GetComponent<Case>();
             }
-        }
-
-        for (int i = -1; i < 2; i += 2)
-        {
             hit = Physics2D.Raycast(transform.position, new Vector2(i, 0), 1.5f);
             if (hit && hit.collider.gameObject.GetComponent<Case>())
             {
@@ -43,7 +54,7 @@ public class Case : MonoBehaviour
             }
         }
 
-
+            Physics2D.queriesStartInColliders = true;
         cases.Add(up);
         cases.Add(right);
         cases.Add(down);

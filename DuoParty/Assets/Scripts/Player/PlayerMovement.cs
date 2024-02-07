@@ -48,8 +48,8 @@ public class PlayerMovement : MonoBehaviour
             {
                 return;
             }
-
-            
+                    
+                    
             dest = new Vector2( transform.position.x, transform.position.y ) + ctx.ReadValue<Vector2>();
 
             RaycastHit2D hit = Physics2D.Raycast(dest, Vector2.zero);

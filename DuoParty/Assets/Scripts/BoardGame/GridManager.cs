@@ -22,6 +22,21 @@ public class GridManager : MonoBehaviour
                 greenPlayer.transform.position = _case.transform.position;
             }
         }
+
+        int x = 1;
+        int y = 1;
+
+        foreach(Case _case in cases)
+        {
+            _case.x = x;
+            _case.y = y;
+            if (x == 9)
+            {
+                x = 1;
+                y++;
+            }
+            else x++;
+        }
     }
 
     public List<Case> GetGrid()

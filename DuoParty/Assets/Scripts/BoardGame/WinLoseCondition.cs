@@ -1,6 +1,6 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class WinLoseCondition : MonoBehaviour
 {
@@ -18,7 +18,25 @@ public class WinLoseCondition : MonoBehaviour
     [SerializeField] private GridManager grid;
     public bool player1Finish;
     public bool player2Finish;
+    public Case redStartCase;
+    public Case redEndCase;
+    public Case greenStartCase;
+    public Case greenEndCase;
 
+    public bool greenPathExist = true;
+    public bool redPathExist = true;
+
+
+    private void Start()
+    {
+        redStartCase = grid.GetSpawnOfColor(cardcolors.red);
+        redEndCase = grid.GetEndOfColor(cardcolors.red);
+        greenStartCase = grid.GetSpawnOfColor(cardcolors.green);
+        greenEndCase = grid.GetEndOfColor(cardcolors.green);
+
+        greenPathExist = true;
+        redPathExist = true;
+}
 
     public void Win()
     {
@@ -32,71 +50,81 @@ public class WinLoseCondition : MonoBehaviour
         //TODO  switch scene to game over scene
     }
 
-    private bool PathToExitExist(cardcolors color)
+    private List<Case> GetNotVerifiedCases(List<Case> nextVerificationList, List<Case> verifiedCases, List<Case> inVerification)
     {
-        Case startCase = grid.GetSpawnOfColor(color);
-        Case EndCase = grid.GetEndOfColor(color);
-        List<Case> nullCases = new List<Case>();
-        List<Case> inVerification = new List<Case>();
-        List<Case> verifiedCases = new List<Case>();
-        List<Case> nextVerificationList = new List<Case>();
-
-        // initialisation
-        foreach (Case _case in startCase.cases)
+        List<Case> result = new List<Case>();
+        foreach (Case _case in nextVerificationList)
         {
-            if (_case == null || _case.GetCard() != null)
-                nullCases.Add(_case);
-            else
-                inVerification.Add(_case);
+            if (_case != null && !verifiedCases.Contains(_case) && !inVerification.Contains(_case) && !_case.GetCard())
+            {
+                result.Add(_case);
+            }
+        }
+        return result;
+    }
+
+
+
+    public bool PathFinding(Case start, Case end)
+    {
+
+        List<Case> open = new List<Case>();
+        HashSet<Case> closed = new HashSet<Case>();
+        open.Add(start);
+
+        while (open.Count > 0)
+        {
+            Case currentCase = open[0];
+            for (int i = 1; i < open.Count; i++)
+            {
+                if (open[i].fCost < currentCase.fCost || open[i].fCost == currentCase.fCost && open[i].hCost < currentCase.hCost)
+                {
+                    currentCase = open[i];
+                }
+            }
+            open.Remove(currentCase); 
+            closed.Add(currentCase);
+
+            if(currentCase == end)
+            {
+                return true;
+            }
+
+            foreach (Case neighbour in currentCase.cases)
+            {
+                if(neighbour == null || closed.Contains(neighbour) || neighbour.GetCard() != null)
+                    continue;
+
+                int newMovementCostToNeighbour = currentCase.gCost + GetDistance(currentCase, neighbour);
+                if (newMovementCostToNeighbour < neighbour.gCost || !open.Contains(neighbour))
+                {
+                    neighbour.gCost = newMovementCostToNeighbour;
+                    neighbour.hCost = GetDistance(neighbour, end);
+                    neighbour.parent = currentCase;
+
+                    if (!open.Contains(neighbour))
+                        open.Add(neighbour);
+                }
+            }
+
+            
         }
 
-        // verification
-         for (int i = 0; i < 15; i++)
-         {
-            if (inVerification.Count == 0)
-            {
-                print("fin");
-                return false;
-            }
-                
-            foreach (Case _case in inVerification)
-            {
-                foreach (Case _nextCase in _case.cases)
-                {
-                    Debug.Log("vérifie : " + _case);
-                    if (_case.gameObject.name == EndCase.gameObject.name)
-                        return true;
-
-                    else if (_case == null || _case.GetCard() != null)
-                        nullCases.Add(_case);
-                    else
-                        nextVerificationList.Add(_case);
-
-                    verifiedCases.Add(_case);
-                }
-            }
-            inVerification.Clear();
-
-            foreach (Case _case in nextVerificationList)
-            {
-                bool isNotVerified = true;
-                foreach (Case _case2 in verifiedCases)
-                {
-                    if (_case == _case2)
-                    {
-                        isNotVerified = false;
-                    }
-                }
-                if (isNotVerified)
-                    inVerification.Add(_case);
-            }
-            nextVerificationList.Clear();
-         }
- 
 
         return false;
     }
 
+    private int GetDistance(Case caseA, Case caseB)
+    {
+        if (caseA == null || caseB == null)
+            return 0;
+        int distX = caseA.x - caseB.x;
+        int distY = caseA.y - caseB.y;
+        if (distX > distY)
+            return (2 * distY + (distX - distY));
+
+        return (2 * distX + (distY - distX));
+    }
 
 
     private void Update()
@@ -143,17 +171,12 @@ public class WinLoseCondition : MonoBehaviour
             Lose();
         }
 
-        if (PathToExitExist(cardcolors.red))
-        {
-            Debug.Log("trouver");
-        }
-        else
-            Debug.Log("pas trouver");
-
           /**********************************************/
          /*********** conditions de défaite ************/
         /**********************************************/
 
     }
+
+
 
 }
