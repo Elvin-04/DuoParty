@@ -13,10 +13,27 @@ MonoBehaviour:
   m_Name: TwoCorridor
   m_EditorClassIdentifier: 
   cardName: TowCorridors
+  type: TwoCorner
   cardImage: {fileID: 21300000, guid: 09b70891ed3f2e942b6facc3b5a3214b, type: 3}
   cardType: 0
   cardColor: 2
-  canMoveUp: 1
-  canMoveDown: 1
-  canMoveLeft: 0
-  canMoveRight: 0
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 1
+    canMoveLeft: 0
+    canMoveRight: 1
+  redPath:
+    canMoveUp: 1
+    canMoveDown: 0
+    canMoveLeft: 1
+    canMoveRight: 0
+  instantiatedGreenPath:
+    canMoveUp: 0
+    canMoveDown: 1
+    canMoveLeft: 0
+    canMoveRight: 1
+  instantiatedRedPath:
+    canMoveUp: 1
+    canMoveDown: 0
+    canMoveLeft: 1
+    canMoveRight: 0

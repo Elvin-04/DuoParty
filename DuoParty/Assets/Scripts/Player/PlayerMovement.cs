@@ -8,7 +8,10 @@ public class PlayerMovement : MonoBehaviour
     public int caseSize;
     public float speed;
     public Vector2 moveDist;
-
+    public bool canModeDown;
+    public bool canModeUp;
+    public bool canMoveRight;
+    public bool canMoveLeft;
     public bool isMoving;
     private Vector2 dest;
 
@@ -40,6 +43,7 @@ public class PlayerMovement : MonoBehaviour
                 destCase = null;
                 transform.position = dest;
                 isMoving = false;
+
             }
         }
     }
@@ -59,33 +63,44 @@ public class PlayerMovement : MonoBehaviour
 
             RaycastHit2D hit = Physics2D.Raycast(dest, Vector2.zero);
 
-            if (hit.collider != null && hit.collider.TryGetComponent<Case>(out Case _case) && (_case.GetColor() == color || _case.GetColor() == ""))
+            if (hit.collider != null && hit.collider.TryGetComponent<Case>(out Case _case) && (_case.GetColor() == color || _case.GetColor() == "RedAndGreen"))
             {
-
+                
                 destCase = _case;
+
+                Path newPath = destCase.GetPathByColor(color);
+                Path lastPath = actCase.GetPathByColor(color);
+
                 _case.GetCard();
                 //MovementOnCard();
-                if (ctx.ReadValue<Vector2>().x == 1 && _case != null && _case.canMoveLeft && (actCase == null || actCase.canMoveRight))
+                if (ctx.ReadValue<Vector2>().x == 1 && _case != null && newPath.canMoveLeft && (actCase == null || lastPath.canMoveRight))
                 {
                     isMoving = true;
                 }
-                else if (ctx.ReadValue<Vector2>().x == -1 && _case != null && _case.canMoveRight && (actCase == null || actCase.canMoveLeft))
+                else if (ctx.ReadValue<Vector2>().x == -1 && _case != null && newPath.canMoveRight && (actCase == null || lastPath.canMoveLeft))
                 {
                     isMoving = true;
                 }
-                else if (ctx.ReadValue<Vector2>().y == 1 && _case != null && _case.canMoveDown && (actCase == null || actCase.canMoveUp))
+                else if (ctx.ReadValue<Vector2>().y == 1 && _case != null && newPath.canMoveDown && (actCase == null || lastPath.canMoveUp))
                 {
                     isMoving = true;
                 }
-                else if (ctx.ReadValue<Vector2>().y == -1 && _case != null && _case.canMoveUp && (actCase == null || actCase.canMoveDown))
+                else if (ctx.ReadValue<Vector2>().y == -1 && _case != null && newPath.canMoveUp && (actCase == null || lastPath.canMoveDown))
                 {
                     isMoving = true;
                 }
+
                /* else if (_case.card == null)
                 {
                     isMoving = true;
                 }*/
+
+                if(_case.card.type == "Cross")
+                {
+                    Debug.Log("cross");
+                }
             }
+
         }
     }
 
