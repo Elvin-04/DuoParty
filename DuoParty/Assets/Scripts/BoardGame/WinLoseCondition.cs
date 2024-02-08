@@ -35,10 +35,23 @@ public class WinLoseCondition : MonoBehaviour
         redEndCase = grid.GetEndOfColor(cardcolors.red);
         greenStartCase = grid.GetSpawnOfColor(cardcolors.green);
         greenEndCase = grid.GetEndOfColor(cardcolors.green);
+        StartCoroutine(InitialiseStartsAndEndCases());
 
         greenPathExist = true;
         redPathExist = true;
-}
+    }
+
+    private IEnumerator InitialiseStartsAndEndCases()
+    {
+        yield return new WaitForSeconds(1f);
+
+        redStartCase = grid.GetSpawnOfColor(cardcolors.red);
+        redEndCase = grid.GetEndOfColor(cardcolors.red);
+        greenStartCase = grid.GetSpawnOfColor(cardcolors.green);
+        greenEndCase = grid.GetEndOfColor(cardcolors.green);
+
+        yield return null;
+    }
 
     public void Win()
     {

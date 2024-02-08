@@ -222,6 +222,7 @@ public class Case : MonoBehaviour
         GetComponent<SpriteRenderer>().sprite = spawnSpriteGreen;
         SetGreenPath();
         color = "Green";
+        eColor = cardcolors.green;
         isSpawn = true;
         isInteractible = false;
     }
@@ -230,6 +231,7 @@ public class Case : MonoBehaviour
         GetComponent<SpriteRenderer>().sprite = spawnSpriteRed;
         SetRedPath();
         color = "Red";
+        eColor = cardcolors.red;
         isSpawn = true;
         isInteractible = false;
     }
@@ -238,12 +240,16 @@ public class Case : MonoBehaviour
         GetComponent<SpriteRenderer>().sprite = endSpriteGreen;
         SetGreenPath();
         color = "Green";
+        eColor = cardcolors.green;
+        isEnd = true;
     }
     public void SetEndRed()
     {
         GetComponent<SpriteRenderer>().sprite = endSpriteRed;
         SetRedPath();
         color = "Red";
+        eColor = cardcolors.red;
+        isEnd = true;
     }
 
     private void SetRedPath()

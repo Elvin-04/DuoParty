@@ -179,7 +179,7 @@ public class GridManager : MonoBehaviour
             return;
         }
     }
-}
+
     public List<Case> GetGrid()
     {
         return cases;
@@ -187,7 +187,7 @@ public class GridManager : MonoBehaviour
 
     public Case GetSpawnOfColor(cardcolors color)
     {
-        foreach(Case _case in cases)
+        foreach (Case _case in cases)
         {
             if (_case.GetSpawn() && _case.GetEColor() == color)
             {
@@ -208,5 +208,4 @@ public class GridManager : MonoBehaviour
         }
         return null;
     }
-
 }
