@@ -262,6 +262,17 @@ public class Case : MonoBehaviour
         greenPath.canMoveUp = true;
         greenPath.canMoveDown = true;
     }
+    public void LockMovements()
+    {
+        greenPath.canMoveLeft = false;
+        greenPath.canMoveRight = false;
+        greenPath.canMoveUp = false;
+        greenPath.canMoveDown = false;
+        redPath.canMoveLeft = false;
+        redPath.canMoveRight = false;
+        redPath.canMoveUp = false;
+        redPath.canMoveDown = false;
+    }
 
     private void SetBothPath()
     {

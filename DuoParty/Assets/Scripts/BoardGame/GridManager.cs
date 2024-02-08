@@ -179,7 +179,6 @@ public class GridManager : MonoBehaviour
             return;
         }
     }
-}
     public List<Case> GetGrid()
     {
         return cases;
@@ -208,5 +207,6 @@ public class GridManager : MonoBehaviour
         }
         return null;
     }
-
 }
+
+
