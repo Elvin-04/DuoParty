@@ -69,13 +69,13 @@ public class DragnDrop : MonoBehaviour
                     {
                         case ("Player1"):
                         {
-                            greenTrashHand.GetComponent<Hand>().AddCard(cardHand.GetComponent<Hand>().card);
+                            greenTrashHand.GetComponent<Hand>().AddCard(cardHand.GetComponent<Hand>().card, cardHand.GetComponent<Hand>());
                             cardHand.GetComponent<Hand>().RemoveCard();
                             break;
                         }
                         case ("Player2"):
                         {
-                            redTrashHand.GetComponent<Hand>().AddCard(cardHand.GetComponent<Hand>().card);
+                            redTrashHand.GetComponent<Hand>().AddCard(cardHand.GetComponent<Hand>().card, cardHand.GetComponent<Hand>());
                             cardHand.GetComponent<Hand>().RemoveCard();
                             break;
                         }
