@@ -9,7 +9,7 @@ public class CreateBoardGame : MonoBehaviour
     public GameObject _gridPrefab;
     public float _distanceBtwCells;
     public List<List<GameObject>> _gridEmpty;
-
+    
     private void Awake()
     {
         _coeff = 4.5f / (_size / 2);
@@ -19,7 +19,7 @@ public class CreateBoardGame : MonoBehaviour
             //InstantiateGrid(-8f, 4.5f);
     }
 
-/*    private void InstantiateGrid(float startX, float startY)
+    private void InstantiateGrid(float startX, float startY)
     {
         for (int i = 0; i <= _size; i++)
         {
@@ -37,7 +37,7 @@ public class CreateBoardGame : MonoBehaviour
                 _gridEmpty.Add(EmptyToAdd);
             }
         }
-    }*/
+    }
 
     public void ScreenMouseRay(InputAction.CallbackContext ctx)
     {
