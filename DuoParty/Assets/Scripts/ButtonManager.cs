@@ -13,6 +13,7 @@ public class ButtonManager : MonoBehaviour
     private bool _pauseActive;
     private bool _endActive;
 
+    [SerializeField] private Animator _animator;
     private void Start()
     {
         _audioSource.Play();
@@ -56,5 +57,11 @@ public class ButtonManager : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+
+    public void Zoom()
+    {
+        _animator.SetBool("Zoomed", !_animator.GetBool("Zoomed"));
     }
 }
