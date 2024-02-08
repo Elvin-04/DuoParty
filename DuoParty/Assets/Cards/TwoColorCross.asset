@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Tow Color Cross
   type: Cross
-  cardImage: {fileID: 21300000, guid: dabd09072d44e3a49ab62541c8c4be84, type: 3}
+  cardImage: {fileID: 21300000, guid: 577cc782470e1a04cba57f1853efd9f9, type: 3}
   cardType: 3
   cardColor: 2
   greenPath:

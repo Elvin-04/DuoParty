@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Green corner
   type: 
-  cardImage: {fileID: 21300000, guid: 4b16b888adc21ea4fae7d252dfe1d02b, type: 3}
+  cardImage: {fileID: 21300000, guid: ae4c903705e02744fb812328e37b0971, type: 3}
   cardType: 1
   cardColor: 1
   greenPath:
