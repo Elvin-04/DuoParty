@@ -1079,7 +1079,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _coordinatesLength: G
-  _coordinatesWidth: 
+  _coordinatesWidth: 4
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
