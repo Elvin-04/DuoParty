@@ -13,10 +13,27 @@ MonoBehaviour:
   m_Name: RedCross
   m_EditorClassIdentifier: 
   cardName: Red Cross
+  type: 
   cardImage: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   cardType: 0
   cardColor: 0
-  canMoveUp: 1
-  canMoveDown: 1
-  canMoveLeft: 1
-  canMoveRight: 1
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 1
+    canMoveDown: 1
+    canMoveLeft: 1
+    canMoveRight: 1
+  instantiatedGreenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  instantiatedRedPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0

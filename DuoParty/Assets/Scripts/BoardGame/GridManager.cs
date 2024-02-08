@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class GridManager : MonoBehaviour
@@ -15,11 +16,13 @@ public class GridManager : MonoBehaviour
             {
                 //Instantiate(redPlayer, _case.transform.position, Quaternion.identity);
                 redPlayer.transform.position = _case.transform.position;
+                redPlayer.GetComponent<PlayerMovement>().actCase = _case;
             }
             if (_case.GetSpawn() && _case.GetColor() == cardcolors.green)
             {
                 //Instantiate(greenPlayer, _case.transform.position, Quaternion.identity);
                 greenPlayer.transform.position = _case.transform.position;
+                greenPlayer.GetComponent<PlayerMovement>().actCase = _case;
             }
         }
 

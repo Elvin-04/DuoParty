@@ -60,6 +60,23 @@ public class Case : MonoBehaviour
         cases.Add(down);
         cases.Add(left); 
         
+    [SerializeField] private string color;
+    public Cards card;
+
+    public Path greenPath;
+    public Path redPath;
+
+    public Path GetPathByColor(string color)
+    {
+        switch (color)
+        {
+            case "Green":
+                return greenPath;
+            case "Red":
+                return redPath;
+            default:
+                return greenPath;
+        }
     }
 
     public bool GetInteractible()
@@ -90,7 +107,29 @@ public class Case : MonoBehaviour
     public void AddCard(Cards _card)
     {
         card = _card;
+
         gameObject.GetComponent<SpriteRenderer>().sprite = card.cardImage;
+
+        greenPath = card.instantiatedGreenPath; 
+        redPath = card.instantiatedRedPath;
+        _card.ResetRotation();
+
+        if (card.cardColor == cardcolors.red)
+        { color = "Red"; }
+        if (card.cardColor == cardcolors.green)
+        { color = "Green"; }
+        if(card.cardColor == cardcolors.redAndGreen)
+        { color = "RedAndGreen"; }
     }
-    
+
+
+}
+
+[System.Serializable]
+public struct Path
+{
+    public bool canMoveUp;
+    public bool canMoveDown;
+    public bool canMoveLeft;
+    public bool canMoveRight;
 }
