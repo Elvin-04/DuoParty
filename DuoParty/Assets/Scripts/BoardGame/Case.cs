@@ -30,6 +30,7 @@ public class Case : MonoBehaviour
     [SerializeField] private Sprite spawnSpriteRed;
     [SerializeField] private Sprite endSpriteGreen;
     [SerializeField] private Sprite endSpriteRed;
+    [SerializeField] private Sprite doorTraps;
 
     public Path GetPathByColor(string color)
     {
@@ -140,6 +141,7 @@ public class Case : MonoBehaviour
         return _coordinatesWidth;
     }
 
+
     public void SetKey()
     {
         isKey = true;
@@ -187,7 +189,6 @@ public class Case : MonoBehaviour
         SetRedPath();
         color = "Red";
     }
-
     private void SetRedPath()
     {
         redPath.canMoveLeft = true;
@@ -209,7 +210,6 @@ public class Case : MonoBehaviour
         SetGreenPath();
         SetRedPath();
     }
-
 }
 
 [System.Serializable]
