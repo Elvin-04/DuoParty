@@ -7,7 +7,7 @@ public class Hand : MonoBehaviour
     public Image cardImage;
     public bool isDefundHand;
     public float rotation;
-    [SerializeField] private GameObject defundHand;
+    [SerializeField] public GameObject defundHand;
     [SerializeField] private Deck deck;
 
 

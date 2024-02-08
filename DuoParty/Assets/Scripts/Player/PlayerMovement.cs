@@ -52,13 +52,13 @@ public class PlayerMovement : MonoBehaviour
     {
         if (ctx.performed && !isMoving && RoundByRound.instance.turn == turn)
         {
-
+            
             if(ctx.ReadValue<Vector2>().x != 0 && ctx.ReadValue<Vector2>().y != 0)
             {
                 return;
             }
-
-            
+                    
+                    
             dest = new Vector2( transform.position.x, transform.position.y ) + ctx.ReadValue<Vector2>();
 
             RaycastHit2D hit = Physics2D.Raycast(dest, Vector2.zero);
