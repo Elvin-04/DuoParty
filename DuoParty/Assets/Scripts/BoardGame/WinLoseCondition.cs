@@ -52,7 +52,7 @@ public class WinLoseCondition : MonoBehaviour
         //TODO  switch scene to game over scene
     }
 
-    public bool PathFinding(Case start, Case end)
+    public bool PathFinding(Case start, Case end, string newColor)
     {
 
         List<Case> open = new List<Case>(); // cases that will be examinate
@@ -82,23 +82,31 @@ public class WinLoseCondition : MonoBehaviour
 
             foreach (Case neighbour in currentCase.cases) // search in all neighbour cases 
             {
-                if (neighbour == null) continue;
-                Path neighbourPath = neighbour.GetPathByColor(currentCase.GetColor());
-                Path currentCasePath = currentCase.GetPathByColor(currentCase.GetColor());
+                if (neighbour == null || closed.Contains(neighbour)) continue;
+
+                Path neighbourPath = neighbour.GetPathByColor(newColor);
+                Path currentCasePath = currentCase.GetPathByColor(newColor);
+                if(currentCase.GetColor() == newColor || currentCase.GetColor() == "RedAndGreen")
+                {
+                    Debug.Log(currentCase + " to -> " + neighbour);
+                    //print(neighbourPath.canMoveRight + " -><- " + currentCasePath.canMoveLeft);
+                }
+                
                 bool canReachNeighbourCase = false;
 
                 // verifie if from the current case you can reach the neigbour case
-                if (currentCase.left == neighbour && ((currentCase.GetCard() == null || currentCasePath.canMoveLeft) && (neighbour.GetCard() == null || neighbourPath.canMoveRight))
-                ||  currentCase.right == neighbour && ((currentCase.GetCard() == null || currentCasePath.canMoveRight) && (neighbour.GetCard() == null || neighbourPath.canMoveLeft))
-                ||  currentCase.up == neighbour && ((currentCase.GetCard() == null || currentCasePath.canMoveUp) && (neighbour.GetCard() == null || neighbourPath.canMoveDown))
-                ||  currentCase.down == neighbour && ((currentCase.GetCard() == null || currentCasePath.canMoveDown) && (neighbour.GetCard() == null || neighbourPath.canMoveUp)))
-                    canReachNeighbourCase = true;
-
-                if (closed.Contains(neighbour) || neighbour.GetCard() != null || !canReachNeighbourCase) // if the neighbour is not reachable
+                if ((currentCase.left == neighbour && (neighbourPath.canMoveRight || neighbour.GetCard() == null) && (currentCasePath.canMoveLeft || currentCase.GetCard() == null))
+                || (currentCase.right == neighbour && (neighbourPath.canMoveLeft || neighbour.GetCard() == null) && (currentCasePath.canMoveRight || currentCase.GetCard() == null))
+                || (currentCase.up == neighbour && (neighbourPath.canMoveDown || neighbour.GetCard() == null) && (currentCasePath.canMoveUp || currentCase.GetCard() == null))
+                || (currentCase.down == neighbour && (neighbourPath.canMoveUp || neighbour.GetCard() == null) && (currentCasePath.canMoveDown || currentCase.GetCard() == null)))
                 {
-                    Debug.Log(currentCase);
-                    Debug.Log(neighbour);
-                    Debug.Log("HeHe");
+                    print("OUI");
+                    canReachNeighbourCase = true;
+                }
+                    
+
+                if (!canReachNeighbourCase) // if the neighbour is not reachable
+                {
                     continue;
                 }
                     

@@ -42490,10 +42490,10 @@ MonoBehaviour:
   cases: []
   color: Green
   greenPath:
-    canMoveUp: 0
-    canMoveDown: 0
-    canMoveLeft: 0
-    canMoveRight: 0
+    canMoveUp: 1
+    canMoveDown: 1
+    canMoveLeft: 1
+    canMoveRight: 1
   redPath:
     canMoveUp: 0
     canMoveDown: 0

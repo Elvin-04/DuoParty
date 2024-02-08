@@ -9,7 +9,7 @@ public class OneCardPerRound : MonoBehaviour
     public void StopAllCards()
     {
         roundByRound.StopAllCardsPlays();
-        if (!winLoseCondition.PathFinding(winLoseCondition.redStartCase, winLoseCondition.redEndCase) /*|| !winLoseCondition.PathFinding(winLoseCondition.greenStartCase, winLoseCondition.greenEndCase)*/)
+        if (/*!winLoseCondition.PathFinding(winLoseCondition.redStartCase, winLoseCondition.redEndCase) ||*/ !winLoseCondition.PathFinding(winLoseCondition.greenStartCase, winLoseCondition.greenEndCase, "Green"))
         {
             print("pas trouver ( perdu )");
         }
