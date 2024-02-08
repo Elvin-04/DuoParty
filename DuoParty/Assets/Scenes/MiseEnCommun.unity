@@ -20702,7 +20702,7 @@ MonoBehaviour:
   _coordinatesWidth: 7
   isInteractible: 0
   isSpawn: 0
-  isEnd: 1
+  isEnd: 0
   color: Red
   card: {fileID: 0}
   greenPath:
@@ -32869,7 +32869,7 @@ MonoBehaviour:
   _coordinatesWidth: 1
   isInteractible: 0
   isSpawn: 0
-  isEnd: 1
+  isEnd: 0
   color: Green
   card: {fileID: 0}
   greenPath:

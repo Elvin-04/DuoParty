@@ -180,12 +180,14 @@ public class Case : MonoBehaviour
         GetComponent<SpriteRenderer>().sprite = endSpriteGreen;
         SetGreenPath();
         color = "Green";
+        isInteractible= false;
     }
     public void SetEndRed()
     {
         GetComponent<SpriteRenderer>().sprite = endSpriteRed;
         SetRedPath();
         color = "Red";
+        isInteractible = false;
     }
 
     private void SetRedPath()
