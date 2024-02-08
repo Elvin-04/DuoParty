@@ -50,67 +50,53 @@ public class WinLoseCondition : MonoBehaviour
         //TODO  switch scene to game over scene
     }
 
-    private List<Case> GetNotVerifiedCases(List<Case> nextVerificationList, List<Case> verifiedCases, List<Case> inVerification)
-    {
-        List<Case> result = new List<Case>();
-        foreach (Case _case in nextVerificationList)
-        {
-            if (_case != null && !verifiedCases.Contains(_case) && !inVerification.Contains(_case) && !_case.GetCard())
-            {
-                result.Add(_case);
-            }
-        }
-        return result;
-    }
-
-
-
     public bool PathFinding(Case start, Case end)
     {
 
-        List<Case> open = new List<Case>();
-        HashSet<Case> closed = new HashSet<Case>();
-        open.Add(start);
+        List<Case> open = new List<Case>(); // cases that will be examinate
+        HashSet<Case> closed = new HashSet<Case>(); // cases already examinate
+        open.Add(start); // the start case to the examination list
 
-        while (open.Count > 0)
+        while (open.Count > 0) // while all cases are not examinate
         {
             Case currentCase = open[0];
             for (int i = 1; i < open.Count; i++)
             {
-                if (open[i].fCost < currentCase.fCost || open[i].fCost == currentCase.fCost && open[i].hCost < currentCase.hCost)
+                if (open[i].fCost < currentCase.fCost || open[i].fCost == currentCase.fCost && open[i].hCost < currentCase.hCost) // search the less costly case to reach
                 {
                     currentCase = open[i];
                 }
             }
+            // count this case as an examinate
             open.Remove(currentCase); 
             closed.Add(currentCase);
 
+            // if its the end
             if(currentCase == end)
             {
                 return true;
             }
 
-            foreach (Case neighbour in currentCase.cases)
+
+            foreach (Case neighbour in currentCase.cases) // search in all neighbour cases 
             {
-                if(neighbour == null || closed.Contains(neighbour) || neighbour.GetCard() != null)
+                if(neighbour == null || closed.Contains(neighbour) || neighbour.GetCard() != null) // if the neighbour is not reachable
                     continue;
 
-                int newMovementCostToNeighbour = currentCase.gCost + GetDistance(currentCase, neighbour);
-                if (newMovementCostToNeighbour < neighbour.gCost || !open.Contains(neighbour))
+                int newMovementCostToNeighbour = currentCase.gCost + GetDistance(currentCase, neighbour); // calculate the new movement cost to this neighbour
+                if (newMovementCostToNeighbour < neighbour.gCost || !open.Contains(neighbour)) 
                 {
+                    // update the g cost and the h cost of this neigbour
                     neighbour.gCost = newMovementCostToNeighbour;
                     neighbour.hCost = GetDistance(neighbour, end);
                     neighbour.parent = currentCase;
-
+                    // if this neigbour is not in the open list add him to it
                     if (!open.Contains(neighbour))
                         open.Add(neighbour);
                 }
             }
-
-            
         }
-
-
+        // no path as been founded
         return false;
     }
 
