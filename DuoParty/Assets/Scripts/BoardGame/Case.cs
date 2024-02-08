@@ -7,14 +7,17 @@ public class Case : MonoBehaviour
     [SerializeField] private bool isSpawn;
     [SerializeField] private bool isEnd;
     [SerializeField] private Cards card;
-    [SerializeField] private cardcolors color;
-    [SerializeField] private Case up;
-    [SerializeField] private Case right;
-    [SerializeField] private Case down;
-    [SerializeField] private Case left;
+    [SerializeField] private cardcolors eColor;
+    [SerializeField] public Case up;
+    [SerializeField] public Case right;
+    [SerializeField] public Case down;
+    [SerializeField] public Case left;
     public List<Case> cases;
 
+    [SerializeField] private string color;
 
+    public Path greenPath;
+    public Path redPath;
 
     [Header("For the pathfinding")]
     public int x;
@@ -39,7 +42,7 @@ public class Case : MonoBehaviour
             hit = Physics2D.Raycast(transform.position, new Vector2(0, i), 1.5f);
             if (hit && hit.collider.gameObject.GetComponent<Case>())
             {
-                if(i == -1)
+                if (i == -1)
                     down = hit.collider.gameObject.GetComponent<Case>();
                 else
                     up = hit.collider.gameObject.GetComponent<Case>();
@@ -54,17 +57,13 @@ public class Case : MonoBehaviour
             }
         }
 
-            Physics2D.queriesStartInColliders = true;
+        Physics2D.queriesStartInColliders = true;
         cases.Add(up);
         cases.Add(right);
         cases.Add(down);
-        cases.Add(left); 
-        
-    [SerializeField] private string color;
-    public Cards card;
-
-    public Path greenPath;
-    public Path redPath;
+        cases.Add(left);
+    }
+    
 
     public Path GetPathByColor(string color)
     {
@@ -94,9 +93,14 @@ public class Case : MonoBehaviour
         return isEnd;
     }
 
-    public cardcolors GetColor()
+    public string GetColor()
     {
         return color;
+    }
+
+    public cardcolors GetEColor()
+    {
+        return eColor;
     }
 
     public Cards GetCard()
@@ -132,4 +136,14 @@ public struct Path
     public bool canMoveDown;
     public bool canMoveLeft;
     public bool canMoveRight;
+
+
+
+    public void PrintPaths()
+    {
+        Debug.Log("up " + canMoveUp);
+        Debug.Log("right " + canMoveRight);
+        Debug.Log("down " + canMoveDown);
+        Debug.Log("left " + canMoveLeft);
+    }
 }

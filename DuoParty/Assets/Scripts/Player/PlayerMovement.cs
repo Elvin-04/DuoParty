@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private cardcolors color;
+    [SerializeField] private string color;
 
     public int caseSize;
     public float speed;
@@ -26,7 +26,7 @@ public class PlayerMovement : MonoBehaviour
     {
         isMoving = false;
 
-        if(color ==  cardcolors.red)
+        if(color ==  "Red")
             turn = 1;
         else
             turn = 0;
@@ -52,7 +52,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (ctx.performed && !isMoving && RoundByRound.instance.turn == turn)
         {
-
+            
             if(ctx.ReadValue<Vector2>().x != 0 && ctx.ReadValue<Vector2>().y != 0)
             {
                 return;

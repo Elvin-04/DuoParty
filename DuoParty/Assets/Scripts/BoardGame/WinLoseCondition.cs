@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Drawing;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class WinLoseCondition : MonoBehaviour
 {
@@ -80,8 +82,26 @@ public class WinLoseCondition : MonoBehaviour
 
             foreach (Case neighbour in currentCase.cases) // search in all neighbour cases 
             {
-                if(neighbour == null || closed.Contains(neighbour) || neighbour.GetCard() != null) // if the neighbour is not reachable
+                if (neighbour == null) continue;
+                Path neighbourPath = neighbour.GetPathByColor(currentCase.GetColor());
+                Path currentCasePath = currentCase.GetPathByColor(currentCase.GetColor());
+                bool canReachNeighbourCase = false;
+
+                // verifie if from the current case you can reach the neigbour case
+                if (currentCase.left == neighbour && ((currentCase.GetCard() == null || currentCasePath.canMoveLeft) && (neighbour.GetCard() == null || neighbourPath.canMoveRight))
+                ||  currentCase.right == neighbour && ((currentCase.GetCard() == null || currentCasePath.canMoveRight) && (neighbour.GetCard() == null || neighbourPath.canMoveLeft))
+                ||  currentCase.up == neighbour && ((currentCase.GetCard() == null || currentCasePath.canMoveUp) && (neighbour.GetCard() == null || neighbourPath.canMoveDown))
+                ||  currentCase.down == neighbour && ((currentCase.GetCard() == null || currentCasePath.canMoveDown) && (neighbour.GetCard() == null || neighbourPath.canMoveUp)))
+                    canReachNeighbourCase = true;
+
+                if (closed.Contains(neighbour) || neighbour.GetCard() != null || !canReachNeighbourCase) // if the neighbour is not reachable
+                {
+                    Debug.Log(currentCase);
+                    Debug.Log(neighbour);
+                    Debug.Log("HeHe");
                     continue;
+                }
+                    
 
                 int newMovementCostToNeighbour = currentCase.gCost + GetDistance(currentCase, neighbour); // calculate the new movement cost to this neighbour
                 if (newMovementCostToNeighbour < neighbour.gCost || !open.Contains(neighbour)) 
@@ -122,7 +142,7 @@ public class WinLoseCondition : MonoBehaviour
 
         RaycastHit2D hit1 = Physics2D.Raycast(new Vector2(player1.transform.position.x, player1.transform.position.y), Vector2.zero);
 
-        if (hit1.collider != null && hit1.collider.GetComponent<Case>() && hit1.collider.GetComponent<Case>().GetEnd() && hit1.collider.GetComponent<Case>().GetColor() == cardcolors.red)
+        if (hit1.collider != null && hit1.collider.GetComponent<Case>() && hit1.collider.GetComponent<Case>().GetEnd() && hit1.collider.GetComponent<Case>().GetEColor() == cardcolors.red)
         {
             player1Finish = true;
         }
@@ -130,7 +150,7 @@ public class WinLoseCondition : MonoBehaviour
 
         RaycastHit2D hit2 = Physics2D.Raycast(new Vector2(player2.transform.position.x, player2.transform.position.y), Vector2.zero);
 
-        if (hit2.collider != null && hit2.collider.GetComponent<Case>() && hit2.collider.GetComponent<Case>().GetEnd() && hit2.collider.GetComponent<Case>().GetColor() == cardcolors.green)
+        if (hit2.collider != null && hit2.collider.GetComponent<Case>() && hit2.collider.GetComponent<Case>().GetEnd() && hit2.collider.GetComponent<Case>().GetEColor() == cardcolors.green)
         {
             player2Finish = true;
         }

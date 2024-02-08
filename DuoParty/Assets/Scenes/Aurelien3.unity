@@ -1082,12 +1082,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -1496,12 +1507,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -1757,11 +1779,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 449466fb9340f2e4e85069ae5d5cbd65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 1
+  color: Green
   caseSize: 1
   speed: 10
   moveDist: {x: 1, y: 1}
+  canModeDown: 0
+  canModeUp: 0
+  canMoveRight: 0
+  canMoveLeft: 0
   isMoving: 0
+  card: {fileID: 0}
+  actCase: {fileID: 0}
+  destCase: {fileID: 0}
 --- !u!1 &56128207
 GameObject:
   m_ObjectHideFlags: 0
@@ -2301,12 +2330,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -2631,12 +2671,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -2877,12 +2928,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -3375,12 +3437,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -3537,12 +3610,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -3699,12 +3783,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -3861,12 +3956,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -4241,12 +4347,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -4571,12 +4688,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -5069,12 +5197,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -5399,12 +5538,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -5804,12 +5954,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -6134,12 +6295,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -6464,12 +6636,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -6794,12 +6977,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -7292,12 +7486,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -7632,12 +7837,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -8382,12 +8598,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -9268,12 +9495,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -10096,12 +10334,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -11350,12 +11599,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -11680,12 +11940,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -11926,12 +12197,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -12088,12 +12370,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -12670,12 +12963,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -12832,12 +13136,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -14262,12 +14577,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -14508,12 +14834,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -15090,12 +15427,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -15252,12 +15600,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -15582,12 +15941,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -15828,12 +16198,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -16578,12 +16959,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -16740,12 +17132,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -18661,12 +19064,23 @@ MonoBehaviour:
   isSpawn: 1
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 176995469}
   down: {fileID: 1128278015}
   left: {fileID: 49254897}
   cases: []
+  color: Red
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 1
+    canMoveDown: 1
+    canMoveLeft: 1
+    canMoveRight: 1
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -19075,12 +19489,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -19598,12 +20023,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -20180,12 +20616,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 1
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: Red
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 1
+    canMoveDown: 1
+    canMoveLeft: 1
+    canMoveRight: 1
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -20670,12 +21117,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -20832,12 +21290,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -21257,12 +21726,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -21587,12 +22067,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -22253,12 +22744,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -22583,12 +23085,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -23333,12 +23846,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -24013,12 +24537,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -24427,12 +24962,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -24673,12 +25219,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -24919,12 +25476,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -25552,12 +26120,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -25714,12 +26293,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -26128,12 +26718,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -26626,12 +27227,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -26872,12 +27484,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -27118,12 +27741,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -27448,12 +28082,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -27694,12 +28339,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -27856,12 +28512,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -31083,11 +31750,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 449466fb9340f2e4e85069ae5d5cbd65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 0
+  color: Red
   caseSize: 1
   speed: 10
   moveDist: {x: 1, y: 1}
+  canModeDown: 0
+  canModeUp: 0
+  canMoveRight: 0
+  canMoveLeft: 0
   isMoving: 0
+  card: {fileID: 0}
+  actCase: {fileID: 0}
+  destCase: {fileID: 0}
 --- !u!212 &1472543726
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -31191,12 +31865,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -32025,12 +32710,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 1
   card: {fileID: 0}
-  color: 1
+  eColor: 1
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: Green
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -32188,12 +32884,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -32350,12 +33057,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -33233,12 +33951,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -33910,12 +34639,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -34744,12 +35484,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -35746,12 +36497,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -36363,12 +37125,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -37360,12 +38133,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -38135,12 +38919,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -38717,12 +39512,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -39131,12 +39937,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -39881,12 +40698,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -40379,12 +41207,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -40793,12 +41632,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -41291,12 +42141,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -41621,12 +42482,23 @@ MonoBehaviour:
   isSpawn: 1
   isEnd: 0
   card: {fileID: 0}
-  color: 1
+  eColor: 1
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: Green
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -42035,12 +42907,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -42533,12 +43416,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -42863,12 +43757,23 @@ MonoBehaviour:
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
-  color: 0
+  eColor: 0
   up: {fileID: 0}
   right: {fileID: 0}
   down: {fileID: 0}
   left: {fileID: 0}
   cases: []
+  color: 
+  greenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  redPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
   x: 0
   y: 0
   parent: {fileID: 0}

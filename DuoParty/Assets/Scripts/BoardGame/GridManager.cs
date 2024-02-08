@@ -12,13 +12,13 @@ public class GridManager : MonoBehaviour
     {
         foreach(Case _case in cases)
         {
-            if (_case.GetSpawn() && _case.GetColor() == cardcolors.red)
+            if (_case.GetSpawn() && _case.GetColor() == "Red")
             {
                 //Instantiate(redPlayer, _case.transform.position, Quaternion.identity);
                 redPlayer.transform.position = _case.transform.position;
                 redPlayer.GetComponent<PlayerMovement>().actCase = _case;
             }
-            if (_case.GetSpawn() && _case.GetColor() == cardcolors.green)
+            if (_case.GetSpawn() && _case.GetColor() == "Green")
             {
                 //Instantiate(greenPlayer, _case.transform.position, Quaternion.identity);
                 greenPlayer.transform.position = _case.transform.position;
@@ -51,7 +51,7 @@ public class GridManager : MonoBehaviour
     {
         foreach(Case _case in cases)
         {
-            if (_case.GetSpawn() && _case.GetColor() == color)
+            if (_case.GetSpawn() && _case.GetEColor() == color)
             {
                 return _case;
             }
@@ -63,7 +63,7 @@ public class GridManager : MonoBehaviour
     {
         foreach (Case _case in cases)
         {
-            if (_case.GetEnd() && _case.GetColor() == color)
+            if (_case.GetEnd() && _case.GetEColor() == color)
             {
                 return _case;
             }
