@@ -5,7 +5,6 @@ using UnityEngine;
 public class AddItems : MonoBehaviour
 {
     public GameObject _equipement;
-    int index = 0;
     public List<GameObject> _items = new List<GameObject>();
 
     public void AddInventoryEquipement()

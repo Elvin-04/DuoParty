@@ -63,7 +63,7 @@ public class PlayerMovement : MonoBehaviour
 
             RaycastHit2D hit = Physics2D.Raycast(dest, Vector2.zero);
 
-            if (hit.collider != null && hit.collider.TryGetComponent<Case>(out Case _case) && (_case.GetColor() == color || _case.GetColor() == "RedAndGreen"))
+            if (hit.collider != null && hit.collider.TryGetComponent<Case>(out Case _case) && (_case.GetColor() == color || _case.GetColor() == "RedAndGreen" || _case.GetColor() == ""))
             {
                 
                 destCase = _case;

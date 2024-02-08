@@ -15,21 +15,6 @@ public class Case : MonoBehaviour
     public Path greenPath;
     public Path redPath;
 
-    public Path GetPathByColor(string color)
-    {
-        switch (color)
-        {
-            case "Green":
-                return greenPath;
-            case "Red":
-                return redPath;
-            default:
-                return greenPath;
-        }
-    }
-
-    public bool isSpawn;
-    public bool isEnd;
     public bool isKey;
     public bool isVaccineRed;
     public bool isVaccineGreen;
@@ -46,7 +31,21 @@ public class Case : MonoBehaviour
     [SerializeField] private Sprite endSpriteGreen;
     [SerializeField] private Sprite endSpriteRed;
 
-    [SerializeField] private string color;
+    public Path GetPathByColor(string color)
+    {
+        switch (color)
+        {
+            case "Green":
+                return greenPath;
+            case "Red":
+                return redPath;
+            default:
+                return greenPath;
+        }
+    }
+    
+
+    
     public bool IsEmpty()
     {
         if (!isSpawn && !isVaccineRed && !isVaccineGreen && !isEnd && !isKey && !isAccessCard && !isHammer && !isBomb && !isArmouredDoor)
@@ -144,42 +143,72 @@ public class Case : MonoBehaviour
     public void SetKey()
     {
         isKey = true;
+        SetBothPath();
         GetComponent<SpriteRenderer>().sprite = keySprite;
     }
 
     public void SetVaccineRed()
     {
         isVaccineRed = true;
+        SetRedPath();
         GetComponent<SpriteRenderer>().sprite = vaccineSpriteRed;
     }
     public void SetVaccineGreen()
     {
         isVaccineGreen = true;
+        SetGreenPath();
         GetComponent<SpriteRenderer>().sprite = vaccineSpriteGreen;
     }
     public void SetSpawnGreen()
     {
         GetComponent<SpriteRenderer>().sprite = spawnSpriteGreen;
+        SetGreenPath();
         color = "Green";
         isSpawn = true;
+        isInteractible = false;
     }
     public void SetSpawnRed()
     {
         GetComponent<SpriteRenderer>().sprite = spawnSpriteRed;
+        SetRedPath();
         color = "Red";
         isSpawn = true;
+        isInteractible = false;
     }
     public void SetEndGreen()
     {
         GetComponent<SpriteRenderer>().sprite = endSpriteGreen;
+        SetGreenPath();
         color = "Green";
     }
     public void SetEndRed()
     {
         GetComponent<SpriteRenderer>().sprite = endSpriteRed;
+        SetRedPath();
         color = "Red";
     }
 
+    private void SetRedPath()
+    {
+        redPath.canMoveLeft = true;
+        redPath.canMoveRight = true;
+        redPath.canMoveUp = true;
+        redPath.canMoveDown = true;
+    }
+
+    private void SetGreenPath()
+    {
+        greenPath.canMoveLeft = true;
+        greenPath.canMoveRight = true;
+        greenPath.canMoveUp = true;
+        greenPath.canMoveDown = true;
+    }
+
+    private void SetBothPath()
+    {
+        SetGreenPath();
+        SetRedPath();
+    }
 
 }
 

@@ -27,6 +27,7 @@ public class GridManager : MonoBehaviour
     private void Start()
     {
         SetBorderList();
+
         _total = _keyCount + _hammerCount + _AccessCardCount + _bombCount + _ArmouredDoorCount + _vaccineRedCount + _vaccineGreenCount;
         for (int i = 0; i <= _total; i++)
         {
@@ -51,26 +52,6 @@ public class GridManager : MonoBehaviour
                 //Instantiate(greenPlayer, _case.transform.position, Quaternion.identity);
                 greenPlayer.transform.position = _case.transform.position;
                 greenPlayer.GetComponent<PlayerMovement>().actCase = _case;
-            }
-            if (_case.GetKey())
-            {
-                Debug.Log("Key");
-            }
-            if (_case.GetAccessCard())
-            {
-                Debug.Log("AccessCard");
-            }
-            if (_case.GetHammer())
-            {
-                Debug.Log("Hammer");
-            }
-            if (_case.GetBomb())
-            {
-                Debug.Log("Bomb");
-            }
-            if (_case.GetArmouredDoor())
-            {
-                Debug.Log("ArmouredDoor");
             }
         }
     }
@@ -100,36 +81,43 @@ public class GridManager : MonoBehaviour
             if (_keyCount > 0)
             {
                 _centerCases[_rand].SetKey();
+                _centerCases.Remove(_centerCases[_rand]);
                 _keyCount--;
             }
             else if (_vaccineRedCount > 0)
             {
                 _centerCases[_rand].SetVaccineRed();
+                _centerCases.Remove(_centerCases[_rand]);
                 _vaccineRedCount--;
             }
             else if (_vaccineGreenCount > 0)
             {
                 _centerCases[_rand].SetVaccineGreen();
+                _centerCases.Remove(_centerCases[_rand]);
                 _vaccineGreenCount--;
             }
             else if (_hammerCount > 0)
             {
                 _centerCases[_rand].isHammer = true;
+                _centerCases.Remove(_centerCases[_rand]);
                 _hammerCount--;
             }
             else if (_AccessCardCount > 0)
             {
                 _centerCases[_rand].isAccessCard = true;
+                _centerCases.Remove(_centerCases[_rand]);
                 _AccessCardCount--;
             }
             else if (_bombCount > 0)
             {
                 _centerCases[_rand].isBomb = true;
+                _centerCases.Remove(_centerCases[_rand]);
                 _bombCount--;
             }
             else if (_ArmouredDoorCount > 0)
             {
                 _centerCases[_rand].isArmouredDoor = true;
+                _centerCases.Remove(_centerCases[_rand]);
                 _ArmouredDoorCount--;
             }
         }
@@ -148,21 +136,25 @@ public class GridManager : MonoBehaviour
             if (_spawnCount == 2) 
             {
                 _borderCases[_rand].SetSpawnRed();
+                _borderCases.Remove(_borderCases[_rand]);
                 _spawnCount--;
             }
             else if (_spawnCount == 1)
             {
                 _borderCases[_rand].SetSpawnGreen();
+                _borderCases.Remove(_borderCases[_rand]);
                 _spawnCount--;
             }
             else if (_endCount == 2)
             {
                 _borderCases[_rand].SetEndRed();
+                _borderCases.Remove(_borderCases[_rand]);
                 _endCount--;
             }
             else if (_endCount == 1)
             {
                 _borderCases[_rand].SetEndGreen();
+                _borderCases.Remove(_borderCases[_rand]);
                 _endCount--;
             }
         }
