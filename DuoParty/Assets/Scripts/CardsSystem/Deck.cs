@@ -15,13 +15,13 @@ public class Deck : MonoBehaviour
     private int doubleCornerLeft = 3;
     private int twoColorsCrossLeft = 3;
     private int cardNumber;
-    [SerializeField] private Hand hand;
+    public Hand hand;
 
 
     void Start()
     {
         cardNumber = corridorLeft + cornerLeft + tPathLeft + doubleCornerLeft + twoColorsCrossLeft - 1;
-        
+
         //add all cards to the player deck
         for (int i = cardNumber; i > -1; i--)
         {
@@ -34,7 +34,7 @@ public class Deck : MonoBehaviour
 
             }
             // add corner
-            else if ((randomFactor > corridorLeft &&  randomFactor < (corridorLeft + cornerLeft) && cornerLeft > 0)
+            else if ((randomFactor > corridorLeft && randomFactor < (corridorLeft + cornerLeft) && cornerLeft > 0)
                 || (corridorLeft <= 0 && tPathLeft <= 0 && cornerLeft > 0))
             {
                 deckCard[i] = cornerCard;
@@ -53,7 +53,7 @@ public class Deck : MonoBehaviour
                 twoColorsCrossLeft--;
             }
             // add T path
-            
+
             else
             {
                 deckCard[i] = tPathCard;

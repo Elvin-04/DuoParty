@@ -579,8 +579,14 @@ MonoBehaviour:
   isInteractible: 0
   isSpawn: 1
   isEnd: 0
-  color: 
   card: {fileID: 0}
+  eColor: 0
+  up: {fileID: 0}
+  right: {fileID: 0}
+  down: {fileID: 0}
+  left: {fileID: 0}
+  cases: []
+  color: 
   greenPath:
     canMoveUp: 0
     canMoveDown: 0
@@ -605,6 +611,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  x: 0
+  y: 0
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!61 &49254898
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -800,7 +812,7 @@ Transform:
   m_GameObject: {fileID: 49397137}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.3500004, y: 1.97, z: -2.967615}
+  m_LocalPosition: {x: 1.59, y: 1.97, z: -2.967615}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -1032,21 +1044,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _coordinatesLength: B
   _coordinatesWidth: 1
-  isInteractible: 1
+  isInteractible: 0
   isSpawn: 0
   isEnd: 0
-  color: 
   card: {fileID: 0}
+  eColor: 0
+  up: {fileID: 0}
+  right: {fileID: 0}
+  down: {fileID: 0}
+  left: {fileID: 0}
+  cases: []
+  color: Red
   greenPath:
     canMoveUp: 0
     canMoveDown: 0
     canMoveLeft: 0
     canMoveRight: 0
   redPath:
-    canMoveUp: 0
+    canMoveUp: 1
     canMoveDown: 0
     canMoveLeft: 0
-    canMoveRight: 0
+    canMoveRight: 1
   isKey: 0
   isVaccineRed: 0
   isVaccineGreen: 0
@@ -1061,6 +1079,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  x: 0
+  y: 0
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!61 &82695817
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1147,7 +1171,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 448e9f62ca4f8ca468e6220429461acb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1166,7 +1190,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 82695815}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -6.6161304, y: 3.705857, z: -1.5091035}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1176,7 +1200,7 @@ Transform:
   - {fileID: 1439920185}
   - {fileID: 56128208}
   m_Father: {fileID: 350744200}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &83207998
 GameObject:
   m_ObjectHideFlags: 0
@@ -1294,19 +1318,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _coordinatesLength: D
   _coordinatesWidth: 
-  isInteractible: 1
+  isInteractible: 0
   isSpawn: 0
   isEnd: 0
-  color: 
   card: {fileID: 0}
+  eColor: 0
+  up: {fileID: 0}
+  right: {fileID: 0}
+  down: {fileID: 0}
+  left: {fileID: 0}
+  cases: []
+  color: Red
   greenPath:
     canMoveUp: 0
     canMoveDown: 0
     canMoveLeft: 0
     canMoveRight: 0
   redPath:
-    canMoveUp: 0
-    canMoveDown: 0
+    canMoveUp: 1
+    canMoveDown: 1
     canMoveLeft: 0
     canMoveRight: 0
   isKey: 0
@@ -1323,6 +1353,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  x: 0
+  y: 0
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!61 &99305416
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1409,7 +1445,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3d5e09cdea5636745a3edfe71eeae540, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1774,11 +1810,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _coordinatesLength: C
   _coordinatesWidth: 1
-  isInteractible: 1
+  isInteractible: 0
   isSpawn: 0
   isEnd: 0
-  color: 
   card: {fileID: 0}
+  eColor: 0
+  up: {fileID: 0}
+  right: {fileID: 0}
+  down: {fileID: 0}
+  left: {fileID: 0}
+  cases: []
+  color: 
   greenPath:
     canMoveUp: 0
     canMoveDown: 0
@@ -1803,6 +1845,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  x: 0
+  y: 0
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!61 &123367376
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2120,11 +2168,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _coordinatesLength: A
   _coordinatesWidth: 3
-  isInteractible: 1
+  isInteractible: 0
   isSpawn: 0
   isEnd: 0
-  color: 
   card: {fileID: 0}
+  eColor: 0
+  up: {fileID: 0}
+  right: {fileID: 0}
+  down: {fileID: 0}
+  left: {fileID: 0}
+  cases: []
+  color: 
   greenPath:
     canMoveUp: 0
     canMoveDown: 0
@@ -2149,6 +2203,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  x: 0
+  y: 0
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!61 &176995470
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2265,81 +2325,6 @@ Transform:
   - {fileID: 1956025451}
   m_Father: {fileID: 350744200}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &192579216
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 192579217}
-  - component: {fileID: 192579219}
-  - component: {fileID: 192579218}
-  m_Layer: 5
-  m_Name: Trash can
-  m_TagString: Trash
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &192579217
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 192579216}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1122658928}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -877.68, y: -419}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &192579218
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 192579216}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &192579219
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 192579216}
-  m_CullTransparentMesh: 1
 --- !u!1 &193833708
 GameObject:
   m_ObjectHideFlags: 0
@@ -2373,23 +2358,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _coordinatesLength: C
   _coordinatesWidth: 
-  isInteractible: 1
+  isInteractible: 0
   isSpawn: 0
   isEnd: 0
-  color: 
   card: {fileID: 0}
+  eColor: 0
+  up: {fileID: 0}
+  right: {fileID: 0}
+  down: {fileID: 0}
+  left: {fileID: 0}
+  cases: []
+  color: 
   greenPath:
     canMoveUp: 0
     canMoveDown: 0
     canMoveLeft: 0
     canMoveRight: 0
   redPath:
-    canMoveUp: 0
-    canMoveDown: 0
-    canMoveLeft: 0
-    canMoveRight: 0
+    canMoveUp: 1
+    canMoveDown: 1
+    canMoveLeft: 1
+    canMoveRight: 1
   isKey: 0
-  isVaccineRed: 0
+  isVaccineRed: 1
   isVaccineGreen: 0
   isAccessCard: 0
   isHammer: 0
@@ -2402,6 +2393,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  x: 0
+  y: 0
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!61 &193833710
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2438,7 +2435,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.948, y: 0.638}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2488,7 +2485,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2554,8 +2551,14 @@ MonoBehaviour:
   isInteractible: 1
   isSpawn: 0
   isEnd: 0
-  color: 
   card: {fileID: 0}
+  eColor: 0
+  up: {fileID: 0}
+  right: {fileID: 0}
+  down: {fileID: 0}
+  left: {fileID: 0}
+  cases: []
+  color: 
   greenPath:
     canMoveUp: 0
     canMoveDown: 0
@@ -2572,7 +2575,7 @@ MonoBehaviour:
   isAccessCard: 0
   isHammer: 0
   isBomb: 0
-  isArmouredDoor: 0
+  isArmouredDoor: 1
   keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
@@ -2580,6 +2583,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  x: 0
+  y: 0
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!61 &203708739
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2666,7 +2675,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2685,7 +2694,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 203708737}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.6161304, y: 2.705857, z: -1.5091035}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2813,11 +2822,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _coordinatesLength: C
   _coordinatesWidth: 5
-  isInteractible: 1
+  isInteractible: 0
   isSpawn: 0
   isEnd: 0
-  color: 
   card: {fileID: 0}
+  eColor: 0
+  up: {fileID: 0}
+  right: {fileID: 0}
+  down: {fileID: 0}
+  left: {fileID: 0}
+  cases: []
+  color: 
   greenPath:
     canMoveUp: 0
     canMoveDown: 0
@@ -2842,6 +2857,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  x: 0
+  y: 0
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!61 &216938340
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3392,9 +3413,9 @@ Transform:
   m_GameObject: {fileID: 350744198}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.92, y: -2.7, z: 0}
+  m_LocalPosition: {x: 10.09, y: -2.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 49254900}
   - {fileID: 887501639}
@@ -6060,19 +6081,25 @@ MonoBehaviour:
   isInteractible: 0
   isSpawn: 0
   isEnd: 0
-  color: Red
   card: {fileID: 0}
+  eColor: 0
+  up: {fileID: 0}
+  right: {fileID: 0}
+  down: {fileID: 0}
+  left: {fileID: 0}
+  cases: []
+  color: Red
   greenPath:
-    canMoveUp: 0
-    canMoveDown: 0
-    canMoveLeft: 0
-    canMoveRight: 0
+    canMoveUp: 1
+    canMoveDown: 1
+    canMoveLeft: 1
+    canMoveRight: 1
   redPath:
-    canMoveUp: 0
-    canMoveDown: 0
-    canMoveLeft: 0
-    canMoveRight: 0
-  isKey: 0
+    canMoveUp: 1
+    canMoveDown: 1
+    canMoveLeft: 1
+    canMoveRight: 1
+  isKey: 1
   isVaccineRed: 0
   isVaccineGreen: 0
   isAccessCard: 0
@@ -6086,6 +6113,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  x: 0
+  y: 0
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!61 &887501637
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6122,7 +6155,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.948, y: 0.948}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -6172,7 +6205,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6682,11 +6715,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _coordinatesLength: E
   _coordinatesWidth: 3
-  isInteractible: 1
+  isInteractible: 0
   isSpawn: 0
   isEnd: 0
-  color: 
   card: {fileID: 0}
+  eColor: 0
+  up: {fileID: 0}
+  right: {fileID: 0}
+  down: {fileID: 0}
+  left: {fileID: 0}
+  cases: []
+  color: 
   greenPath:
     canMoveUp: 0
     canMoveDown: 0
@@ -6711,6 +6750,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  x: 0
+  y: 0
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!61 &976970072
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7028,21 +7073,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _coordinatesLength: E
   _coordinatesWidth: 
-  isInteractible: 1
+  isInteractible: 0
   isSpawn: 0
   isEnd: 0
-  color: 
   card: {fileID: 0}
+  eColor: 0
+  up: {fileID: 0}
+  right: {fileID: 0}
+  down: {fileID: 0}
+  left: {fileID: 0}
+  cases: []
+  color: Red
   greenPath:
     canMoveUp: 0
     canMoveDown: 0
     canMoveLeft: 0
     canMoveRight: 0
   redPath:
-    canMoveUp: 0
+    canMoveUp: 1
     canMoveDown: 0
     canMoveLeft: 0
-    canMoveRight: 0
+    canMoveRight: 1
   isKey: 0
   isVaccineRed: 0
   isVaccineGreen: 0
@@ -7057,6 +7108,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  x: 0
+  y: 0
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!61 &1046089775
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7143,7 +7200,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 448e9f62ca4f8ca468e6220429461acb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7162,7 +7219,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1046089773}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -3.6161304, y: 0.7059, z: -1.5091035}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -7172,7 +7229,7 @@ Transform:
   - {fileID: 2138190693}
   - {fileID: 734180929}
   m_Father: {fileID: 350744200}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1046421059
 GameObject:
   m_ObjectHideFlags: 0
@@ -7458,21 +7515,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _coordinatesLength: E
   _coordinatesWidth: 5
-  isInteractible: 1
+  isInteractible: 0
   isSpawn: 0
-  isEnd: 0
-  color: 
+  isEnd: 1
   card: {fileID: 0}
+  eColor: 0
+  up: {fileID: 0}
+  right: {fileID: 0}
+  down: {fileID: 0}
+  left: {fileID: 0}
+  cases: []
+  color: Red
   greenPath:
     canMoveUp: 0
     canMoveDown: 0
     canMoveLeft: 0
     canMoveRight: 0
   redPath:
-    canMoveUp: 0
-    canMoveDown: 0
-    canMoveLeft: 0
-    canMoveRight: 0
+    canMoveUp: 1
+    canMoveDown: 1
+    canMoveLeft: 1
+    canMoveRight: 1
   isKey: 0
   isVaccineRed: 0
   isVaccineGreen: 0
@@ -7487,6 +7550,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  x: 0
+  y: 0
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!61 &1061954617
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7523,7 +7592,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.85333335, y: 0.85333335}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -7573,7 +7642,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7772,7 +7841,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 192579217}
   - {fileID: 1177118254}
   - {fileID: 1321750199}
   - {fileID: 285024362}
@@ -7902,11 +7970,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _coordinatesLength: B
   _coordinatesWidth: 2
-  isInteractible: 1
+  isInteractible: 0
   isSpawn: 0
   isEnd: 0
-  color: 
   card: {fileID: 0}
+  eColor: 0
+  up: {fileID: 0}
+  right: {fileID: 0}
+  down: {fileID: 0}
+  left: {fileID: 0}
+  cases: []
+  color: Red
   greenPath:
     canMoveUp: 0
     canMoveDown: 0
@@ -7914,8 +7988,8 @@ MonoBehaviour:
     canMoveRight: 0
   redPath:
     canMoveUp: 0
-    canMoveDown: 0
-    canMoveLeft: 0
+    canMoveDown: 1
+    canMoveLeft: 1
     canMoveRight: 0
   isKey: 0
   isVaccineRed: 0
@@ -7931,6 +8005,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  x: 0
+  y: 0
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!61 &1128278016
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8017,7 +8097,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 448e9f62ca4f8ca468e6220429461acb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8036,7 +8116,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1128278014}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -5.6161304, y: 3.705857, z: -1.5091035}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -8046,7 +8126,7 @@ Transform:
   - {fileID: 667160260}
   - {fileID: 1666820099}
   m_Father: {fileID: 350744200}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!1 &1132468597
 GameObject:
   m_ObjectHideFlags: 0
@@ -8248,22 +8328,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _coordinatesLength: A
   _coordinatesWidth: 
-  isInteractible: 1
+  isInteractible: 0
   isSpawn: 0
   isEnd: 0
-  color: 
   card: {fileID: 0}
+  eColor: 0
+  up: {fileID: 0}
+  right: {fileID: 0}
+  down: {fileID: 0}
+  left: {fileID: 0}
+  cases: []
+  color: 
   greenPath:
-    canMoveUp: 0
-    canMoveDown: 0
-    canMoveLeft: 0
-    canMoveRight: 0
+    canMoveUp: 1
+    canMoveDown: 1
+    canMoveLeft: 1
+    canMoveRight: 1
   redPath:
-    canMoveUp: 0
-    canMoveDown: 0
-    canMoveLeft: 0
-    canMoveRight: 0
-  isKey: 0
+    canMoveUp: 1
+    canMoveDown: 1
+    canMoveLeft: 1
+    canMoveRight: 1
+  isKey: 1
   isVaccineRed: 0
   isVaccineGreen: 0
   isAccessCard: 0
@@ -8277,6 +8363,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  x: 0
+  y: 0
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!61 &1167160686
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8313,7 +8405,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.948, y: 0.948}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -8363,7 +8455,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8426,11 +8518,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _coordinatesLength: A
   _coordinatesWidth: 5
-  isInteractible: 1
+  isInteractible: 0
   isSpawn: 0
   isEnd: 0
-  color: 
   card: {fileID: 0}
+  eColor: 0
+  up: {fileID: 0}
+  right: {fileID: 0}
+  down: {fileID: 0}
+  left: {fileID: 0}
+  cases: []
+  color: 
   greenPath:
     canMoveUp: 0
     canMoveDown: 0
@@ -8455,6 +8553,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  x: 0
+  y: 0
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!61 &1171437510
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8615,13 +8719,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ba58456e586a9c4ea4f1de8a5826db5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eventSystem: {fileID: 0}
+  eventSystem: {fileID: 420481717}
   m_Raycaster: {fileID: 1122658925}
   DragNDrop: {fileID: 1784929697}
   cardHand: {fileID: 0}
   redTrashHand: {fileID: 907713372}
   greenTrashHand: {fileID: 1899071066}
   stopAll: {fileID: 1613845222}
+  porte_blinde: {fileID: 21300000, guid: bd1affdbb2197c64f9694815eb182be2, type: 3}
 --- !u!1 &1177842208
 GameObject:
   m_ObjectHideFlags: 0
@@ -8823,16 +8928,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _coordinatesLength: D
   _coordinatesWidth: 1
-  isInteractible: 1
+  isInteractible: 0
   isSpawn: 0
   isEnd: 0
-  color: 
   card: {fileID: 0}
+  eColor: 0
+  up: {fileID: 0}
+  right: {fileID: 0}
+  down: {fileID: 0}
+  left: {fileID: 0}
+  cases: []
+  color: Green
   greenPath:
     canMoveUp: 0
-    canMoveDown: 0
+    canMoveDown: 1
     canMoveLeft: 0
-    canMoveRight: 0
+    canMoveRight: 1
   redPath:
     canMoveUp: 0
     canMoveDown: 0
@@ -8852,6 +8963,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  x: 0
+  y: 0
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!61 &1183111655
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8938,7 +9055,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ae4c903705e02744fb812328e37b0971, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9001,11 +9118,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _coordinatesLength: E
   _coordinatesWidth: 2
-  isInteractible: 1
+  isInteractible: 0
   isSpawn: 0
   isEnd: 0
-  color: 
   card: {fileID: 0}
+  eColor: 0
+  up: {fileID: 0}
+  right: {fileID: 0}
+  down: {fileID: 0}
+  left: {fileID: 0}
+  cases: []
+  color: 
   greenPath:
     canMoveUp: 0
     canMoveDown: 0
@@ -9030,6 +9153,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  x: 0
+  y: 0
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!61 &1183124888
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9347,15 +9476,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _coordinatesLength: D
   _coordinatesWidth: 3
-  isInteractible: 1
+  isInteractible: 0
   isSpawn: 0
   isEnd: 0
-  color: 
   card: {fileID: 0}
+  eColor: 0
+  up: {fileID: 0}
+  right: {fileID: 0}
+  down: {fileID: 0}
+  left: {fileID: 0}
+  cases: []
+  color: Green
   greenPath:
-    canMoveUp: 0
+    canMoveUp: 1
     canMoveDown: 0
-    canMoveLeft: 0
+    canMoveLeft: 1
     canMoveRight: 0
   redPath:
     canMoveUp: 0
@@ -9376,6 +9511,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  x: 0
+  y: 0
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!61 &1196384600
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9462,7 +9603,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ae4c903705e02744fb812328e37b0971, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9481,7 +9622,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1196384598}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
   m_LocalPosition: {x: -4.6161304, y: 1.705857, z: -1.5091035}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -9491,7 +9632,7 @@ Transform:
   - {fileID: 455687751}
   - {fileID: 1956239793}
   m_Father: {fileID: 350744200}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!1 &1198362165
 GameObject:
   m_ObjectHideFlags: 0
@@ -9609,16 +9750,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _coordinatesLength: B
   _coordinatesWidth: 
-  isInteractible: 1
+  isInteractible: 0
   isSpawn: 0
   isEnd: 0
-  color: 
   card: {fileID: 0}
+  eColor: 0
+  up: {fileID: 0}
+  right: {fileID: 0}
+  down: {fileID: 0}
+  left: {fileID: 0}
+  cases: []
+  color: Green
   greenPath:
-    canMoveUp: 0
+    canMoveUp: 1
     canMoveDown: 0
-    canMoveLeft: 0
-    canMoveRight: 0
+    canMoveLeft: 1
+    canMoveRight: 1
   redPath:
     canMoveUp: 0
     canMoveDown: 0
@@ -9638,6 +9785,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  x: 0
+  y: 0
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!61 &1217128421
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9724,7 +9877,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 101924ea1b39be54e8f731cdf6ebce08, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9743,7 +9896,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1217128419}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
   m_LocalPosition: {x: -3.6161304, y: 3.705857, z: -1.5091035}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -9753,7 +9906,7 @@ Transform:
   - {fileID: 1821940824}
   - {fileID: 529205996}
   m_Father: {fileID: 350744200}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!1 &1304083520
 GameObject:
   m_ObjectHideFlags: 0
@@ -9958,7 +10111,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -189, y: 245}
+  m_AnchoredPosition: {x: -1478, y: 245}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1321750200
@@ -10539,7 +10692,7 @@ Transform:
   m_GameObject: {fileID: 1472543723}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.315, y: 2.003, z: -2.967615}
+  m_LocalPosition: {x: 0.77, y: 2.003, z: -2.967615}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -10579,11 +10732,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _coordinatesLength: B
   _coordinatesWidth: 5
-  isInteractible: 1
+  isInteractible: 0
   isSpawn: 1
   isEnd: 0
-  color: 
   card: {fileID: 0}
+  eColor: 0
+  up: {fileID: 0}
+  right: {fileID: 0}
+  down: {fileID: 0}
+  left: {fileID: 0}
+  cases: []
+  color: 
   greenPath:
     canMoveUp: 1
     canMoveDown: 1
@@ -10608,6 +10767,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  x: 0
+  y: 0
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!61 &1478027463
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11093,16 +11258,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _coordinatesLength: B
   _coordinatesWidth: 3
-  isInteractible: 1
+  isInteractible: 0
   isSpawn: 0
   isEnd: 0
-  color: 
   card: {fileID: 0}
+  eColor: 0
+  up: {fileID: 0}
+  right: {fileID: 0}
+  down: {fileID: 0}
+  left: {fileID: 0}
+  cases: []
+  color: Green
   greenPath:
     canMoveUp: 0
-    canMoveDown: 0
+    canMoveDown: 1
     canMoveLeft: 0
-    canMoveRight: 0
+    canMoveRight: 1
   redPath:
     canMoveUp: 0
     canMoveDown: 0
@@ -11122,6 +11293,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  x: 0
+  y: 0
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!61 &1554986495
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11208,7 +11385,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ae4c903705e02744fb812328e37b0971, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -11442,7 +11619,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -37.19995, y: 42.60002}
+  m_AnchoredPosition: {x: -1314, y: 42.60002}
   m_SizeDelta: {x: 402.26953, y: 74.42554}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &1598100425
@@ -11553,6 +11730,7 @@ GameObject:
   - component: {fileID: 1613845218}
   - component: {fileID: 1613845222}
   - component: {fileID: 1613845223}
+  - component: {fileID: 1613845224}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -11701,6 +11879,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roundByRound: {fileID: 1613845220}
+  winLoseCondition: {fileID: 1613845224}
 --- !u!114 &1613845223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11713,6 +11892,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fea10b5eb192db945855df2dccdec503, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redSpawn: {fileID: 49254897}
+  greenSpawn: {fileID: 1478027462}
+  redPawn: {fileID: 1472543723}
+  greenPawn: {fileID: 49397137}
+  redDeck: {fileID: 1321750200}
+  greenDeck: {fileID: 285024363}
+  crossCard: {fileID: 11400000, guid: 94b686cf5df496244b96e77099edf574, type: 2}
+--- !u!114 &1613845224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613845217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04b86d148e0b77d4d93fa2c31b36039c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player1: {fileID: 1472543723}
+  player1Deck: {fileID: 1321750200}
+  player1DefundHand: {fileID: 907713377}
+  player1Hand: {fileID: 959354402}
+  player2: {fileID: 49397137}
+  player2Deck: {fileID: 285024363}
+  player2DefundHand: {fileID: 1899071071}
+  player2Hand: {fileID: 350448769}
+  grid: {fileID: 350744199}
+  player1Finish: 0
+  player2Finish: 0
+  redStartCase: {fileID: 0}
+  redEndCase: {fileID: 0}
+  greenStartCase: {fileID: 0}
+  greenEndCase: {fileID: 0}
+  greenPathExist: 1
+  redPathExist: 1
 --- !u!1 &1620654874
 GameObject:
   m_ObjectHideFlags: 0
@@ -11905,11 +12120,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _coordinatesLength: D
   _coordinatesWidth: 5
-  isInteractible: 1
+  isInteractible: 0
   isSpawn: 0
   isEnd: 0
-  color: 
   card: {fileID: 0}
+  eColor: 0
+  up: {fileID: 0}
+  right: {fileID: 0}
+  down: {fileID: 0}
+  left: {fileID: 0}
+  cases: []
+  color: 
   greenPath:
     canMoveUp: 0
     canMoveDown: 0
@@ -11934,6 +12155,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  x: 0
+  y: 0
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!61 &1646457824
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12020,7 +12247,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -13230,21 +13457,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _coordinatesLength: C
   _coordinatesWidth: 2
-  isInteractible: 1
+  isInteractible: 0
   isSpawn: 0
   isEnd: 0
-  color: 
   card: {fileID: 0}
+  eColor: 0
+  up: {fileID: 0}
+  right: {fileID: 0}
+  down: {fileID: 0}
+  left: {fileID: 0}
+  cases: []
+  color: Red
   greenPath:
     canMoveUp: 0
     canMoveDown: 0
     canMoveLeft: 0
     canMoveRight: 0
   redPath:
-    canMoveUp: 0
+    canMoveUp: 1
     canMoveDown: 0
     canMoveLeft: 0
-    canMoveRight: 0
+    canMoveRight: 1
   isKey: 0
   isVaccineRed: 0
   isVaccineGreen: 0
@@ -13259,6 +13492,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  x: 0
+  y: 0
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!61 &1915631358
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13345,7 +13584,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 448e9f62ca4f8ca468e6220429461acb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -13364,7 +13603,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1915631356}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -5.6161304, y: 2.705857, z: -1.5091035}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -13374,7 +13613,7 @@ Transform:
   - {fileID: 627489321}
   - {fileID: 1346758068}
   m_Father: {fileID: 350744200}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1930282887
 GameObject:
   m_ObjectHideFlags: 0
@@ -14164,16 +14403,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _coordinatesLength: D
   _coordinatesWidth: 2
-  isInteractible: 1
+  isInteractible: 0
   isSpawn: 0
   isEnd: 0
-  color: 
   card: {fileID: 0}
+  eColor: 0
+  up: {fileID: 0}
+  right: {fileID: 0}
+  down: {fileID: 0}
+  left: {fileID: 0}
+  cases: []
+  color: 
   greenPath:
-    canMoveUp: 0
-    canMoveDown: 0
-    canMoveLeft: 0
-    canMoveRight: 0
+    canMoveUp: 1
+    canMoveDown: 1
+    canMoveLeft: 1
+    canMoveRight: 1
   redPath:
     canMoveUp: 0
     canMoveDown: 0
@@ -14181,7 +14426,7 @@ MonoBehaviour:
     canMoveRight: 0
   isKey: 0
   isVaccineRed: 0
-  isVaccineGreen: 0
+  isVaccineGreen: 1
   isAccessCard: 0
   isHammer: 0
   isBomb: 0
@@ -14193,6 +14438,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  x: 0
+  y: 0
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!61 &2014922195
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14229,7 +14480,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.948, y: 0.638}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -14279,7 +14530,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -15014,16 +15265,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _coordinatesLength: E
   _coordinatesWidth: 1
-  isInteractible: 1
+  isInteractible: 0
   isSpawn: 0
-  isEnd: 0
-  color: 
+  isEnd: 1
   card: {fileID: 0}
+  eColor: 1
+  up: {fileID: 0}
+  right: {fileID: 0}
+  down: {fileID: 0}
+  left: {fileID: 0}
+  cases: []
+  color: Green
   greenPath:
-    canMoveUp: 0
-    canMoveDown: 0
-    canMoveLeft: 0
-    canMoveRight: 0
+    canMoveUp: 1
+    canMoveDown: 1
+    canMoveLeft: 1
+    canMoveRight: 1
   redPath:
     canMoveUp: 0
     canMoveDown: 0
@@ -15043,6 +15300,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  x: 0
+  y: 0
+  parent: {fileID: 0}
+  gCost: 0
+  hCost: 0
 --- !u!61 &2108126900
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15079,7 +15342,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.85333335, y: 0.85333335}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -15129,7 +15392,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -101,7 +101,7 @@ public class WinLoseCondition : MonoBehaviour
                 Path currentCasePath = currentCase.GetPathByColor(newColor);
                 if(currentCase.GetColor() == newColor || currentCase.GetColor() == "RedAndGreen")
                 {
-                    Debug.Log(currentCase + " to -> " + neighbour);
+                    //Debug.Log(currentCase + " to -> " + neighbour);
                     //print(neighbourPath.canMoveRight + " -><- " + currentCasePath.canMoveLeft);
                 }
                 
