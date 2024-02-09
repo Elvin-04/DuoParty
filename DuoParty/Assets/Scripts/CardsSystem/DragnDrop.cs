@@ -15,6 +15,7 @@ public class DragnDrop : MonoBehaviour
     [SerializeField] private OneCardPerRound stopAll;
 
     [SerializeField] private Sprite porte_blinde;
+    [SerializeField] private ParticleSystem particle;
 
     private void Update()
     {
@@ -119,6 +120,8 @@ public class DragnDrop : MonoBehaviour
                             hit.collider.gameObject.transform.Rotate(0f, 0f, cardHand.GetComponent<Hand>().rotation);
                             cardHand.GetComponent<Hand>().RemoveCard();
                             stopAll.StopAllCards();
+                            particle.transform.position = hit.collider.transform.position;
+                            particle.Play();
                         }
                     }
                 }
