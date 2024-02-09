@@ -39,6 +39,11 @@ public class Case : MonoBehaviour
     [SerializeField] private Sprite endSpriteGreen;
     [SerializeField] private Sprite endSpriteRed;
     [SerializeField] private Sprite doorTraps;
+
+    [SerializeField] private Cards neutralCross;
+    [SerializeField] private Cards redCross;
+    [SerializeField] private Cards greenCross;
+
     [Header("For the pathfinding")]
     public int x;
     public int y;
@@ -158,6 +163,25 @@ public class Case : MonoBehaviour
         { color = "Green"; }
         if(card.cardColor == cardcolors.redAndGreen)
         { color = "RedAndGreen"; }
+    }
+
+    public void RemoveBonus()
+    {
+        if(isVaccineGreen)
+        {
+            AddCard(greenCross);
+            isVaccineGreen = false;
+        }
+        else if (isVaccineRed)
+        {
+            AddCard(redCross);
+            isVaccineRed = false;
+        }
+        else if (isKey)
+        {
+            AddCard(neutralCross);
+            isKey = false;
+        }
     }
     
     public bool GetKey()

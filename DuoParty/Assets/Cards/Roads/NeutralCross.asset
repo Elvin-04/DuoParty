@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49568711f7c02a24da74c0f5f963ebdb, type: 3}
+  m_Name: NeutralCross
+  m_EditorClassIdentifier: 
+  cardName: Neutral Cross
+  type: 
+  cardImage: {fileID: 21300000, guid: 2658701338d4e8348a870d94ac286456, type: 3}
+  cardType: 0
+  cardColor: 2
+  greenPath:
+    canMoveUp: 1
+    canMoveDown: 1
+    canMoveLeft: 1
+    canMoveRight: 1
+  redPath:
+    canMoveUp: 1
+    canMoveDown: 1
+    canMoveLeft: 1
+    canMoveRight: 1
+  instantiatedGreenPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0
+  instantiatedRedPath:
+    canMoveUp: 0
+    canMoveDown: 0
+    canMoveLeft: 0
+    canMoveRight: 0

@@ -1,8 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Drawing;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 public class WinLoseCondition : MonoBehaviour
 {
@@ -92,19 +90,13 @@ public class WinLoseCondition : MonoBehaviour
                 return true;
             }
 
-
+            Path currentCasePath = currentCase.GetPathByColor(newColor);
             foreach (Case neighbour in currentCase.cases) // search in all neighbour cases 
             {
                 if (neighbour == null || closed.Contains(neighbour)) continue;
 
                 Path neighbourPath = neighbour.GetPathByColor(newColor);
-                Path currentCasePath = currentCase.GetPathByColor(newColor);
-                if(currentCase.GetColor() == newColor || currentCase.GetColor() == "RedAndGreen")
-                {
-                    Debug.Log(currentCase + " to -> " + neighbour);
-                    //print(neighbourPath.canMoveRight + " -><- " + currentCasePath.canMoveLeft);
-                }
-                
+
                 bool canReachNeighbourCase = false;
 
                 // verifie if from the current case you can reach the neigbour case
@@ -113,7 +105,6 @@ public class WinLoseCondition : MonoBehaviour
                 || (currentCase.up == neighbour && (neighbourPath.canMoveDown || neighbour.GetCard() == null) && (currentCasePath.canMoveUp || currentCase.GetCard() == null))
                 || (currentCase.down == neighbour && (neighbourPath.canMoveUp || neighbour.GetCard() == null) && (currentCasePath.canMoveDown || currentCase.GetCard() == null)))
                 {
-                    print("OUI");
                     canReachNeighbourCase = true;
                 }
                     
@@ -163,7 +154,7 @@ public class WinLoseCondition : MonoBehaviour
 
         RaycastHit2D hit1 = Physics2D.Raycast(new Vector2(player1.transform.position.x, player1.transform.position.y), Vector2.zero);
 
-        if (hit1.collider != null && hit1.collider.GetComponent<Case>() && hit1.collider.GetComponent<Case>().GetEnd() && hit1.collider.GetComponent<Case>().GetEColor() == cardcolors.red)
+        if (hit1.collider != null && hit1.collider.GetComponent<Case>() && hit1.collider.GetComponent<Case>().GetEnd() && hit1.collider.GetComponent<Case>().GetEColor() == cardcolors.red && player1.GetComponent<PlayerMovement>().HasAllItems())
         {
             player1Finish = true;
         }
@@ -171,7 +162,7 @@ public class WinLoseCondition : MonoBehaviour
 
         RaycastHit2D hit2 = Physics2D.Raycast(new Vector2(player2.transform.position.x, player2.transform.position.y), Vector2.zero);
 
-        if (hit2.collider != null && hit2.collider.GetComponent<Case>() && hit2.collider.GetComponent<Case>().GetEnd() && hit2.collider.GetComponent<Case>().GetEColor() == cardcolors.green)
+        if (hit2.collider != null && hit2.collider.GetComponent<Case>() && hit2.collider.GetComponent<Case>().GetEnd() && hit2.collider.GetComponent<Case>().GetEColor() == cardcolors.green && player2.GetComponent<PlayerMovement>().HasAllItems())
         {
             player2Finish = true;
         }
