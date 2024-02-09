@@ -16,6 +16,7 @@ public class Case : MonoBehaviour
     [SerializeField] public Case right;
     [SerializeField] public Case down;
     [SerializeField] public Case left;
+    private Sprite defaultSprite;
     public List<Case> cases;
 
     [SerializeField] private string color;
@@ -38,6 +39,8 @@ public class Case : MonoBehaviour
     [SerializeField] private Sprite spawnSpriteRed;
     [SerializeField] private Sprite endSpriteGreen;
     [SerializeField] private Sprite endSpriteRed;
+    [SerializeField] private Sprite hammerSprite;
+    [SerializeField] private Sprite accessCardSprite;
 
     [SerializeField] private Cards neutralCross;
     [SerializeField] private Cards redCross;
@@ -55,8 +58,20 @@ public class Case : MonoBehaviour
         get { return gCost + hCost; }
     }
 
+    public Sprite GetHammerSprite()
+    {
+        return hammerSprite;
+    }
+
+    public Sprite GetAccessCardSprite()
+    {
+        return accessCardSprite;
+    }
+
     private void Start()
     {
+
+        defaultSprite = GetComponent<SpriteRenderer>().sprite;
 
         RaycastHit2D hit;
         Physics2D.queriesStartInColliders = false;
@@ -297,6 +312,27 @@ public class Case : MonoBehaviour
         SetGreenPath();
         SetRedPath();
     }
+
+    private void ResetPath()
+    {
+        redPath.canMoveLeft = false;
+        redPath.canMoveRight = false;
+        redPath.canMoveUp = false;
+        redPath.canMoveDown = false;
+
+        greenPath.canMoveLeft = false;
+        greenPath.canMoveRight = false;
+        greenPath.canMoveUp = false;
+        greenPath.canMoveDown = false;
+    }
+
+    public void ResetCard()
+    {
+        card = null;
+        GetComponent<SpriteRenderer>().sprite = defaultSprite;
+        ResetPath();
+    }
+
 
 }
 
