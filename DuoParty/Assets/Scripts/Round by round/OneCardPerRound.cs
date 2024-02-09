@@ -8,11 +8,11 @@ public class OneCardPerRound : MonoBehaviour
 
     public void StopAllCards()
     {
-        roundByRound.StopAllCardsPlays();
+/*        roundByRound.StopAllCardsPlays();
         if (!winLoseCondition.PathFinding(winLoseCondition.redStartCase, winLoseCondition.redEndCase, "Red") || !winLoseCondition.PathFinding(winLoseCondition.greenStartCase, winLoseCondition.greenEndCase, "Green"))
         {
             winLoseCondition.Lose();
-        }
+        }*/
         
     }
 

@@ -15,6 +15,7 @@ public class DragnDrop : MonoBehaviour
     [SerializeField] private OneCardPerRound stopAll;
 
     [SerializeField] private Sprite porte_blinde;
+    [SerializeField] private ParticleSystem particle;
     [SerializeField] private InventoryManager player1inventory;
     [SerializeField] private InventoryManager player2inventory;
 
@@ -148,6 +149,8 @@ public class DragnDrop : MonoBehaviour
                             hit.collider.gameObject.transform.Rotate(0f, 0f, cardHand.GetComponent<Hand>().rotation);
                             cardHand.GetComponent<Hand>().RemoveCard();
                             stopAll.StopAllCards();
+                            particle.transform.position = hit.collider.transform.position;
+                            particle.Play();
                         }
                     if (result.tag == "Card" && hit.collider != null && hit.collider.TryGetComponent<Case>(out Case _case) && _case.GetInteractible() && hit.collider.gameObject.GetComponent<Case>().GetCard() == null
                     && !_case.isKey && !_case.isVaccineGreen && !_case.isVaccineRed)
