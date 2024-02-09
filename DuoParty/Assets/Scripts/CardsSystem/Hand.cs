@@ -7,16 +7,17 @@ public class Hand : MonoBehaviour
     public Image cardImage;
     public bool isDefundHand;
     public float rotation;
-    [SerializeField] private GameObject defundHand;
+    [SerializeField] public GameObject defundHand;
     [SerializeField] private Deck deck;
 
 
-    public void AddCard(Cards newCard)
+    public void AddCard(Cards newCard, Hand previousHand = null)
     {
         if (isDefundHand && card != null)
         {
             defundHand.GetComponent<DefundHand>().AddDefundCard(card);
         }
+        if(previousHand != null) transform.Rotate(0f, 0f, previousHand.rotation);
         card = newCard;
         cardImage.sprite = newCard.cardImage;
         cardImage.color = new Color(cardImage.color.r, cardImage.color.g, cardImage.color.b, 255f);

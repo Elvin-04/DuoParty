@@ -14,6 +14,8 @@ public class DragnDrop : MonoBehaviour
     [SerializeField] private GameObject greenTrashHand;
     [SerializeField] private OneCardPerRound stopAll;
 
+    [SerializeField] private Sprite porte_blinde;
+
     private void Update()
     {
         //get mouse pos
@@ -65,21 +67,7 @@ public class DragnDrop : MonoBehaviour
                 // discard a card
                 if (results.Count > 1 && results[1].gameObject.tag == "Trash")
                 {
-                    switch (cardHand.gameObject.tag)
-                    {
-                        case ("Player1"):
-                        {
-                            greenTrashHand.GetComponent<Hand>().AddCard(cardHand.GetComponent<Hand>().card);
-                            cardHand.GetComponent<Hand>().RemoveCard();
-                            break;
-                        }
-                        case ("Player2"):
-                        {
-                            redTrashHand.GetComponent<Hand>().AddCard(cardHand.GetComponent<Hand>().card);
-                            cardHand.GetComponent<Hand>().RemoveCard();
-                            break;
-                        }
-                    }
+                    PlaceInSecondHand();
                     stopAll.StopAllCards();
                 }
 
@@ -88,13 +76,50 @@ public class DragnDrop : MonoBehaviour
                 {
                     RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
 
+                    //drop the card
                     if (hit.collider != null && hit.collider.TryGetComponent<Case>(out Case _case) && _case.GetInteractible() && hit.collider.gameObject.GetComponent<Case>().GetCard() == null
                         && !_case.isKey && !_case.isVaccineGreen && !_case.isVaccineRed)
                     {
-                        hit.collider.gameObject.GetComponent<Case>().AddCard(cardHand.GetComponent<Hand>().card);
-                        hit.collider.gameObject.transform.Rotate(0f, 0f, cardHand.GetComponent<Hand>().rotation);
-                        cardHand.GetComponent<Hand>().RemoveCard();
-                        stopAll.StopAllCards();
+                        if (_case.isArmouredDoor)
+                        {
+                            PlaceInSecondHand();
+                            _case.GetComponent<SpriteRenderer>().sprite = porte_blinde;
+                            _case.LockMovements();
+                        }
+                        else if (_case.isBomb)
+                        {
+                            PlaceInSecondHand();
+                            _case.GetComponent<SpriteRenderer>().sprite = porte_blinde;
+                            _case.LockMovements();
+                            if(_case.up.GetCard() == null)
+                            {
+                                _case.up.GetComponent<SpriteRenderer>().sprite = porte_blinde;
+                                _case.up.LockMovements();
+                            }
+                            if (_case.down.GetCard() == null)
+                            {
+                                _case.down.GetComponent<SpriteRenderer>().sprite = porte_blinde;
+                                _case.down.LockMovements();
+                            }
+                            if (_case.right.GetCard() == null)
+                            {
+                                _case.right.GetComponent<SpriteRenderer>().sprite = porte_blinde;
+                                _case.right.LockMovements();
+                            }
+                            if (_case.left.GetCard() == null)
+                            {
+                                _case.left.GetComponent<SpriteRenderer>().sprite = porte_blinde;
+                                _case.left.LockMovements();
+                            }
+
+                        }
+                        else
+                        {
+                            hit.collider.gameObject.GetComponent<Case>().AddCard(cardHand.GetComponent<Hand>().card);
+                            hit.collider.gameObject.transform.Rotate(0f, 0f, cardHand.GetComponent<Hand>().rotation);
+                            cardHand.GetComponent<Hand>().RemoveCard();
+                            stopAll.StopAllCards();
+                        }
                     }
                 }
                 // return image in his place
@@ -110,4 +135,22 @@ public class DragnDrop : MonoBehaviour
         card.transform.position = new Vector2(cardHand.transform.position.x, cardHand.transform.position.y);
     }
 
+    private void PlaceInSecondHand()
+    {
+        switch (cardHand.gameObject.tag)
+        {
+            case ("Player1"):
+                {
+                    greenTrashHand.GetComponent<Hand>().AddCard(cardHand.GetComponent<Hand>().card);
+                    cardHand.GetComponent<Hand>().RemoveCard();
+                    break;
+                }
+            case ("Player2"):
+                {
+                    redTrashHand.GetComponent<Hand>().AddCard(cardHand.GetComponent<Hand>().card);
+                    cardHand.GetComponent<Hand>().RemoveCard();
+                    break;
+                }
+        }
+    }
 }

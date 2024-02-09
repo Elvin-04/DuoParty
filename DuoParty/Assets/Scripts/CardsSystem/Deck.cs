@@ -63,11 +63,11 @@ public class Deck : MonoBehaviour
         PullCard();
     }
 
-    public void PullCard()
+    public void PullCard(Hand previousHand = null)
     {
         if (deckCard.Count > 0 && hand.card == null)
         {
-            hand.AddCard(deckCard[deckCard.Count - 1]);
+            hand.AddCard(deckCard[deckCard.Count - 1], previousHand);
             
             deckCard[deckCard.Count - 1] = null;
             deckCard.RemoveAt(deckCard.Count - 1);
