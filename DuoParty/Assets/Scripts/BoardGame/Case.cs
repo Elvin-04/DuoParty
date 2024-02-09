@@ -38,6 +38,7 @@ public class Case : MonoBehaviour
     [SerializeField] private Sprite spawnSpriteRed;
     [SerializeField] private Sprite endSpriteGreen;
     [SerializeField] private Sprite endSpriteRed;
+    [SerializeField] private Sprite doorTraps;
     [Header("For the pathfinding")]
     public int x;
     public int y;
@@ -198,6 +199,7 @@ public class Case : MonoBehaviour
         return _coordinatesWidth;
     }
 
+
     public void SetKey()
     {
         isKey = true;
@@ -251,7 +253,6 @@ public class Case : MonoBehaviour
         eColor = cardcolors.red;
         isEnd = true;
     }
-
     private void SetRedPath()
     {
         redPath.canMoveLeft = true;
@@ -267,13 +268,23 @@ public class Case : MonoBehaviour
         greenPath.canMoveUp = true;
         greenPath.canMoveDown = true;
     }
+    public void LockMovements()
+    {
+        greenPath.canMoveLeft = false;
+        greenPath.canMoveRight = false;
+        greenPath.canMoveUp = false;
+        greenPath.canMoveDown = false;
+        redPath.canMoveLeft = false;
+        redPath.canMoveRight = false;
+        redPath.canMoveUp = false;
+        redPath.canMoveDown = false;
+    }
 
     private void SetBothPath()
     {
         SetGreenPath();
         SetRedPath();
     }
-
 }
 
 [System.Serializable]

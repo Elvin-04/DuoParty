@@ -13,6 +13,7 @@ public class OneCardPerRound : MonoBehaviour
         {
             winLoseCondition.Lose();
         }
+        
     }
 
 
