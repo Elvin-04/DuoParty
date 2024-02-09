@@ -12,11 +12,15 @@ public class ButtonManager : MonoBehaviour
     public AudioSource _audioSource;
     private bool _pauseActive;
     private bool _endActive;
+    private bool _quittActive;
+    private bool _playActive;
+    private bool _settingActive;
+
 
     [SerializeField] private Animator _animator;
     private void Start()
     {
-        _audioSource.Play();
+        //_audioSource.Play();
         Screen.SetResolution(1920, 1080, true);
     }
     public void PlayGame()
@@ -63,5 +67,82 @@ public class ButtonManager : MonoBehaviour
     public void Zoom()
     {
         _animator.SetBool("Zoomed", !_animator.GetBool("Zoomed"));
+    }
+
+    public void ZoomPlay()
+    {
+        _animator.SetBool("ZoomedPlay", !_animator.GetBool("ZoomedPlay"));
+    }
+
+    public void ZoomSetting()
+    {
+        _animator.SetBool("ZoomedSetting", !_animator.GetBool("ZoomedSetting"));
+    }
+
+    public void QuittPanel()
+    {
+        if (!_quittActive)
+        {
+            GameObject.Find("MenuManager").transform.Find("QuittMenu").gameObject.SetActive(true);
+            GameObject.Find("MenuManager").transform.Find("GameName").gameObject.SetActive(false);
+            GameObject.Find("MenuManager").transform.Find("QuittPanel").gameObject.SetActive(false);
+            GameObject.Find("MenuManager").transform.Find("PlayPanel").gameObject.SetActive(false);
+            GameObject.Find("MenuManager").transform.Find("SettingPanel").gameObject.SetActive(false);
+            _quittActive = true;
+        }
+        else
+        {
+            GameObject.Find("MenuManager").transform.Find("QuittMenu").gameObject.SetActive(false);
+            GameObject.Find("MenuManager").transform.Find("GameName").gameObject.SetActive(true);
+            GameObject.Find("MenuManager").transform.Find("QuittPanel").gameObject.SetActive(true);
+            GameObject.Find("MenuManager").transform.Find("PlayPanel").gameObject.SetActive(true);
+            GameObject.Find("MenuManager").transform.Find("SettingPanel").gameObject.SetActive(true);
+            _quittActive = false;
+        }
+
+    }
+    public void PlayPanel()
+    {
+        if (!_playActive)
+        {
+            GameObject.Find("MenuManager").transform.Find("MainMenu").gameObject.SetActive(true);
+            GameObject.Find("MenuManager").transform.Find("GameName").gameObject.SetActive(false);
+            GameObject.Find("MenuManager").transform.Find("QuittPanel").gameObject.SetActive(false);
+            GameObject.Find("MenuManager").transform.Find("PlayPanel").gameObject.SetActive(false);
+            GameObject.Find("MenuManager").transform.Find("SettingPanel").gameObject.SetActive(false);
+            _playActive = true;
+        }
+        else
+        {
+            GameObject.Find("MenuManager").transform.Find("MainMenu").gameObject.SetActive(false);
+            GameObject.Find("MenuManager").transform.Find("GameName").gameObject.SetActive(true);
+            GameObject.Find("MenuManager").transform.Find("QuittPanel").gameObject.SetActive(true);
+            GameObject.Find("MenuManager").transform.Find("PlayPanel").gameObject.SetActive(true);
+            GameObject.Find("MenuManager").transform.Find("SettingPanel").gameObject.SetActive(true);
+            _playActive = false;
+        }
+    }
+
+    public void SettingPanel()
+    {
+        if (!_settingActive)
+        {
+            GameObject.Find("MenuManager").transform.Find("Settings").gameObject.SetActive(true);
+            GameObject.Find("MenuManager").transform.Find("GameName").gameObject.SetActive(false);
+            GameObject.Find("MenuManager").transform.Find("QuittPanel").gameObject.SetActive(false);
+            GameObject.Find("MenuManager").transform.Find("PlayPanel").gameObject.SetActive(false);
+            GameObject.Find("MenuManager").transform.Find("SettingPanel").gameObject.SetActive(false);
+
+            _settingActive = true;
+        }
+        else
+        {
+            GameObject.Find("MenuManager").transform.Find("Settings").gameObject.SetActive(false);
+            GameObject.Find("MenuManager").transform.Find("GameName").gameObject.SetActive(true);
+            GameObject.Find("MenuManager").transform.Find("QuittPanel").gameObject.SetActive(true);
+            GameObject.Find("MenuManager").transform.Find("PlayPanel").gameObject.SetActive(true);
+            GameObject.Find("MenuManager").transform.Find("SettingPanel").gameObject.SetActive(true);
+            _settingActive = false;
+        }
     }
 }
