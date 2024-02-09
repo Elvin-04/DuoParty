@@ -16,6 +16,10 @@ public class DragnDrop : MonoBehaviour
 
     [SerializeField] private Sprite porte_blinde;
     [SerializeField] private ParticleSystem particle;
+    [SerializeField] private InventoryManager player1inventory;
+    [SerializeField] private InventoryManager player2inventory;
+
+    private BonusContainer bonusContainer;
 
     private void Update()
     {
@@ -41,28 +45,32 @@ public class DragnDrop : MonoBehaviour
                 result.transform.SetParent(DragNDrop.transform);
                 DragNDrop.transform.position = mousePos;
                 // rotate dragged card
-                if (Input.GetKeyDown(KeyCode.Q))
+                if (result.tag == "Card")
                 {
-                    cardHand.GetComponent<Hand>().TrunCardLeft();
-                }
-                if (Input.GetKeyDown(KeyCode.E))
-                {
-                    cardHand.GetComponent<Hand>().TrunCardRight();
+                    if (Input.GetKeyDown(KeyCode.Q))
+                    {
+                        cardHand.GetComponent<Hand>().TrunCardLeft();
+                    }
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        cardHand.GetComponent<Hand>().TrunCardRight();
+                    }
                 }
             }
 
-            // stop drag and drop
-            else if (!draging && cardHand != null && result.name == cardHand.GetComponent<Hand>().cardImage.name)
-            {
-                result.transform.SetParent(cardHand.transform);
-            }
             // dragging card
-            if (result.tag == "Card" && Input.GetMouseButtonDown(0) && result.GetComponentInParent<Hand>().card != null && !draging)
+            if ( Input.GetMouseButtonDown(0) && ((result.tag == "Card" && result.GetComponentInParent<Hand>().card != null) || (result.tag == "BonusSlot" && result.GetComponentInParent<BonusContainer>().hasItem)) /*&& !draging*/)
             {
+                FindObjectOfType<AudioManager>().PlaySound("card picked up");
+                print("son 1");
                 draging = true;
                 cardHand = result.transform.parent.gameObject;
+                if(result.tag == "BonusSlot")
+                {
+                    bonusContainer = result.GetComponentInParent<BonusContainer>();
+                }
             }
-            else if (draging && Input.GetMouseButtonUp(0) && result.tag == "Card") 
+            else if (draging && Input.GetMouseButtonUp(0) && (result.tag == "Card" || result.tag == "BonusSlot")) 
             {
                 draging = false;
                 // discard a card
@@ -83,12 +91,31 @@ public class DragnDrop : MonoBehaviour
                     {
                         if (_case.isArmouredDoor)
                         {
+                            FindObjectOfType<AudioManager>().PlaySound("armouredDoor activated");
                             PlaceInSecondHand();
                             _case.GetComponent<SpriteRenderer>().sprite = porte_blinde;
                             _case.LockMovements();
+
+                            if(_case.up.GetPathByColor(_case.up.GetColor()).canMoveDown)
+                            {
+                                _case.up.CreateCross(_case.up.GetColor());
+                            }
+                            if (_case.down.GetPathByColor(_case.down.GetColor()).canMoveUp)
+                            {
+                                _case.down.CreateCross(_case.down.GetColor());
+                            }
+                            if (_case.left.GetPathByColor(_case.left.GetColor()).canMoveRight)
+                            {
+                                _case.left.CreateCross(_case.left.GetColor());
+                            }
+                            if (_case.right.GetPathByColor(_case.right.GetColor()).canMoveLeft)
+                            {
+                                _case.right.CreateCross(_case.right.GetColor());
+                            }
                         }
                         else if (_case.isBomb)
                         {
+                            FindObjectOfType<AudioManager>().PlaySound("alarm activated");
                             PlaceInSecondHand();
                             _case.GetComponent<SpriteRenderer>().sprite = porte_blinde;
                             _case.LockMovements();
@@ -116,6 +143,8 @@ public class DragnDrop : MonoBehaviour
                         }
                         else
                         {
+                            FindObjectOfType<AudioManager>().PlaySound("card droped");
+                            print("son 2");
                             hit.collider.gameObject.GetComponent<Case>().AddCard(cardHand.GetComponent<Hand>().card);
                             hit.collider.gameObject.transform.Rotate(0f, 0f, cardHand.GetComponent<Hand>().rotation);
                             cardHand.GetComponent<Hand>().RemoveCard();
@@ -123,7 +152,35 @@ public class DragnDrop : MonoBehaviour
                             particle.transform.position = hit.collider.transform.position;
                             particle.Play();
                         }
+                    if (result.tag == "Card" && hit.collider != null && hit.collider.TryGetComponent<Case>(out Case _case) && _case.GetInteractible() && hit.collider.gameObject.GetComponent<Case>().GetCard() == null
+                    && !_case.isKey && !_case.isVaccineGreen && !_case.isVaccineRed)
+                    {
+                        if (_case.isHammer || _case.isAccessCard)
+                        {
+                            AddBonusToPlayer(cardHand.gameObject.tag, _case);
+                        }
+                        hit.collider.gameObject.GetComponent<Case>().AddCard(cardHand.GetComponent<Hand>().card);
+                        hit.collider.gameObject.transform.Rotate(0f, 0f, cardHand.GetComponent<Hand>().rotation);
+                        cardHand.GetComponent<Hand>().RemoveCard();
+                        stopAll.StopAllCards();
                     }
+                    else if (result.tag == "BonusSlot" && hit.collider != null && hit.collider.TryGetComponent<Case>(out _case) && _case.GetInteractible() && (_case.GetCard() != null || _case.GetArmouredDoor()))
+                    {
+                        if (_case.GetCard() != null && bonusContainer.bonus == TypeOfBonus.hammer)
+                        {
+                            _case.ResetCard();
+                            bonusContainer.removeItem();
+                            print("ca marsh");
+                        }
+                        else if (_case.GetArmouredDoor() && bonusContainer.bonus == TypeOfBonus.accessCard)
+                        {
+                            _case.isArmouredDoor = false;
+                            bonusContainer.removeItem();
+                            print("sa marche aussi");
+                        }
+                        
+                    }
+
                 }
                 // return image in his place
                 CardReturn(result.gameObject);
@@ -156,4 +213,20 @@ public class DragnDrop : MonoBehaviour
                 }
         }
     }
+
+    private void AddBonusToPlayer(string tag, Case currentCase)
+    {
+        switch(tag)
+        {
+            case ("Player1"):
+                player1inventory.AddItemInInventory(currentCase.gameObject);
+                break;
+
+            case ("Player2"):
+                player2inventory.AddItemInInventory(currentCase.gameObject);
+                break;
+
+        }
+    }
+
 }

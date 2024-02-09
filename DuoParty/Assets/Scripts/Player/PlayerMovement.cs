@@ -18,10 +18,14 @@ public class PlayerMovement : MonoBehaviour
 
     int turn;
 
-    RaycastHit hit;
     public Cards card;
     public Case actCase;
     public Case destCase;
+
+    [Header("Items Container")]
+
+    [SerializeField] private ItemContainer vaccinContainer;
+    [SerializeField] private ItemContainer keyContainer;
 
     private void Start()
     {
@@ -46,8 +50,24 @@ public class PlayerMovement : MonoBehaviour
                 isMoving = false;
                 trailRenderer.enabled = true;
 
+                if (!keyContainer.hasItem && actCase.isKey)
+                {
+                    keyContainer.addItem(actCase.gameObject);
+                    actCase.RemoveBonus();
+                }
+                    
+                else if (!vaccinContainer.hasItem && ((actCase.isVaccineRed && color == "Red") || (actCase.isVaccineGreen && color == "Green")))
+                {
+                    vaccinContainer.addItem(actCase.gameObject);
+                    actCase.RemoveBonus();
+                }
             }
         }
+    }
+
+    public bool HasAllItems()
+    {
+        return vaccinContainer.hasItem && keyContainer.hasItem;
     }
 
     public void GridMovementPlayer(InputAction.CallbackContext ctx)

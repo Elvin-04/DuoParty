@@ -1115,6 +1115,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -1556,6 +1562,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -1787,6 +1799,8 @@ MonoBehaviour:
   card: {fileID: 0}
   actCase: {fileID: 0}
   destCase: {fileID: 0}
+  vaccinContainer: {fileID: 1223398658}
+  keyContainer: {fileID: 1517693884}
 --- !u!1 &56128207
 GameObject:
   m_ObjectHideFlags: 0
@@ -2359,6 +2373,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -2716,6 +2736,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -2989,6 +3015,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -3430,6 +3462,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -3619,6 +3657,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -3808,6 +3852,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -3997,6 +4047,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -4404,6 +4460,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -4761,6 +4823,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -5134,6 +5202,85 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &147736925
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 147736926}
+  - component: {fileID: 147736928}
+  - component: {fileID: 147736927}
+  m_Layer: 5
+  m_Name: Player2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &147736926
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147736925}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 987837843}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 13, y: 168}
+  m_SizeDelta: {x: 281.0463, y: 161.7033}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &147736927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147736925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 50
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 5
+    m_MaxSize: 50
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Player 2
+--- !u!222 &147736928
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147736925}
+  m_CullTransparentMesh: 1
 --- !u!1 &155177550
 GameObject:
   m_ObjectHideFlags: 0
@@ -5286,6 +5433,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -5643,6 +5796,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -6075,6 +6234,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -6432,6 +6597,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -6789,6 +6960,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -7146,6 +7323,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -7671,6 +7854,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -7876,100 +8065,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &285024361
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 285024362}
-  - component: {fileID: 285024363}
-  m_Layer: 5
-  m_Name: GreenPlayerDeck
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &285024362
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 285024361}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1828944070}
-  - {fileID: 350448766}
-  - {fileID: 1899071067}
-  m_Father: {fileID: 1122658928}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -1717, y: 245}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &285024363
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 285024361}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3ac6ff931b1f384fa6b28ae48b84db3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  deckCard:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  corridorCard: {fileID: 11400000, guid: 601be17a4948f644dabe4451b2cdb6bc, type: 2}
-  cornerCard: {fileID: 11400000, guid: bec70f560fcf69346a7bfd3e82a9620e, type: 2}
-  tPathCard: {fileID: 11400000, guid: 7da73d4ad13e86546bc9d182a74f9e11, type: 2}
-  TwoColorsCross: {fileID: 11400000, guid: 94b686cf5df496244b96e77099edf574, type: 2}
-  TwoCorners: {fileID: 11400000, guid: 5e234746c741afa499e39d63b43c0620, type: 2}
-  hand: {fileID: 350448769}
 --- !u!1 &306027098
 GameObject:
   m_ObjectHideFlags: 0
@@ -8038,6 +8133,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -8815,6 +8916,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -9104,101 +9211,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &350448765
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 350448766}
-  - component: {fileID: 350448769}
-  - component: {fileID: 350448768}
-  - component: {fileID: 350448767}
-  m_Layer: 5
-  m_Name: GreenPlayerHand
-  m_TagString: Player1
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &350448766
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 350448765}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1620654875}
-  m_Father: {fileID: 285024362}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 150, y: 150}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &350448767
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 350448765}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.22264141, g: 0.22264141, b: 0.22264141, a: 1}
-  m_RaycastTarget: 0
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &350448768
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 350448765}
-  m_CullTransparentMesh: 1
---- !u!114 &350448769
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 350448765}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7aefb3d333139d459a102e334dfa72b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  card: {fileID: 0}
-  cardImage: {fileID: 1620654876}
-  isDefundHand: 0
-  rotation: 0
-  defundHand: {fileID: 1899071066}
-  deck: {fileID: 285024363}
 --- !u!1 &350744198
 GameObject:
   m_ObjectHideFlags: 0
@@ -9739,6 +9751,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -10594,6 +10612,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -10967,6 +10991,103 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &441662279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 441662280}
+  - component: {fileID: 441662283}
+  - component: {fileID: 441662282}
+  - component: {fileID: 441662281}
+  m_Layer: 5
+  m_Name: Green2ndHandCard
+  m_TagString: Card
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &441662280
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441662279}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 576103609}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &441662281
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441662279}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c05fab18004ad094bb20046933c65929, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &441662282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441662279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &441662283
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441662279}
+  m_CullTransparentMesh: 1
 --- !u!1 &450585110
 GameObject:
   m_ObjectHideFlags: 0
@@ -11875,6 +11996,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -12232,6 +12359,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -12505,6 +12638,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -12694,6 +12833,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -13303,6 +13448,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -13492,6 +13643,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -14201,6 +14358,115 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &576103608
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 576103609}
+  - component: {fileID: 576103613}
+  - component: {fileID: 576103612}
+  - component: {fileID: 576103611}
+  - component: {fileID: 576103610}
+  m_Layer: 5
+  m_Name: GreenPlayer2ndHand
+  m_TagString: Player1
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &576103609
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576103608}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 441662280}
+  m_Father: {fileID: 1236214526}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -362}
+  m_SizeDelta: {x: 150, y: 150}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &576103610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576103608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6579db807016fa498df0a1a557bdba8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defundDeckCard: []
+--- !u!114 &576103611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576103608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.22352941, g: 0.22352941, b: 0.22352941, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &576103612
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576103608}
+  m_CullTransparentMesh: 1
+--- !u!114 &576103613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576103608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7aefb3d333139d459a102e334dfa72b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  card: {fileID: 0}
+  cardImage: {fileID: 441662282}
+  isDefundHand: 1
+  rotation: 0
+  defundHand: {fileID: 576103608}
+  deck: {fileID: 0}
 --- !u!1 &583992867
 GameObject:
   m_ObjectHideFlags: 0
@@ -14949,6 +15215,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -15222,6 +15494,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -15831,6 +16109,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -16020,6 +16304,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -16377,6 +16667,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -16650,6 +16946,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -17427,6 +17729,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -17616,6 +17924,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -17905,85 +18219,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &745205788
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 745205789}
-  - component: {fileID: 745205791}
-  - component: {fileID: 745205790}
-  m_Layer: 5
-  m_Name: Player2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &745205789
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 745205788}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1321750199}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 13, y: 168}
-  m_SizeDelta: {x: 281.0463, y: 161.7033}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &745205790
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 745205788}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 0
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 50
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 5
-    m_MaxSize: 50
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Player 2
---- !u!222 &745205791
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 745205788}
-  m_CullTransparentMesh: 1
 --- !u!1 &745530802
 GameObject:
   m_ObjectHideFlags: 0
@@ -19412,6 +19647,97 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &868634771
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 868634772}
+  - component: {fileID: 868634775}
+  - component: {fileID: 868634774}
+  - component: {fileID: 868634773}
+  m_Layer: 5
+  m_Name: ItemContenair (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &868634772
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868634771}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 987837843}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 96, y: -536}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &868634773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868634771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 890a7b36ae346834c95e94f0bdc6be06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImage: {fileID: 868634774}
+  isKeysContenair: 1
+  hasItem: 0
+--- !u!114 &868634774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868634771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &868634775
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868634771}
+  m_CullTransparentMesh: 1
 --- !u!1 &886153893
 GameObject:
   m_ObjectHideFlags: 0
@@ -19564,6 +19890,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -20005,6 +20337,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -20126,115 +20464,6 @@ Transform:
   - {fileID: 316294791}
   m_Father: {fileID: 350744200}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &907713372
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 907713373}
-  - component: {fileID: 907713377}
-  - component: {fileID: 907713376}
-  - component: {fileID: 907713375}
-  - component: {fileID: 907713374}
-  m_Layer: 5
-  m_Name: RedPlayer2ndHand
-  m_TagString: Player2
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &907713373
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 907713372}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 957716616}
-  m_Father: {fileID: 1321750199}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -362}
-  m_SizeDelta: {x: 150, y: 150}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &907713374
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 907713372}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b6579db807016fa498df0a1a557bdba8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defundDeckCard: []
---- !u!114 &907713375
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 907713372}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.22352941, g: 0.22352941, b: 0.22352941, a: 1}
-  m_RaycastTarget: 0
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &907713376
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 907713372}
-  m_CullTransparentMesh: 1
---- !u!114 &907713377
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 907713372}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7aefb3d333139d459a102e334dfa72b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  card: {fileID: 0}
-  cardImage: {fileID: 957716617}
-  isDefundHand: 1
-  rotation: 0
-  defundHand: {fileID: 907713372}
-  deck: {fileID: 0}
 --- !u!1 &910071849
 GameObject:
   m_ObjectHideFlags: 0
@@ -20555,6 +20784,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -21164,6 +21399,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -21537,81 +21778,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &957716615
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 957716616}
-  - component: {fileID: 957716618}
-  - component: {fileID: 957716617}
-  m_Layer: 5
-  m_Name: Red2ndHandCard
-  m_TagString: Card
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &957716616
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 957716615}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 907713373}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &957716617
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 957716615}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &957716618
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 957716615}
-  m_CullTransparentMesh: 1
 --- !u!1 &958196100
 GameObject:
   m_ObjectHideFlags: 0
@@ -21680,6 +21846,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -21869,6 +22041,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -21990,101 +22168,6 @@ Transform:
   - {fileID: 599806569}
   m_Father: {fileID: 350744200}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &959354398
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 959354399}
-  - component: {fileID: 959354402}
-  - component: {fileID: 959354401}
-  - component: {fileID: 959354400}
-  m_Layer: 5
-  m_Name: RedPlayerHand
-  m_TagString: Player2
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &959354399
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 959354398}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1084823563}
-  m_Father: {fileID: 1321750199}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 150, y: 150}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &959354400
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 959354398}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.22264141, g: 0.22264141, b: 0.22264141, a: 1}
-  m_RaycastTarget: 0
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &959354401
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 959354398}
-  m_CullTransparentMesh: 1
---- !u!114 &959354402
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 959354398}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7aefb3d333139d459a102e334dfa72b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  card: {fileID: 0}
-  cardImage: {fileID: 1084823564}
-  isDefundHand: 0
-  rotation: 0
-  defundHand: {fileID: 907713372}
-  deck: {fileID: 1321750200}
 --- !u!1 &960081004
 GameObject:
   m_ObjectHideFlags: 0
@@ -22321,6 +22404,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -22526,6 +22615,102 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &987837842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 987837843}
+  - component: {fileID: 987837844}
+  m_Layer: 5
+  m_Name: RedPlayerDeck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &987837843
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987837842}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 147736926}
+  - {fileID: 1240434390}
+  - {fileID: 1419558951}
+  - {fileID: 1672474721}
+  - {fileID: 868634772}
+  m_Father: {fileID: 1122658928}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -188.99988, y: 244.99994}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &987837844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987837842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ac6ff931b1f384fa6b28ae48b84db3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deckCard:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  corridorCard: {fileID: 11400000, guid: d0337097732be0940a93178386f90a49, type: 2}
+  cornerCard: {fileID: 11400000, guid: 55c0b3ee75d6ea14d864f8d55e12598e, type: 2}
+  tPathCard: {fileID: 11400000, guid: 0b2ba412686877243a298ff285504f3a, type: 2}
+  TwoColorsCross: {fileID: 11400000, guid: 94b686cf5df496244b96e77099edf574, type: 2}
+  TwoCorners: {fileID: 11400000, guid: 5e234746c741afa499e39d63b43c0620, type: 2}
+  hand: {fileID: 1240434393}
 --- !u!1 &995197400
 GameObject:
   m_ObjectHideFlags: 0
@@ -22678,6 +22863,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -23371,6 +23562,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -23728,6 +23925,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -24505,6 +24708,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -24794,81 +25003,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1084823562
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1084823563}
-  - component: {fileID: 1084823565}
-  - component: {fileID: 1084823564}
-  m_Layer: 5
-  m_Name: RedHandCard
-  m_TagString: Card
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1084823563
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1084823562}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 959354399}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1084823564
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1084823562}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1084823565
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1084823562}
-  m_CullTransparentMesh: 1
 --- !u!1 &1110944302
 GameObject:
   m_ObjectHideFlags: 0
@@ -25049,10 +25183,10 @@ RectTransform:
   m_Children:
   - {fileID: 192579217}
   - {fileID: 1177118254}
-  - {fileID: 1321750199}
-  - {fileID: 285024362}
   - {fileID: 1784929698}
   - {fileID: 1598100424}
+  - {fileID: 987837843}
+  - {fileID: 1236214526}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -25212,6 +25346,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -25653,6 +25793,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -25926,6 +26072,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -26199,6 +26351,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -26452,9 +26610,10 @@ MonoBehaviour:
   m_Raycaster: {fileID: 1122658925}
   DragNDrop: {fileID: 1784929697}
   cardHand: {fileID: 0}
-  redTrashHand: {fileID: 907713372}
-  greenTrashHand: {fileID: 1899071066}
+  redTrashHand: {fileID: 1419558950}
+  greenTrashHand: {fileID: 576103608}
   stopAll: {fileID: 1613845222}
+  porte_blinde: {fileID: 21300000, guid: bd1affdbb2197c64f9694815eb182be2, type: 3}
 --- !u!1 &1177842208
 GameObject:
   m_ObjectHideFlags: 0
@@ -26859,6 +27018,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -27048,6 +27213,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -27489,6 +27660,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -28014,6 +28191,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -28135,6 +28318,172 @@ Transform:
   - {fileID: 529205996}
   m_Father: {fileID: 350744200}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1223398656
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1223398657}
+  - component: {fileID: 1223398660}
+  - component: {fileID: 1223398659}
+  - component: {fileID: 1223398658}
+  m_Layer: 5
+  m_Name: ItemContenair
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1223398657
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1223398656}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1236214526}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -113, y: -536}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1223398658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1223398656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 890a7b36ae346834c95e94f0bdc6be06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImage: {fileID: 1223398659}
+  isKeysContenair: 0
+  hasItem: 0
+--- !u!114 &1223398659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1223398656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1223398660
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1223398656}
+  m_CullTransparentMesh: 1
+--- !u!1 &1226207411
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1226207412}
+  - component: {fileID: 1226207414}
+  - component: {fileID: 1226207413}
+  m_Layer: 5
+  m_Name: GreenHandCard
+  m_TagString: Card
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1226207412
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226207411}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1564585733}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1226207413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226207411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1226207414
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226207411}
+  m_CullTransparentMesh: 1
 --- !u!1 &1234403244
 GameObject:
   m_ObjectHideFlags: 0
@@ -28287,6 +28636,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -28408,6 +28763,102 @@ Transform:
   - {fileID: 174760665}
   m_Father: {fileID: 350744200}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1236214525
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1236214526}
+  - component: {fileID: 1236214527}
+  m_Layer: 5
+  m_Name: GreenPlayerDeck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1236214526
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236214525}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1581985513}
+  - {fileID: 1564585733}
+  - {fileID: 576103609}
+  - {fileID: 1223398657}
+  - {fileID: 1517693883}
+  m_Father: {fileID: 1122658928}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -1716.9999, y: 244.99994}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1236214527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236214525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ac6ff931b1f384fa6b28ae48b84db3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deckCard:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  corridorCard: {fileID: 11400000, guid: 601be17a4948f644dabe4451b2cdb6bc, type: 2}
+  cornerCard: {fileID: 11400000, guid: bec70f560fcf69346a7bfd3e82a9620e, type: 2}
+  tPathCard: {fileID: 11400000, guid: 7da73d4ad13e86546bc9d182a74f9e11, type: 2}
+  TwoColorsCross: {fileID: 11400000, guid: 94b686cf5df496244b96e77099edf574, type: 2}
+  TwoCorners: {fileID: 11400000, guid: 5e234746c741afa499e39d63b43c0620, type: 2}
+  hand: {fileID: 1564585736}
 --- !u!1 &1239283391
 GameObject:
   m_ObjectHideFlags: 0
@@ -28492,6 +28943,101 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1240434389
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1240434390}
+  - component: {fileID: 1240434393}
+  - component: {fileID: 1240434392}
+  - component: {fileID: 1240434391}
+  m_Layer: 5
+  m_Name: RedPlayerHand
+  m_TagString: Player2
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1240434390
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240434389}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1432305903}
+  m_Father: {fileID: 987837843}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 150, y: 150}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1240434391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240434389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.22264141, g: 0.22264141, b: 0.22264141, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1240434392
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240434389}
+  m_CullTransparentMesh: 1
+--- !u!114 &1240434393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240434389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7aefb3d333139d459a102e334dfa72b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  card: {fileID: 0}
+  cardImage: {fileID: 1432305904}
+  isDefundHand: 0
+  rotation: 0
+  defundHand: {fileID: 0}
+  deck: {fileID: 987837844}
 --- !u!1 &1245576030
 GameObject:
   m_ObjectHideFlags: 0
@@ -28560,6 +29106,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -28917,6 +29469,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -29190,6 +29748,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -29379,6 +29943,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -30340,100 +30910,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1321750198
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1321750199}
-  - component: {fileID: 1321750200}
-  m_Layer: 5
-  m_Name: RedPlayerDeck
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1321750199
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1321750198}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 745205789}
-  - {fileID: 959354399}
-  - {fileID: 907713373}
-  m_Father: {fileID: 1122658928}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -189, y: 245}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1321750200
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1321750198}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3ac6ff931b1f384fa6b28ae48b84db3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  deckCard:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  corridorCard: {fileID: 11400000, guid: d0337097732be0940a93178386f90a49, type: 2}
-  cornerCard: {fileID: 11400000, guid: 55c0b3ee75d6ea14d864f8d55e12598e, type: 2}
-  tPathCard: {fileID: 11400000, guid: 0b2ba412686877243a298ff285504f3a, type: 2}
-  TwoColorsCross: {fileID: 11400000, guid: 94b686cf5df496244b96e77099edf574, type: 2}
-  TwoCorners: {fileID: 11400000, guid: 5e234746c741afa499e39d63b43c0620, type: 2}
-  hand: {fileID: 959354402}
 --- !u!1 &1329578706
 GameObject:
   m_ObjectHideFlags: 0
@@ -31358,6 +31834,115 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1419558950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1419558951}
+  - component: {fileID: 1419558955}
+  - component: {fileID: 1419558954}
+  - component: {fileID: 1419558953}
+  - component: {fileID: 1419558952}
+  m_Layer: 5
+  m_Name: RedPlayer2ndHand
+  m_TagString: Player2
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1419558951
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419558950}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1679081108}
+  m_Father: {fileID: 987837843}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -362}
+  m_SizeDelta: {x: 150, y: 150}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1419558952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419558950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6579db807016fa498df0a1a557bdba8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defundDeckCard: []
+--- !u!114 &1419558953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419558950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.22352941, g: 0.22352941, b: 0.22352941, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1419558954
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419558950}
+  m_CullTransparentMesh: 1
+--- !u!114 &1419558955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419558950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7aefb3d333139d459a102e334dfa72b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  card: {fileID: 0}
+  cardImage: {fileID: 1679081109}
+  isDefundHand: 1
+  rotation: 0
+  defundHand: {fileID: 1419558950}
+  deck: {fileID: 0}
 --- !u!1 &1419706506
 GameObject:
   m_ObjectHideFlags: 0
@@ -31946,6 +32531,81 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1432305902
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1432305903}
+  - component: {fileID: 1432305905}
+  - component: {fileID: 1432305904}
+  m_Layer: 5
+  m_Name: RedHandCard
+  m_TagString: Card
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1432305903
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432305902}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1240434390}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1432305904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432305902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1432305905
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432305902}
+  m_CullTransparentMesh: 1
 --- !u!1 &1439920184
 GameObject:
   m_ObjectHideFlags: 0
@@ -32576,6 +33236,8 @@ MonoBehaviour:
   card: {fileID: 0}
   actCase: {fileID: 0}
   destCase: {fileID: 0}
+  vaccinContainer: {fileID: 1672474722}
+  keyContainer: {fileID: 868634773}
 --- !u!212 &1472543726
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -32712,6 +33374,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -33085,6 +33753,97 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1517693882
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1517693883}
+  - component: {fileID: 1517693886}
+  - component: {fileID: 1517693885}
+  - component: {fileID: 1517693884}
+  m_Layer: 5
+  m_Name: ItemContenair (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1517693883
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517693882}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1236214526}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 55, y: -536}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1517693884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517693882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 890a7b36ae346834c95e94f0bdc6be06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImage: {fileID: 1517693885}
+  isKeysContenair: 1
+  hasItem: 0
+--- !u!114 &1517693885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517693882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1517693886
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517693882}
+  m_CullTransparentMesh: 1
 --- !u!1 &1522734716
 GameObject:
   m_ObjectHideFlags: 0
@@ -33573,6 +34332,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -33762,6 +34527,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -33951,6 +34722,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -34240,6 +35017,101 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1564585732
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1564585733}
+  - component: {fileID: 1564585736}
+  - component: {fileID: 1564585735}
+  - component: {fileID: 1564585734}
+  m_Layer: 5
+  m_Name: GreenPlayerHand
+  m_TagString: Player1
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1564585733
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564585732}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1226207412}
+  m_Father: {fileID: 1236214526}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 150, y: 150}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1564585734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564585732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.22264141, g: 0.22264141, b: 0.22264141, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1564585735
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564585732}
+  m_CullTransparentMesh: 1
+--- !u!114 &1564585736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564585732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7aefb3d333139d459a102e334dfa72b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  card: {fileID: 0}
+  cardImage: {fileID: 1226207413}
+  isDefundHand: 0
+  rotation: 0
+  defundHand: {fileID: 0}
+  deck: {fileID: 1236214527}
 --- !u!1 &1567500668
 GameObject:
   m_ObjectHideFlags: 0
@@ -34492,6 +35364,85 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1581985512
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1581985513}
+  - component: {fileID: 1581985515}
+  - component: {fileID: 1581985514}
+  m_Layer: 5
+  m_Name: Player2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1581985513
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581985512}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1236214526}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 13, y: 168}
+  m_SizeDelta: {x: 281.0463, y: 161.7033}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1581985514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581985512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.0191046, g: 1, b: 0, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 50
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 5
+    m_MaxSize: 50
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Player 1
+--- !u!222 &1581985515
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581985512}
+  m_CullTransparentMesh: 1
 --- !u!1 &1596891453
 GameObject:
   m_ObjectHideFlags: 0
@@ -34861,6 +35812,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -35111,11 +36068,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grayColor: {r: 0.2830189, g: 0.2830189, b: 0.2830189, a: 0.6666667}
   playerOneSprites:
-  - {fileID: 1084823563}
-  - {fileID: 957716616}
+  - {fileID: 1432305903}
+  - {fileID: 1679081108}
   playerTwoSprites:
-  - {fileID: 1620654875}
-  - {fileID: 2132854588}
+  - {fileID: 1226207412}
+  - {fileID: 441662280}
 --- !u!4 &1613845221
 Transform:
   m_ObjectHideFlags: 0
@@ -35158,13 +36115,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player1: {fileID: 1472543723}
-  player1Deck: {fileID: 1321750200}
-  player1DefundHand: {fileID: 907713377}
-  player1Hand: {fileID: 959354402}
+  player1Deck: {fileID: 987837844}
+  player1DefundHand: {fileID: 1419558955}
+  player1Hand: {fileID: 1240434393}
   player2: {fileID: 49397137}
-  player2Deck: {fileID: 285024363}
-  player2DefundHand: {fileID: 1899071071}
-  player2Hand: {fileID: 350448769}
+  player2Deck: {fileID: 1236214527}
+  player2DefundHand: {fileID: 576103613}
+  player2Hand: {fileID: 1564585736}
   grid: {fileID: 350744199}
   player1Finish: 0
   player2Finish: 0
@@ -35342,81 +36299,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1620654874
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1620654875}
-  - component: {fileID: 1620654877}
-  - component: {fileID: 1620654876}
-  m_Layer: 5
-  m_Name: GreenHandCard
-  m_TagString: Card
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1620654875
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1620654874}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 350448766}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1620654876
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1620654874}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1620654877
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1620654874}
-  m_CullTransparentMesh: 1
 --- !u!1 &1637436921
 GameObject:
   m_ObjectHideFlags: 0
@@ -35569,6 +36451,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -36278,6 +37166,172 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1672474720
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1672474721}
+  - component: {fileID: 1672474724}
+  - component: {fileID: 1672474723}
+  - component: {fileID: 1672474722}
+  m_Layer: 5
+  m_Name: ItemContenair (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1672474721
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672474720}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 987837843}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -72, y: -536}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1672474722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672474720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 890a7b36ae346834c95e94f0bdc6be06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImage: {fileID: 1672474723}
+  isKeysContenair: 0
+  hasItem: 0
+--- !u!114 &1672474723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672474720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1672474724
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672474720}
+  m_CullTransparentMesh: 1
+--- !u!1 &1679081107
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1679081108}
+  - component: {fileID: 1679081110}
+  - component: {fileID: 1679081109}
+  m_Layer: 5
+  m_Name: Red2ndHandCard
+  m_TagString: Card
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1679081108
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679081107}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1419558951}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1679081109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679081107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1679081110
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679081107}
+  m_CullTransparentMesh: 1
 --- !u!1 &1679772069
 GameObject:
   m_ObjectHideFlags: 0
@@ -36430,6 +37484,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -37459,6 +38519,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -38103,6 +39169,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -38476,85 +39548,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1828944069
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1828944070}
-  - component: {fileID: 1828944072}
-  - component: {fileID: 1828944071}
-  m_Layer: 5
-  m_Name: Player2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1828944070
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1828944069}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 285024362}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 13, y: 168}
-  m_SizeDelta: {x: 281.0463, y: 161.7033}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1828944071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1828944069}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.0191046, g: 1, b: 0, a: 1}
-  m_RaycastTarget: 0
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 50
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 5
-    m_MaxSize: 50
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Player 1
---- !u!222 &1828944072
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1828944069}
-  m_CullTransparentMesh: 1
 --- !u!1 &1832511837
 GameObject:
   m_ObjectHideFlags: 0
@@ -39127,6 +40120,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -39584,115 +40583,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1899071066
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1899071067}
-  - component: {fileID: 1899071071}
-  - component: {fileID: 1899071070}
-  - component: {fileID: 1899071069}
-  - component: {fileID: 1899071068}
-  m_Layer: 5
-  m_Name: GreenPlayer2ndHand
-  m_TagString: Player1
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1899071067
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1899071066}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2132854588}
-  m_Father: {fileID: 285024362}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -362}
-  m_SizeDelta: {x: 150, y: 150}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1899071068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1899071066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b6579db807016fa498df0a1a557bdba8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defundDeckCard: []
---- !u!114 &1899071069
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1899071066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.22352941, g: 0.22352941, b: 0.22352941, a: 1}
-  m_RaycastTarget: 0
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1899071070
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1899071066}
-  m_CullTransparentMesh: 1
---- !u!114 &1899071071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1899071066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7aefb3d333139d459a102e334dfa72b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  card: {fileID: 0}
-  cardImage: {fileID: 2132854590}
-  isDefundHand: 1
-  rotation: 0
-  defundHand: {fileID: 1899071066}
-  deck: {fileID: 0}
 --- !u!1 &1899481476
 GameObject:
   m_ObjectHideFlags: 0
@@ -39845,6 +40735,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -40454,6 +41350,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -40895,6 +41797,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -41672,6 +42580,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -42197,6 +43111,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -42638,6 +43558,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -43163,6 +44089,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -43520,6 +44452,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -43961,6 +44899,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -44486,6 +45430,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -44843,6 +45793,12 @@ MonoBehaviour:
   spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
+  doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
+  redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
+  greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -45048,103 +46004,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &2132854587
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2132854588}
-  - component: {fileID: 2132854591}
-  - component: {fileID: 2132854590}
-  - component: {fileID: 2132854589}
-  m_Layer: 5
-  m_Name: Green2ndHandCard
-  m_TagString: Card
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2132854588
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2132854587}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1899071067}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!95 &2132854589
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2132854587}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c05fab18004ad094bb20046933c65929, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!114 &2132854590
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2132854587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &2132854591
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2132854587}
-  m_CullTransparentMesh: 1
 --- !u!1 &2138190692
 GameObject:
   m_ObjectHideFlags: 0

@@ -16,6 +16,7 @@ public class Case : MonoBehaviour
     [SerializeField] public Case right;
     [SerializeField] public Case down;
     [SerializeField] public Case left;
+    private Sprite defaultSprite;
     public List<Case> cases;
 
     [SerializeField] private string color;
@@ -39,6 +40,15 @@ public class Case : MonoBehaviour
     [SerializeField] private Sprite endSpriteGreen;
     [SerializeField] private Sprite endSpriteRed;
     [SerializeField] private Sprite doorTraps;
+    [SerializeField] private Sprite greenCrossSprite;
+    [SerializeField] private Sprite redCrossSprite;
+    [SerializeField] private Sprite hammerSprite;
+    [SerializeField] private Sprite accessCardSprite;
+
+    [SerializeField] private Cards neutralCross;
+    [SerializeField] private Cards redCross;
+    [SerializeField] private Cards greenCross;
+
     [Header("For the pathfinding")]
     public int x;
     public int y;
@@ -51,8 +61,20 @@ public class Case : MonoBehaviour
         get { return gCost + hCost; }
     }
 
+    public Sprite GetHammerSprite()
+    {
+        return hammerSprite;
+    }
+
+    public Sprite GetAccessCardSprite()
+    {
+        return accessCardSprite;
+    }
+
     private void Start()
     {
+
+        defaultSprite = GetComponent<SpriteRenderer>().sprite;
 
         RaycastHit2D hit;
         Physics2D.queriesStartInColliders = false;
@@ -158,6 +180,25 @@ public class Case : MonoBehaviour
         { color = "Green"; }
         if(card.cardColor == cardcolors.redAndGreen)
         { color = "RedAndGreen"; }
+    }
+
+    public void RemoveBonus()
+    {
+        if(isVaccineGreen)
+        {
+            AddCard(greenCross);
+            isVaccineGreen = false;
+        }
+        else if (isVaccineRed)
+        {
+            AddCard(redCross);
+            isVaccineRed = false;
+        }
+        else if (isKey)
+        {
+            AddCard(neutralCross);
+            isKey = false;
+        }
     }
     
     public bool GetKey()
@@ -285,6 +326,40 @@ public class Case : MonoBehaviour
         SetGreenPath();
         SetRedPath();
     }
+
+    public void CreateCross(string color)
+    {
+        Path path = GetPathByColor(color);
+        path.canMoveLeft = true;
+        path.canMoveRight = true;
+        path.canMoveUp = true;
+        path.canMoveDown = true;
+        if (color == "Red")
+            GetComponent<SpriteRenderer>().sprite = redCrossSprite;
+        else
+            GetComponent<SpriteRenderer>().sprite = greenCrossSprite;
+    }
+    private void ResetPath()
+    {
+        redPath.canMoveLeft = false;
+        redPath.canMoveRight = false;
+        redPath.canMoveUp = false;
+        redPath.canMoveDown = false;
+
+        greenPath.canMoveLeft = false;
+        greenPath.canMoveRight = false;
+        greenPath.canMoveUp = false;
+        greenPath.canMoveDown = false;
+    }
+
+    public void ResetCard()
+    {
+        card = null;
+        GetComponent<SpriteRenderer>().sprite = defaultSprite;
+        ResetPath();
+    }
+
+
 }
 
 [System.Serializable]
