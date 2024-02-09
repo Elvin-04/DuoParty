@@ -1,5 +1,8 @@
 using UnityEngine;
+using System.Collections.Generic;
 using UnityEngine.UIElements;
+using TMPro;
+using System.Collections;
 
 public class Tutorial : MonoBehaviour
 {
@@ -10,6 +13,12 @@ public class Tutorial : MonoBehaviour
     [SerializeField] private Deck redDeck, greenDeck;
 
     [SerializeField] private Cards crossCard;
+
+    [SerializeField] private GameObject darkBackground;
+    [SerializeField] private List<GameObject> focusZones;
+    [SerializeField] private GameObject bubble;
+    [SerializeField] private TextMeshProUGUI bubbleText;
+    [SerializeField] private GameObject scientist;
 
     private void Start()
     {
@@ -25,10 +34,19 @@ public class Tutorial : MonoBehaviour
         redDeck.deckCard.Clear();
         greenDeck.deckCard.Clear();
 
-        redDeck.deckCard.Add(crossCard);
-        greenDeck.deckCard.Add(crossCard);
-
         redDeck.hand.AddCard(crossCard);
         greenDeck.hand.AddCard(crossCard);
+
+        bubble.SetActive(false);
+        scientist.SetActive(false);
+        darkBackground.GetComponent<Animator>().SetBool("Dark", true);
+        StartCoroutine(DemiSecDelay());
+    }
+
+    IEnumerator DemiSecDelay()
+    {
+        yield return new WaitForSeconds(0.5f);
+        bubble.SetActive(true);
+        scientist.SetActive(true);
     }
 }

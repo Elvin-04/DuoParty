@@ -8,10 +8,6 @@ public class PlayerMovement : MonoBehaviour
     public int caseSize;
     public float speed;
     public Vector2 moveDist;
-    public bool canModeDown;
-    public bool canModeUp;
-    public bool canMoveRight;
-    public bool canMoveLeft;
     public bool isMoving;
     private Vector2 dest;
 

@@ -96,7 +96,7 @@ public class WinLoseCondition : MonoBehaviour
                 if (neighbour == null || closed.Contains(neighbour)) continue;
 
                 Path neighbourPath = neighbour.GetPathByColor(newColor);
-                Path currentCasePath = currentCase.GetPathByColor(newColor);
+
                 if(currentCase.GetColor() == newColor || currentCase.GetColor() == "RedAndGreen")
                 {
                     //Debug.Log(currentCase + " to -> " + neighbour);

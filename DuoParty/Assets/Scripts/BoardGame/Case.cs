@@ -38,7 +38,6 @@ public class Case : MonoBehaviour
     [SerializeField] private Sprite spawnSpriteRed;
     [SerializeField] private Sprite endSpriteGreen;
     [SerializeField] private Sprite endSpriteRed;
-    [SerializeField] private Sprite doorTraps;
     [SerializeField] private Sprite greenCrossSprite;
     [SerializeField] private Sprite redCrossSprite;
 
