@@ -85,6 +85,23 @@ public class DragnDrop : MonoBehaviour
                             PlaceInSecondHand();
                             _case.GetComponent<SpriteRenderer>().sprite = porte_blinde;
                             _case.LockMovements();
+
+                            if(_case.up.GetPathByColor(_case.up.GetColor()).canMoveDown)
+                            {
+                                _case.up.CreateCross(_case.up.GetColor());
+                            }
+                            if (_case.down.GetPathByColor(_case.down.GetColor()).canMoveUp)
+                            {
+                                _case.down.CreateCross(_case.down.GetColor());
+                            }
+                            if (_case.left.GetPathByColor(_case.left.GetColor()).canMoveRight)
+                            {
+                                _case.left.CreateCross(_case.left.GetColor());
+                            }
+                            if (_case.right.GetPathByColor(_case.right.GetColor()).canMoveLeft)
+                            {
+                                _case.right.CreateCross(_case.right.GetColor());
+                            }
                         }
                         else if (_case.isBomb)
                         {

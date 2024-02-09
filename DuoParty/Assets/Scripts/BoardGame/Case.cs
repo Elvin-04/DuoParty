@@ -39,6 +39,8 @@ public class Case : MonoBehaviour
     [SerializeField] private Sprite endSpriteGreen;
     [SerializeField] private Sprite endSpriteRed;
     [SerializeField] private Sprite doorTraps;
+    [SerializeField] private Sprite greenCrossSprite;
+    [SerializeField] private Sprite redCrossSprite;
 
     [SerializeField] private Cards neutralCross;
     [SerializeField] private Cards redCross;
@@ -308,6 +310,19 @@ public class Case : MonoBehaviour
     {
         SetGreenPath();
         SetRedPath();
+    }
+
+    public void CreateCross(string color)
+    {
+        Path path = GetPathByColor(color);
+        path.canMoveLeft = true;
+        path.canMoveRight = true;
+        path.canMoveUp = true;
+        path.canMoveDown = true;
+        if (color == "Red")
+            GetComponent<SpriteRenderer>().sprite = redCrossSprite;
+        else
+            GetComponent<SpriteRenderer>().sprite = greenCrossSprite;
     }
 }
 
