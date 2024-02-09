@@ -19529,7 +19529,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _coordinatesLength: A
   _coordinatesWidth: 2
-  isInteractible: 0
+  isInteractible: 1
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
@@ -21129,7 +21129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _coordinatesLength: I
   _coordinatesWidth: 7
-  isInteractible: 0
+  isInteractible: 1
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
@@ -33538,7 +33538,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _coordinatesLength: H
   _coordinatesWidth: 1
-  isInteractible: 0
+  isInteractible: 1
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
@@ -43485,7 +43485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _coordinatesLength: A
   _coordinatesWidth: 7
-  isInteractible: 0
+  isInteractible: 1
   isSpawn: 0
   isEnd: 0
   card: {fileID: 0}
