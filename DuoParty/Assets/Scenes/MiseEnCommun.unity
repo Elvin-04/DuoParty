@@ -1116,6 +1116,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -1561,6 +1563,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -2370,6 +2374,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -2731,6 +2737,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -3008,6 +3016,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -3453,6 +3463,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -3646,6 +3658,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -3839,6 +3853,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -4032,6 +4048,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -4443,6 +4461,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -4804,6 +4824,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -5412,6 +5434,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -5773,6 +5797,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -6209,6 +6235,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -6570,6 +6598,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -6931,6 +6961,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -7292,6 +7324,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -7821,6 +7855,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -8098,6 +8134,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -8879,6 +8917,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -9712,6 +9752,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -10571,6 +10613,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -11953,6 +11997,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -12314,6 +12360,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -12591,6 +12639,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -12784,6 +12834,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -13397,6 +13449,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -13590,6 +13644,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -15160,6 +15216,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -15437,6 +15495,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -16050,6 +16110,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -16243,6 +16305,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -16604,6 +16668,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -16881,6 +16947,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -17662,6 +17730,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -17855,6 +17925,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -19819,6 +19891,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -20264,6 +20338,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -20709,6 +20785,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -21322,6 +21400,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -21767,6 +21847,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -21960,6 +22042,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -22321,6 +22405,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -22778,6 +22864,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -23475,6 +23563,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -23836,6 +23926,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -24617,6 +24709,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -25253,6 +25347,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -25698,6 +25794,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -25975,6 +26073,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -26252,6 +26352,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -26917,6 +27019,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -27110,6 +27214,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -27555,6 +27661,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -28084,6 +28192,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -28527,6 +28637,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -28995,6 +29107,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -29356,6 +29470,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -29633,6 +29749,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -29826,6 +29944,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -33255,6 +33375,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -34211,6 +34333,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -34404,6 +34528,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -34597,6 +34723,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -35685,6 +35813,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -36322,6 +36452,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -37353,6 +37485,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -38386,6 +38520,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -39034,6 +39170,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -39983,6 +40121,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -40596,6 +40736,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -41209,6 +41351,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -41654,6 +41798,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -42435,6 +42581,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -42964,6 +43112,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -43409,6 +43559,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -43938,6 +44090,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -44299,6 +44453,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -44744,6 +44900,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -45273,6 +45431,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
@@ -45634,6 +45794,8 @@ MonoBehaviour:
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
+  greenCrossSprite: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  redCrossSprite: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
