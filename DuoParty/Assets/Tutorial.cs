@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.UIElements;
 using TMPro;
 using System.Collections;
+using Unity.VisualScripting;
 
 public class Tutorial : MonoBehaviour
 {
@@ -19,6 +20,9 @@ public class Tutorial : MonoBehaviour
     [SerializeField] private GameObject bubble;
     [SerializeField] private TextMeshProUGUI bubbleText;
     [SerializeField] private GameObject scientist;
+
+    public List<Texts> tutoSteps;
+    private int currentIndex = 0;
 
     private void Start()
     {
@@ -49,4 +53,19 @@ public class Tutorial : MonoBehaviour
         bubble.SetActive(true);
         scientist.SetActive(true);
     }
+
+    private void UpdateTuto()
+    {
+        if (tutoSteps[currentIndex].isTextInstruction)
+        {
+
+        }
+    }
+}
+
+[System.Serializable]
+public struct Texts
+{
+    public bool isTextInstruction;
+    public List<string> texts;
 }
