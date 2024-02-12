@@ -73,7 +73,7 @@ public class DragnDrop : MonoBehaviour
             {
                 draging = false;
                 // discard a card
-                if (results.Count > 1 && results[1].gameObject.tag == "Trash")
+                if (results.Count > 1 && (results[1].gameObject.name == "Green2ndHandCard" || results[1].gameObject.name == "Red2ndHandCard"))
                 {
                     PlaceInSecondHand();
                     CardReturn(result.gameObject);

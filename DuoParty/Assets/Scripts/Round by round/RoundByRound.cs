@@ -15,12 +15,12 @@ public class RoundByRound : MonoBehaviour
 
     //Turn 0 = player 1
     //Turn 1 = player 2
-    public int turn {  get; private set; }
+    public int turn /*{  get; private set; }*/;
 
     private void Start()
     {
         instance = this;
-        turn = 0;
+        turn = 1;
 
         SwitchTurn();
     }
