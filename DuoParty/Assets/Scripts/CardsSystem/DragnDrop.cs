@@ -93,22 +93,22 @@ public class DragnDrop : MonoBehaviour
                             _case.GetComponent<SpriteRenderer>().sprite = porte_blinde;
                             _case.LockMovements();
 
-                            if (_case.up != null && NotEndSpawnOrBonus(_case.up) && /*_case.up.GetPathByColor(_case.up.GetColor()).canMoveDown*/ _case.up.GetCard() != null && _case.up.GetEColor() != cardcolors.redAndGreen)
+                            if (_case.up != null && NotEndSpawnOrBonus(_case.up) && _case.up.GetCard() != null && _case.up.GetEColor() != cardcolors.redAndGreen)
                             {
                                 print("case up");
                                 _case.up.CreateCross(_case.up.GetColor());
                             }
-                            if (_case.down != null && NotEndSpawnOrBonus(_case.down) && /*_case.down.GetPathByColor(_case.down.GetColor()).canMoveUp*/ _case.down.GetCard() != null && _case.down.GetEColor() != cardcolors.redAndGreen)
+                            if (_case.down != null && NotEndSpawnOrBonus(_case.down) && _case.down.GetCard() != null && _case.down.GetEColor() != cardcolors.redAndGreen)
                             {
                                 print("case down");
                                 _case.down.CreateCross(_case.down.GetColor());
                             }
-                            if (_case.left != null && NotEndSpawnOrBonus(_case.left) && /*_case.left.GetPathByColor(_case.left.GetColor()).canMoveRight*/ _case.left.GetCard() != null && _case.left.GetEColor() != cardcolors.redAndGreen)
+                            if (_case.left != null && NotEndSpawnOrBonus(_case.left) && _case.left.GetCard() != null && _case.left.GetEColor() != cardcolors.redAndGreen)
                             {
                                 print("case left");
                                 _case.left.CreateCross(_case.left.GetColor());
                             }
-                            if (_case.right != null && NotEndSpawnOrBonus(_case.right) && /*_case.right.GetPathByColor(_case.right.GetColor()).canMoveLeft*/ _case.right.GetCard() != null && _case.right.GetEColor() != cardcolors.redAndGreen)
+                            if (_case.right != null && NotEndSpawnOrBonus(_case.right) && _case.right.GetCard() != null && _case.right.GetEColor() != cardcolors.redAndGreen)
                             {
                                 print("case right");
                                 _case.right.CreateCross(_case.right.GetColor());
