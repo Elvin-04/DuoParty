@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private string color;
-    [SerializeField] private TrailRenderer trailRenderer;
+    [SerializeField] public TrailRenderer trailRenderer;
 
     public int caseSize;
     public float speed;
@@ -30,7 +30,6 @@ public class PlayerMovement : MonoBehaviour
     private void Start()
     {
         isMoving = false;
-
         if(color ==  "Red")
             turn = 1;
         else
@@ -48,7 +47,6 @@ public class PlayerMovement : MonoBehaviour
                 destCase = null;
                 transform.position = dest;
                 isMoving = false;
-                trailRenderer.enabled = true;
 
                 if (!keyContainer.hasItem && actCase.isKey)
                 {
