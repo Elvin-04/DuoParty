@@ -7,8 +7,8 @@ public class Case : MonoBehaviour
     [SerializeField] string _coordinatesWidth;
 
     [SerializeField] bool isInteractible = true;
-    [SerializeField] private bool isSpawn;
-    [SerializeField] private bool isEnd;
+    [SerializeField] public bool isSpawn;
+    [SerializeField] public bool isEnd;
     [SerializeField] private Cards card;
     [SerializeField] private cardcolors eColor;
     [SerializeField] public Case up;
@@ -257,22 +257,25 @@ public class Case : MonoBehaviour
 
     public void SetKey()
     {
-        isKey = true;
         SetBothPath();
         GetComponent<SpriteRenderer>().sprite = keySprite;
+        isKey = true;
+        isInteractible = false;
     }
 
     public void SetVaccineRed()
     {
-        isVaccineRed = true;
         SetRedPath();
         GetComponent<SpriteRenderer>().sprite = vaccineSpriteRed;
+        isVaccineRed = true;
+        isInteractible = false;
     }
     public void SetVaccineGreen()
     {
-        isVaccineGreen = true;
         SetGreenPath();
         GetComponent<SpriteRenderer>().sprite = vaccineSpriteGreen;
+        isVaccineGreen = true;
+        isInteractible = false;
     }
     public void SetSpawnGreen()
     {
@@ -299,6 +302,7 @@ public class Case : MonoBehaviour
         color = "Green";
         eColor = cardcolors.green;
         isEnd = true;
+        isInteractible = false;
     }
     public void SetEndRed()
     {
@@ -307,6 +311,7 @@ public class Case : MonoBehaviour
         color = "Red";
         eColor = cardcolors.red;
         isEnd = true;
+        isInteractible = false;
     }
     private void SetRedPath()
     {
