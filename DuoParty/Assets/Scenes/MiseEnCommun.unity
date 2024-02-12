@@ -41950,6 +41950,7 @@ GameObject:
   - component: {fileID: 1613845218}
   - component: {fileID: 1613845222}
   - component: {fileID: 1613845223}
+  - component: {fileID: 1613845224}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -42128,6 +42129,67 @@ MonoBehaviour:
   greenEndCase: {fileID: 0}
   greenPathExist: 1
   redPathExist: 1
+--- !u!114 &1613845224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613845217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fcfafa7db741984c8f50be1fe681b06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: card picked up
+    clip: {fileID: 8300000, guid: af8d52f84a9c2014abbd0238e07245ea, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: card droped
+    clip: {fileID: 8300000, guid: cc8c89c710d39a346a312b9c601e2ee5, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: item picked up
+    clip: {fileID: 8300000, guid: 1454a8d6632b74e45b4f2510f74bc97c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: key picked up
+    clip: {fileID: 8300000, guid: 8f00d1eed9d3d334abe299491161f3c1, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: hammer used
+    clip: {fileID: 8300000, guid: 61a2302916a182f4a889e60b3ea09043, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: key card used
+    clip: {fileID: 8300000, guid: b98c9ab6deac871469e9a1cae2eebd2f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: armouredDoor activated
+    clip: {fileID: 8300000, guid: bb12af5c5e631e8418fc40160014deec, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: alarm activated
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
 --- !u!1 &1614923414
 GameObject:
   m_ObjectHideFlags: 0

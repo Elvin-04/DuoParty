@@ -61,8 +61,7 @@ public class DragnDrop : MonoBehaviour
             // dragging card
             if (Input.GetMouseButtonDown(0) && ((result.tag == "Card" && result.GetComponentInParent<Hand>().card != null) || (result.tag == "BonusSlot" && result.GetComponentInParent<BonusContainer>().hasItem)) /*&& !draging*/)
             {
-                //FindObjectOfType<AudioManager>().PlaySound("card picked up");
-                //print("son 1");
+                FindObjectOfType<AudioManager>().PlaySound("card picked up");
                 draging = true;
                 cardHand = result.transform.parent.gameObject;
                 if (result.tag == "BonusSlot")
@@ -148,8 +147,8 @@ public class DragnDrop : MonoBehaviour
                         }
                         else
                         {
-                            FindObjectOfType<AudioManager>().PlaySound("card droped");
-                            print("son 2");
+                            //FindObjectOfType<AudioManager>().PlaySound("card droped");
+                            //print("son 2");
                             hit.collider.gameObject.GetComponent<Case>().AddCard(cardHand.GetComponent<Hand>().card);
                             hit.collider.gameObject.transform.Rotate(0f, 0f, cardHand.GetComponent<Hand>().rotation);
                             cardHand.GetComponent<Hand>().RemoveCard();
