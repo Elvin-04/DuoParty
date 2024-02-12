@@ -91,7 +91,7 @@ public class DragnDrop : MonoBehaviour
                     {
                         if (_case.isArmouredDoor)
                         {
-                            FindObjectOfType<AudioManager>().PlaySound("armouredDoor activated");
+                            //FindObjectOfType<AudioManager>().PlaySound("armouredDoor activated");
                             PlaceInSecondHand();
                             _case.GetComponent<SpriteRenderer>().sprite = porte_blinde;
                             _case.LockMovements();
@@ -115,26 +115,26 @@ public class DragnDrop : MonoBehaviour
                         }
                         else if (_case.isBomb)
                         {
-                            FindObjectOfType<AudioManager>().PlaySound("alarm activated");
+                            //FindObjectOfType<AudioManager>().PlaySound("alarm activated");
                             PlaceInSecondHand();
                             _case.GetComponent<SpriteRenderer>().sprite = porte_blinde;
                             _case.LockMovements();
-                            if (_case.up.GetCard() == null)
+                            if (_case.up.GetCard() == null && _case.up.GetInteractible())
                             {
                                 _case.up.GetComponent<SpriteRenderer>().sprite = porte_blinde;
                                 _case.up.LockMovements();
                             }
-                            if (_case.down.GetCard() == null)
+                            if (_case.down.GetCard() == null && _case.down.GetInteractible())
                             {
                                 _case.down.GetComponent<SpriteRenderer>().sprite = porte_blinde;
                                 _case.down.LockMovements();
                             }
-                            if (_case.right.GetCard() == null)
+                            if (_case.right.GetCard() == null && _case.right.GetInteractible())
                             {
                                 _case.right.GetComponent<SpriteRenderer>().sprite = porte_blinde;
                                 _case.right.LockMovements();
                             }
-                            if (_case.left.GetCard() == null)
+                            if (_case.left.GetCard() == null && _case.left.GetInteractible())
                             {
                                 _case.left.GetComponent<SpriteRenderer>().sprite = porte_blinde;
                                 _case.left.LockMovements();
@@ -143,8 +143,8 @@ public class DragnDrop : MonoBehaviour
                         }
                         else
                         {
-                            FindObjectOfType<AudioManager>().PlaySound("card droped");
-                            print("son 2");
+                            /*FindObjectOfType<AudioManager>().PlaySound("card droped");
+                            print("son 2");*/
                             hit.collider.gameObject.GetComponent<Case>().AddCard(cardHand.GetComponent<Hand>().card);
                             hit.collider.gameObject.transform.Rotate(0f, 0f, cardHand.GetComponent<Hand>().rotation);
                             cardHand.GetComponent<Hand>().RemoveCard();
