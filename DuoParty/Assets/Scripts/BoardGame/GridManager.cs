@@ -132,7 +132,6 @@ public class GridManager : MonoBehaviour
             else if (_ArmouredDoorCount > 0)
             {
                 _centerCases[_rand].isArmouredDoor = true;
-                _centerCases[_rand].ChangeInteracible();
                 _centerCases.Remove(_centerCases[_rand]);
                 _ArmouredDoorCount--;
             }

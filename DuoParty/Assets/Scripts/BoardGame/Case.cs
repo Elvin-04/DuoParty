@@ -70,6 +70,16 @@ public class Case : MonoBehaviour
         return hammerSprite;
     }
 
+    public bool GetIsEnd()
+    {
+        return isEnd;
+    }
+
+    public bool GetIsSpawn()
+    {
+        return isSpawn;
+    }
+
     public Sprite GetAccessCardSprite()
     {
         return accessCardSprite;
