@@ -59,18 +59,18 @@ public class DragnDrop : MonoBehaviour
             }
 
             // dragging card
-            if ( Input.GetMouseButtonDown(0) && ((result.tag == "Card" && result.GetComponentInParent<Hand>().card != null) || (result.tag == "BonusSlot" && result.GetComponentInParent<BonusContainer>().hasItem)) /*&& !draging*/)
+            if (Input.GetMouseButtonDown(0) && ((result.tag == "Card" && result.GetComponentInParent<Hand>().card != null) || (result.tag == "BonusSlot" && result.GetComponentInParent<BonusContainer>().hasItem)) /*&& !draging*/)
             {
-                FindObjectOfType<AudioManager>().PlaySound("card picked up");
-                print("son 1");
+                //FindObjectOfType<AudioManager>().PlaySound("card picked up");
+                //print("son 1");
                 draging = true;
                 cardHand = result.transform.parent.gameObject;
-                if(result.tag == "BonusSlot")
+                if (result.tag == "BonusSlot")
                 {
                     bonusContainer = result.GetComponentInParent<BonusContainer>();
                 }
             }
-            else if (draging && Input.GetMouseButtonUp(0) && (result.tag == "Card" || result.tag == "BonusSlot")) 
+            else if (draging && Input.GetMouseButtonUp(0) && (result.tag == "Card" || result.tag == "BonusSlot"))
             {
                 draging = false;
                 // discard a card
@@ -96,7 +96,7 @@ public class DragnDrop : MonoBehaviour
                             _case.GetComponent<SpriteRenderer>().sprite = porte_blinde;
                             _case.LockMovements();
 
-                            if(_case.up.GetPathByColor(_case.up.GetColor()).canMoveDown)
+                            if (_case.up.GetPathByColor(_case.up.GetColor()).canMoveDown)
                             {
                                 _case.up.CreateCross(_case.up.GetColor());
                             }
@@ -119,7 +119,7 @@ public class DragnDrop : MonoBehaviour
                             PlaceInSecondHand();
                             _case.GetComponent<SpriteRenderer>().sprite = porte_blinde;
                             _case.LockMovements();
-                            if(_case.up.GetCard() == null)
+                            if (_case.up.GetCard() == null)
                             {
                                 _case.up.GetComponent<SpriteRenderer>().sprite = porte_blinde;
                                 _case.up.LockMovements();
@@ -152,43 +152,46 @@ public class DragnDrop : MonoBehaviour
                             particle.transform.position = hit.collider.transform.position;
                             particle.Play();
                         }
-                    if (result.tag == "Card" && hit.collider != null && hit.collider.TryGetComponent<Case>(out Case _case) && _case.GetInteractible() && hit.collider.gameObject.GetComponent<Case>().GetCard() == null
-                    && !_case.isKey && !_case.isVaccineGreen && !_case.isVaccineRed)
-                    {
-                        if (_case.isHammer || _case.isAccessCard)
+                        if (result.tag == "Card" && hit.collider != null && hit.collider.TryGetComponent<Case>(out _case) && _case.GetInteractible() && hit.collider.gameObject.GetComponent<Case>().GetCard() == null
+                        && !_case.isKey && !_case.isVaccineGreen && !_case.isVaccineRed)
                         {
-                            AddBonusToPlayer(cardHand.gameObject.tag, _case);
+                            if (_case.isHammer || _case.isAccessCard)
+                            {
+                                AddBonusToPlayer(cardHand.gameObject.tag, _case);
+                            }
+                            hit.collider.gameObject.GetComponent<Case>().AddCard(cardHand.GetComponent<Hand>().card);
+                            hit.collider.gameObject.transform.Rotate(0f, 0f, cardHand.GetComponent<Hand>().rotation);
+                            cardHand.GetComponent<Hand>().RemoveCard();
+                            stopAll.StopAllCards();
                         }
-                        hit.collider.gameObject.GetComponent<Case>().AddCard(cardHand.GetComponent<Hand>().card);
-                        hit.collider.gameObject.transform.Rotate(0f, 0f, cardHand.GetComponent<Hand>().rotation);
-                        cardHand.GetComponent<Hand>().RemoveCard();
-                        stopAll.StopAllCards();
-                    }
-                    else if (result.tag == "BonusSlot" && hit.collider != null && hit.collider.TryGetComponent<Case>(out _case) && _case.GetInteractible() && (_case.GetCard() != null || _case.GetArmouredDoor()))
-                    {
-                        if (_case.GetCard() != null && bonusContainer.bonus == TypeOfBonus.hammer)
+                        else if (result.tag == "BonusSlot" && hit.collider != null && hit.collider.TryGetComponent<Case>(out _case) && _case.GetInteractible() && (_case.GetCard() != null || _case.GetArmouredDoor()))
                         {
-                            _case.ResetCard();
-                            bonusContainer.removeItem();
-                            print("ca marsh");
-                        }
-                        else if (_case.GetArmouredDoor() && bonusContainer.bonus == TypeOfBonus.accessCard)
-                        {
-                            _case.isArmouredDoor = false;
-                            bonusContainer.removeItem();
-                            print("sa marche aussi");
-                        }
-                        
-                    }
+                            if (_case.GetCard() != null && bonusContainer.bonus == TypeOfBonus.hammer)
+                            {
+                                _case.ResetCard();
+                                bonusContainer.removeItem();
+                                print("ca marsh");
+                            }
+                            else if (_case.GetArmouredDoor() && bonusContainer.bonus == TypeOfBonus.accessCard)
+                            {
+                                _case.isArmouredDoor = false;
+                                bonusContainer.removeItem();
+                                print("sa marche aussi");
+                            }
 
+                        }
+
+                    }
+                    // return image in his place
+                    CardReturn(result.gameObject);
                 }
-                // return image in his place
-                CardReturn(result.gameObject);
             }
         }
+
+
+
+
     }
-
-
     private void CardReturn(GameObject card)
     {
         card.transform.SetParent(cardHand.transform);
@@ -216,7 +219,7 @@ public class DragnDrop : MonoBehaviour
 
     private void AddBonusToPlayer(string tag, Case currentCase)
     {
-        switch(tag)
+        switch (tag)
         {
             case ("Player1"):
                 player1inventory.AddItemInInventory(currentCase.gameObject);
@@ -228,5 +231,4 @@ public class DragnDrop : MonoBehaviour
 
         }
     }
-
 }
