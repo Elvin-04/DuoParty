@@ -1201,11 +1201,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -1650,11 +1650,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -1846,8 +1846,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0, g: 0.6037736, b: 0.039430153, a: 1}
+  m_Sprite: {fileID: 21300000, guid: a79003a76ef70e241ab44437a11cfd80, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2578,11 +2578,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -2943,11 +2943,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -3224,11 +3224,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -3673,11 +3673,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -3870,11 +3870,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -4067,11 +4067,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -4264,11 +4264,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -4679,11 +4679,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -5044,11 +5044,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -5656,11 +5656,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -6021,11 +6021,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -6386,11 +6386,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -6751,11 +6751,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -7116,11 +7116,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -7481,11 +7481,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -8014,11 +8014,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -8295,11 +8295,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -9080,11 +9080,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -9917,11 +9917,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -10855,11 +10855,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -12298,11 +12298,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -12663,11 +12663,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -12944,11 +12944,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -13141,11 +13141,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -13833,11 +13833,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -14030,11 +14030,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -14791,7 +14791,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 28, y: -159}
+  m_AnchoredPosition: {x: -2, y: -159}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &576103610
@@ -15604,11 +15604,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -15885,11 +15885,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -16502,11 +16502,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -16699,11 +16699,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -17064,11 +17064,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -17345,11 +17345,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -18130,11 +18130,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -23215,11 +23215,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -25000,6 +25000,7 @@ MonoBehaviour:
   itemImage: {fileID: 868634774}
   isKeysContenair: 1
   hasItem: 0
+  KeySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
 --- !u!114 &868634774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25183,11 +25184,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -25632,11 +25633,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -26081,11 +26082,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -26698,11 +26699,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -27147,11 +27148,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -27344,11 +27345,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -27784,11 +27785,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -28244,11 +28245,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -28945,11 +28946,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -29310,11 +29311,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -30095,11 +30096,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -30809,11 +30810,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -31258,11 +31259,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -31539,11 +31540,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -31820,11 +31821,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -32492,11 +32493,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -32689,11 +32690,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -33138,11 +33139,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -33671,11 +33672,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -33860,6 +33861,7 @@ MonoBehaviour:
   itemImage: {fileID: 1223398659}
   isKeysContenair: 0
   hasItem: 0
+  KeySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
 --- !u!114 &1223398659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34118,11 +34120,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -34469,7 +34471,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 28, y: 0}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1240434391
@@ -34589,11 +34591,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -34954,11 +34956,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -35235,11 +35237,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -35432,11 +35434,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -37501,7 +37503,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 31, y: -154}
+  m_AnchoredPosition: {x: 59, y: -154}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1419558952
@@ -39004,8 +39006,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0.6698113, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 537b6964cf58f334599f2725e3c12982, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -39205,11 +39207,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -39646,6 +39648,7 @@ MonoBehaviour:
   itemImage: {fileID: 1517693885}
   isKeysContenair: 1
   hasItem: 0
+  KeySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
 --- !u!114 &1517693885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40165,11 +40168,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -40362,11 +40365,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -40559,11 +40562,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -40899,7 +40902,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -30, y: 0}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1564585734
@@ -41744,11 +41747,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -42523,11 +42526,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -43300,6 +43303,7 @@ MonoBehaviour:
   itemImage: {fileID: 1672474723}
   isKeysContenair: 0
   hasItem: 0
+  KeySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
 --- !u!114 &1672474723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43558,11 +43562,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -44595,11 +44599,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -45247,11 +45251,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -46275,11 +46279,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -46892,11 +46896,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -47509,11 +47513,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -47958,11 +47962,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -48743,11 +48747,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -49369,11 +49373,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -49818,11 +49822,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -50351,11 +50355,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -50716,11 +50720,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -51165,11 +51169,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -51773,11 +51777,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}
@@ -52138,11 +52142,11 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
-  keySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
-  spawnSpriteGreen: {fileID: 21300000, guid: 93310d452177fe548b8a19c83b3f0d13, type: 3}
-  spawnSpriteRed: {fileID: 21300000, guid: e440132e920c4e24dba3759ddc069c39, type: 3}
+  spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
+  spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
   endSpriteRed: {fileID: 21300000, guid: bfccb7c46b42f0d4ea8beb9ee634f976, type: 3}
   doorTraps: {fileID: 0}

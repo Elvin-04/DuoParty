@@ -6,11 +6,18 @@ public class ItemContainer : MonoBehaviour
     [SerializeField] private Image itemImage;
     public bool isKeysContenair;
     public bool hasItem;
-    
+    [SerializeField] private Sprite KeySprite;
 
     public void addItem(GameObject currentCase)
     {
-        itemImage.sprite = currentCase.GetComponent<SpriteRenderer>().sprite;
+        if (isKeysContenair)
+        {
+            itemImage.sprite = KeySprite;
+        }
+        else
+        {
+            itemImage.sprite = currentCase.GetComponent<SpriteRenderer>().sprite;
+        }
         hasItem = true;
     }
 
