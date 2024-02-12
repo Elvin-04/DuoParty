@@ -9,6 +9,8 @@ public class ButtonCustom : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
 {
     public bool _interactable = true;
 
+    Vector3 cachedScale;
+
     [Header("Sprites")]
     [SerializeField] private Sprite _disable;
     private Sprite m_enable;
@@ -32,6 +34,7 @@ public class ButtonCustom : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     private void Start()
     {
         m_enable = GetComponent<Image>().sprite;
+        cachedScale = transform.localScale;
     }
 
     private void Update()
@@ -41,6 +44,7 @@ public class ButtonCustom : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
 
     public void OnPointerEnter(PointerEventData eventData)
     {
+        transform.localScale = new Vector3(3f, 3f, 3f);
         if (_interactable)
         {
             _onEnter.Invoke();
@@ -51,6 +55,7 @@ public class ButtonCustom : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
 
     public void OnPointerExit(PointerEventData eventData)
     {
+        transform.localScale = cachedScale;
         if (_interactable)
         {
             _onExit.Invoke();
