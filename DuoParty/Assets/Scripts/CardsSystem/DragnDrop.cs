@@ -98,22 +98,18 @@ public class DragnDrop : MonoBehaviour
 
                             if (_case.up != null && NotEndSpawnOrBonus(_case.up) && _case.up.GetCard() != null && _case.up.GetEColor() != cardcolors.redAndGreen)
                             {
-                                print("case up");
                                 _case.up.CreateCross(_case.up.GetColor());
                             }
                             if (_case.down != null && NotEndSpawnOrBonus(_case.down) && _case.down.GetCard() != null && _case.down.GetEColor() != cardcolors.redAndGreen)
                             {
-                                print("case down");
                                 _case.down.CreateCross(_case.down.GetColor());
                             }
                             if (_case.left != null && NotEndSpawnOrBonus(_case.left) && _case.left.GetCard() != null && _case.left.GetEColor() != cardcolors.redAndGreen)
                             {
-                                print("case left");
                                 _case.left.CreateCross(_case.left.GetColor());
                             }
                             if (_case.right != null && NotEndSpawnOrBonus(_case.right) && _case.right.GetCard() != null && _case.right.GetEColor() != cardcolors.redAndGreen)
                             {
-                                print("case right");
                                 _case.right.CreateCross(_case.right.GetColor());
                             } 
                         }
@@ -148,25 +144,12 @@ public class DragnDrop : MonoBehaviour
                         else
                         {
                             FindObjectOfType<AudioManager>().PlaySound("card droped");
-                            print("son 2");
                             hit.collider.gameObject.GetComponent<Case>().AddCard(cardHand.GetComponent<Hand>().card);
                             hit.collider.gameObject.transform.Rotate(0f, 0f, cardHand.GetComponent<Hand>().rotation);
                             cardHand.GetComponent<Hand>().RemoveCard();
                             stopAll.StopAllCards();
                             particle.transform.position = hit.collider.transform.position;
                             particle.Play();
-                        }
-                        if (result.tag == "Card" && hit.collider != null && hit.collider.TryGetComponent<Case>(out _case) && _case.GetInteractible() && hit.collider.gameObject.GetComponent<Case>().GetCard() == null
-                        && !_case.isKey && !_case.isVaccineGreen && !_case.isVaccineRed)
-                        {
-                            if (_case.isHammer || _case.isAccessCard)
-                            {
-                                AddBonusToPlayer(cardHand.gameObject.tag, _case);
-                            }
-                            hit.collider.gameObject.GetComponent<Case>().AddCard(cardHand.GetComponent<Hand>().card);
-                            hit.collider.gameObject.transform.Rotate(0f, 0f, cardHand.GetComponent<Hand>().rotation);
-                            cardHand.GetComponent<Hand>().RemoveCard();
-                            stopAll.StopAllCards();
                         }
                         if (result.tag == "Card" && hit.collider != null && hit.collider.TryGetComponent<Case>(out _case) && !_case.isArmouredDoor && !_case.isBomb && _case.GetInteractible() && hit.collider.gameObject.GetComponent<Case>().GetCard() == null
                         && !_case.isKey && !_case.isVaccineGreen && !_case.isVaccineRed)
