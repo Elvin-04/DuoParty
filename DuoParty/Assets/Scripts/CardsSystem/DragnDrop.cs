@@ -77,6 +77,7 @@ public class DragnDrop : MonoBehaviour
                 if (results.Count > 1 && results[1].gameObject.tag == "Trash")
                 {
                     PlaceInSecondHand();
+                    CardReturn(result.gameObject);
                     stopAll.StopAllCards();
                 }
 
@@ -96,22 +97,26 @@ public class DragnDrop : MonoBehaviour
                             _case.GetComponent<SpriteRenderer>().sprite = porte_blinde;
                             _case.LockMovements();
 
-                            if (_case.up.GetPathByColor(_case.up.GetColor()).canMoveDown)
+                            if (_case.up != null && NotEndSpawnOrBonus(_case.up) && _case.up.GetCard() != null && _case.up.GetEColor() != cardcolors.redAndGreen)
                             {
+                                print("case up");
                                 _case.up.CreateCross(_case.up.GetColor());
                             }
-                            if (_case.down.GetPathByColor(_case.down.GetColor()).canMoveUp)
+                            if (_case.down != null && NotEndSpawnOrBonus(_case.down) && _case.down.GetCard() != null && _case.down.GetEColor() != cardcolors.redAndGreen)
                             {
+                                print("case down");
                                 _case.down.CreateCross(_case.down.GetColor());
                             }
-                            if (_case.left.GetPathByColor(_case.left.GetColor()).canMoveRight)
+                            if (_case.left != null && NotEndSpawnOrBonus(_case.left) && _case.left.GetCard() != null && _case.left.GetEColor() != cardcolors.redAndGreen)
                             {
+                                print("case left");
                                 _case.left.CreateCross(_case.left.GetColor());
                             }
-                            if (_case.right.GetPathByColor(_case.right.GetColor()).canMoveLeft)
+                            if (_case.right != null && NotEndSpawnOrBonus(_case.right) && _case.right.GetCard() != null && _case.right.GetEColor() != cardcolors.redAndGreen)
                             {
+                                print("case right");
                                 _case.right.CreateCross(_case.right.GetColor());
-                            }
+                            } 
                         }
                         else if (_case.isBomb)
                         {
@@ -164,19 +169,29 @@ public class DragnDrop : MonoBehaviour
                             cardHand.GetComponent<Hand>().RemoveCard();
                             stopAll.StopAllCards();
                         }
+                        if (result.tag == "Card" && hit.collider != null && hit.collider.TryGetComponent<Case>(out _case) && !_case.isArmouredDoor && !_case.isBomb && _case.GetInteractible() && hit.collider.gameObject.GetComponent<Case>().GetCard() == null
+                        && !_case.isKey && !_case.isVaccineGreen && !_case.isVaccineRed)
+                        {
+                            if (_case.isHammer || _case.isAccessCard)
+                            {
+                                AddBonusToPlayer(cardHand.gameObject.tag, _case);
+                            }
+                            hit.collider.gameObject.GetComponent<Case>().AddCard(cardHand.GetComponent<Hand>().card);
+                            hit.collider.gameObject.transform.Rotate(0f, 0f, cardHand.GetComponent<Hand>().rotation);
+                            cardHand.GetComponent<Hand>().RemoveCard();
+                            stopAll.StopAllCards();
+                        }
                         else if (result.tag == "BonusSlot" && hit.collider != null && hit.collider.TryGetComponent<Case>(out _case) && _case.GetInteractible() && (_case.GetCard() != null || _case.GetArmouredDoor()))
                         {
                             if (_case.GetCard() != null && bonusContainer.bonus == TypeOfBonus.hammer)
                             {
                                 _case.ResetCard();
                                 bonusContainer.removeItem();
-                                print("ca marsh");
                             }
                             else if (_case.GetArmouredDoor() && bonusContainer.bonus == TypeOfBonus.accessCard)
                             {
                                 _case.isArmouredDoor = false;
                                 bonusContainer.removeItem();
-                                print("sa marche aussi");
                             }
 
                         }
@@ -231,4 +246,11 @@ public class DragnDrop : MonoBehaviour
 
         }
     }
+
+    private bool NotEndSpawnOrBonus(Case currentCase)
+    {
+        print((!currentCase.GetIsEnd() && !currentCase.GetIsSpawn() && !currentCase.isKey && !currentCase.isVaccineGreen && !currentCase.isVaccineRed));
+        return (!currentCase.GetIsEnd() && !currentCase.GetIsSpawn() && !currentCase.isKey && !currentCase.isVaccineGreen && !currentCase.isVaccineRed);
+    }
+
 }

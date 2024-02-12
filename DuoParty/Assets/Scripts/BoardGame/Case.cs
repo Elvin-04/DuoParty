@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -61,9 +60,24 @@ public class Case : MonoBehaviour
         get { return gCost + hCost; }
     }
 
+    public void ChangeInteracible()
+    {
+        isInteractible = !isInteractible;
+    }
+
     public Sprite GetHammerSprite()
     {
         return hammerSprite;
+    }
+
+    public bool GetIsEnd()
+    {
+        return isEnd;
+    }
+
+    public bool GetIsSpawn()
+    {
+        return isSpawn;
     }
 
     public Sprite GetAccessCardSprite()
@@ -339,24 +353,12 @@ public class Case : MonoBehaviour
         else
             GetComponent<SpriteRenderer>().sprite = greenCrossSprite;
     }
-    private void ResetPath()
-    {
-        redPath.canMoveLeft = false;
-        redPath.canMoveRight = false;
-        redPath.canMoveUp = false;
-        redPath.canMoveDown = false;
-
-        greenPath.canMoveLeft = false;
-        greenPath.canMoveRight = false;
-        greenPath.canMoveUp = false;
-        greenPath.canMoveDown = false;
-    }
 
     public void ResetCard()
     {
         card = null;
         GetComponent<SpriteRenderer>().sprite = defaultSprite;
-        ResetPath();
+        LockMovements();
     }
 
 
