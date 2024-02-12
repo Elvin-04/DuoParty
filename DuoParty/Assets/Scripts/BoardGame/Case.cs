@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,14 +7,15 @@ public class Case : MonoBehaviour
     [SerializeField] string _coordinatesWidth;
 
     [SerializeField] bool isInteractible = true;
-    [SerializeField] private bool isSpawn;
-    [SerializeField] private bool isEnd;
+    [SerializeField] public bool isSpawn;
+    [SerializeField] public bool isEnd;
     [SerializeField] private Cards card;
     [SerializeField] private cardcolors eColor;
     [SerializeField] public Case up;
     [SerializeField] public Case right;
     [SerializeField] public Case down;
     [SerializeField] public Case left;
+    private Sprite defaultSprite;
     public List<Case> cases;
 
     [SerializeField] private string color;
@@ -40,6 +40,8 @@ public class Case : MonoBehaviour
     [SerializeField] private Sprite endSpriteRed;
     [SerializeField] private Sprite greenCrossSprite;
     [SerializeField] private Sprite redCrossSprite;
+    [SerializeField] private Sprite hammerSprite;
+    [SerializeField] private Sprite accessCardSprite;
 
     [SerializeField] private Cards neutralCross;
     [SerializeField] private Cards redCross;
@@ -57,8 +59,35 @@ public class Case : MonoBehaviour
         get { return gCost + hCost; }
     }
 
+    public void ChangeInteracible()
+    {
+        isInteractible = !isInteractible;
+    }
+
+    public Sprite GetHammerSprite()
+    {
+        return hammerSprite;
+    }
+
+    public bool GetIsEnd()
+    {
+        return isEnd;
+    }
+
+    public bool GetIsSpawn()
+    {
+        return isSpawn;
+    }
+
+    public Sprite GetAccessCardSprite()
+    {
+        return accessCardSprite;
+    }
+
     private void Start()
     {
+
+        defaultSprite = GetComponent<SpriteRenderer>().sprite;
 
         RaycastHit2D hit;
         Physics2D.queriesStartInColliders = false;
@@ -227,22 +256,25 @@ public class Case : MonoBehaviour
 
     public void SetKey()
     {
-        isKey = true;
         SetBothPath();
         GetComponent<SpriteRenderer>().sprite = keySprite;
+        isKey = true;
+        isInteractible = false;
     }
 
     public void SetVaccineRed()
     {
-        isVaccineRed = true;
         SetRedPath();
         GetComponent<SpriteRenderer>().sprite = vaccineSpriteRed;
+        isVaccineRed = true;
+        isInteractible = false;
     }
     public void SetVaccineGreen()
     {
-        isVaccineGreen = true;
         SetGreenPath();
         GetComponent<SpriteRenderer>().sprite = vaccineSpriteGreen;
+        isVaccineGreen = true;
+        isInteractible = false;
     }
     public void SetSpawnGreen()
     {
@@ -270,6 +302,7 @@ public class Case : MonoBehaviour
         isInteractible= false;
         eColor = cardcolors.green;
         isEnd = true;
+        isInteractible = false;
     }
     public void SetEndRed()
     {
@@ -279,6 +312,7 @@ public class Case : MonoBehaviour
         isInteractible = false;
         eColor = cardcolors.red;
         isEnd = true;
+        isInteractible = false;
     }
     private void SetRedPath()
     {
@@ -325,6 +359,15 @@ public class Case : MonoBehaviour
         else
             GetComponent<SpriteRenderer>().sprite = greenCrossSprite;
     }
+
+    public void ResetCard()
+    {
+        card = null;
+        GetComponent<SpriteRenderer>().sprite = defaultSprite;
+        LockMovements();
+    }
+
+
 }
 
 [System.Serializable]

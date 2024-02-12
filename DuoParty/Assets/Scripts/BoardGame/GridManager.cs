@@ -46,12 +46,14 @@ public class GridManager : MonoBehaviour
                 //Instantiate(redPlayer, _case.transform.position, Quaternion.identity);
                 redPlayer.transform.position = _case.transform.position;
                 redPlayer.GetComponent<PlayerMovement>().actCase = _case;
+                redPlayer.GetComponent<PlayerMovement>().trailRenderer.enabled = true;
             }
             if (_case.GetSpawn() && _case.GetColor() == "Green")
             {
                 //Instantiate(greenPlayer, _case.transform.position, Quaternion.identity);
                 greenPlayer.transform.position = _case.transform.position;
                 greenPlayer.GetComponent<PlayerMovement>().actCase = _case;
+                greenPlayer.GetComponent<PlayerMovement>().trailRenderer.enabled = true;
             }
         }
 

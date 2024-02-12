@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: TowCorridors
   type: TwoCorner
-  cardImage: {fileID: 21300000, guid: 09b70891ed3f2e942b6facc3b5a3214b, type: 3}
+  cardImage: {fileID: 21300000, guid: b93d664b8d73a144485440a50200a338, type: 3}
   cardType: 0
   cardColor: 2
   greenPath:
