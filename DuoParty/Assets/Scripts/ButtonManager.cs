@@ -12,12 +12,12 @@ public class ButtonManager : MonoBehaviour
     public AudioSource _audioSource;
     private bool _pauseActive;
     private bool _endActive;
-    private bool _quittActive;
     private bool _playActive;
-    private bool _settingActive;
+    private bool _informationActive;
+    private bool _creditActive;
 
 
-    [SerializeField] private Animator _animator;
+   [SerializeField] private Animator _animator;
     private void Start()
     {
         //_audioSource.Play();
@@ -58,6 +58,23 @@ public class ButtonManager : MonoBehaviour
             _pauseActive = false;
         }
     }
+    public void Credit()
+    {
+
+        GameObject.Find("MenuManager").transform.Find("Credit").gameObject.SetActive(true);
+        GameObject.Find("MenuManager").transform.Find("CreditPanel").gameObject.SetActive(false);
+        GameObject.Find("MenuManager").transform.Find("PlayPanel").gameObject.SetActive(false);
+        GameObject.Find("MenuManager").transform.Find("InformationPanel").gameObject.SetActive(false);
+    }
+
+    public void CreditClose()
+        {
+            GameObject.Find("MenuManager").transform.Find("Credit").gameObject.SetActive(false);
+            GameObject.Find("MenuManager").transform.Find("CreditPanel").gameObject.SetActive(true);
+            GameObject.Find("MenuManager").transform.Find("PlayPanel").gameObject.SetActive(true);
+            GameObject.Find("MenuManager").transform.Find("InformationPanel").gameObject.SetActive(true);
+        }
+
     public void QuitGame()
     {
         Application.Quit();
@@ -74,75 +91,53 @@ public class ButtonManager : MonoBehaviour
         _animator.SetBool("ZoomedPlay", !_animator.GetBool("ZoomedPlay"));
     }
 
-    public void ZoomSetting()
+    public void ZoomInformation()
     {
-        _animator.SetBool("ZoomedSetting", !_animator.GetBool("ZoomedSetting"));
+        _animator.SetBool("ZoomedInformation", !_animator.GetBool("ZoomedInformation"));
     }
 
-    public void QuittPanel()
-    {
-        if (!_quittActive)
-        {
-            GameObject.Find("MenuManager").transform.Find("QuittMenu").gameObject.SetActive(true);
-            GameObject.Find("MenuManager").transform.Find("GameName").gameObject.SetActive(false);
-            GameObject.Find("MenuManager").transform.Find("QuittPanel").gameObject.SetActive(false);
-            GameObject.Find("MenuManager").transform.Find("PlayPanel").gameObject.SetActive(false);
-            GameObject.Find("MenuManager").transform.Find("SettingPanel").gameObject.SetActive(false);
-            _quittActive = true;
-        }
-        else
-        {
-            GameObject.Find("MenuManager").transform.Find("QuittMenu").gameObject.SetActive(false);
-            GameObject.Find("MenuManager").transform.Find("GameName").gameObject.SetActive(true);
-            GameObject.Find("MenuManager").transform.Find("QuittPanel").gameObject.SetActive(true);
-            GameObject.Find("MenuManager").transform.Find("PlayPanel").gameObject.SetActive(true);
-            GameObject.Find("MenuManager").transform.Find("SettingPanel").gameObject.SetActive(true);
-            _quittActive = false;
-        }
-
-    }
     public void PlayPanel()
     {
         if (!_playActive)
         {
             GameObject.Find("MenuManager").transform.Find("MainMenu").gameObject.SetActive(true);
             GameObject.Find("MenuManager").transform.Find("GameName").gameObject.SetActive(false);
-            GameObject.Find("MenuManager").transform.Find("QuittPanel").gameObject.SetActive(false);
+            GameObject.Find("MenuManager").transform.Find("CreditPanel").gameObject.SetActive(false);
             GameObject.Find("MenuManager").transform.Find("PlayPanel").gameObject.SetActive(false);
-            GameObject.Find("MenuManager").transform.Find("SettingPanel").gameObject.SetActive(false);
+            GameObject.Find("MenuManager").transform.Find("InformationPanel").gameObject.SetActive(false);
             _playActive = true;
         }
         else
         {
             GameObject.Find("MenuManager").transform.Find("MainMenu").gameObject.SetActive(false);
             GameObject.Find("MenuManager").transform.Find("GameName").gameObject.SetActive(true);
-            GameObject.Find("MenuManager").transform.Find("QuittPanel").gameObject.SetActive(true);
+            GameObject.Find("MenuManager").transform.Find("CreditPanel").gameObject.SetActive(true);
             GameObject.Find("MenuManager").transform.Find("PlayPanel").gameObject.SetActive(true);
-            GameObject.Find("MenuManager").transform.Find("SettingPanel").gameObject.SetActive(true);
+            GameObject.Find("MenuManager").transform.Find("InformationPanel").gameObject.SetActive(true);
             _playActive = false;
         }
     }
 
-    public void SettingPanel()
+    public void InformationPanel()
     {
-        if (!_settingActive)
+        if (!_informationActive)
         {
-            GameObject.Find("MenuManager").transform.Find("Settings").gameObject.SetActive(true);
+            GameObject.Find("MenuManager").transform.Find("Information").gameObject.SetActive(true);
             GameObject.Find("MenuManager").transform.Find("GameName").gameObject.SetActive(false);
-            GameObject.Find("MenuManager").transform.Find("QuittPanel").gameObject.SetActive(false);
+            GameObject.Find("MenuManager").transform.Find("CreditPanel").gameObject.SetActive(false);
             GameObject.Find("MenuManager").transform.Find("PlayPanel").gameObject.SetActive(false);
-            GameObject.Find("MenuManager").transform.Find("SettingPanel").gameObject.SetActive(false);
+            GameObject.Find("MenuManager").transform.Find("InformationPanel").gameObject.SetActive(false);
 
-            _settingActive = true;
+            _informationActive = true;
         }
         else
         {
-            GameObject.Find("MenuManager").transform.Find("Settings").gameObject.SetActive(false);
+            GameObject.Find("MenuManager").transform.Find("Information").gameObject.SetActive(false);
             GameObject.Find("MenuManager").transform.Find("GameName").gameObject.SetActive(true);
-            GameObject.Find("MenuManager").transform.Find("QuittPanel").gameObject.SetActive(true);
+            GameObject.Find("MenuManager").transform.Find("CreditPanel").gameObject.SetActive(true);
             GameObject.Find("MenuManager").transform.Find("PlayPanel").gameObject.SetActive(true);
-            GameObject.Find("MenuManager").transform.Find("SettingPanel").gameObject.SetActive(true);
-            _settingActive = false;
+            GameObject.Find("MenuManager").transform.Find("InformationPanel").gameObject.SetActive(true);
+            _informationActive = false;
         }
     }
 }

@@ -11,14 +11,14 @@ public class AnimationEventCallFunctions : MonoBehaviour
         buttonManager = transform.parent.GetComponent<ButtonManager>();
     }
 
-    public void OpenQuitPanel()
+    public void OpenCreditPanel()
     {
-        buttonManager.QuittPanel();
+        buttonManager.Credit();
     }
 
-    public void CloseQuitPanel()
+    public void CloseCreditPanel()
     {
-        buttonManager.QuittPanel();
+        buttonManager.CreditClose();
     }
 
     public void OpenPlayPanel()
@@ -31,13 +31,13 @@ public class AnimationEventCallFunctions : MonoBehaviour
         buttonManager.PlayPanel();
     }
 
-    public void OpenSettingPanel()
+    public void OpenInformationPanel()
     {
-        buttonManager.SettingPanel();
+        buttonManager.InformationPanel();
     }
 
-    public void CloseSettingPanel()
+    public void CloseinformationPanel()
     {
-        buttonManager.SettingPanel();
+        buttonManager.InformationPanel();
     }
 }

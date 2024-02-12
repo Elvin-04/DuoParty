@@ -7,7 +7,9 @@ using TMPro;
 
 public class ButtonCustom : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
-    public bool _interactable = true;
+    public bool _interactable = true; 
+    public bool _interactableImage = false;
+
 
     [Header("Sprites")]
     [SerializeField] private Sprite _disable;
@@ -47,6 +49,12 @@ public class ButtonCustom : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
             if (GetComponentInChildren<TMP_Text>() != null)
                 GetComponentInChildren<TMP_Text>().color = _enterColor;
         }
+        if (_interactableImage)
+        {
+            _onEnter.Invoke();
+            if (GetComponentInChildren<Image>() != null)
+                GetComponentInChildren<Image>().color = _enterColor;
+        }
     }
 
     public void OnPointerExit(PointerEventData eventData)
@@ -56,6 +64,12 @@ public class ButtonCustom : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
             _onExit.Invoke();
             if (GetComponentInChildren<TMP_Text>() != null)
                 GetComponentInChildren<TMP_Text>().color = _exitColor;
+        }
+        if (_interactableImage)
+        {
+            _onExit.Invoke();
+            if (GetComponentInChildren<Image>() != null)
+                GetComponentInChildren<Image>().color = _exitColor;
         }
     }
 
