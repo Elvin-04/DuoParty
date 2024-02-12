@@ -1,9 +1,8 @@
 using UnityEngine;
 using System.Collections.Generic;
-using UnityEngine.UIElements;
 using TMPro;
 using System.Collections;
-using Unity.VisualScripting;
+using UnityEngine.InputSystem;
 
 public class Tutorial : MonoBehaviour
 {
@@ -23,6 +22,8 @@ public class Tutorial : MonoBehaviour
 
     public List<Texts> tutoSteps;
     private int currentIndex = 0;
+
+    private int textIndexInStep = 0;
 
     private void Start()
     {
@@ -50,15 +51,62 @@ public class Tutorial : MonoBehaviour
     IEnumerator DemiSecDelay()
     {
         yield return new WaitForSeconds(0.5f);
-        bubble.SetActive(true);
-        scientist.SetActive(true);
+        UpdateTuto();
     }
 
-    private void UpdateTuto()
+    public void UpdateTuto()
     {
-        if (tutoSteps[currentIndex].isTextInstruction)
+        if(currentIndex < tutoSteps.Count)
+        {
+            if (tutoSteps[currentIndex].isTextInstruction)
+            {
+                bubble.SetActive(true);
+                scientist.SetActive(true);
+                bubbleText.text = tutoSteps[currentIndex].texts[textIndexInStep];
+                if(textIndexInStep + 1 < tutoSteps[currentIndex].texts.Count)
+                {
+                    textIndexInStep++;
+                }
+                else
+                {
+                    textIndexInStep = 0;
+                    currentIndex++;
+                }
+            }
+            else if (tutoSteps[currentIndex].isPlayerAction)
+            {
+                bubble.SetActive(false);
+                scientist.SetActive(false);
+            }
+        }
+        else
         {
 
+        }
+
+
+
+        //if (currentIndex < tutoSteps.Count && tutoSteps[currentIndex].isTextInstruction && localIndex < tutoSteps[currentIndex].texts.Count)
+        //{
+        //    bubble.SetActive(true);
+        //    scientist.SetActive(true);
+        //    bubbleText.text = tutoSteps[currentIndex].texts[localIndex];
+        //    localIndex++;
+        //}
+        
+        //else
+        //{
+        //    localIndex = 0;
+        //    bubble.SetActive(false);
+        //    scientist.SetActive(false);
+        //}
+    }
+
+    public void EnterButton(InputAction.CallbackContext ctx)
+    {
+        if(ctx.performed)
+        {
+            UpdateTuto();
         }
     }
 }
@@ -67,5 +115,22 @@ public class Tutorial : MonoBehaviour
 public struct Texts
 {
     public bool isTextInstruction;
+    public bool isPlayerAction;
+    public bool isFocusText;
     public List<string> texts;
+    public List<FocusText> focusTexts;
+}
+
+[System.Serializable]
+public struct FocusText
+{
+    public Vector2 position;
+    public string text;
+    public FocusZoneShape shape;
+}
+
+public enum FocusZoneShape
+{
+    SQUARE,
+    SPHERE,
 }
