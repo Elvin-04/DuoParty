@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Neutral Cross
   type: 
-  cardImage: {fileID: 21300000, guid: 2658701338d4e8348a870d94ac286456, type: 3}
+  cardImage: {fileID: 21300000, guid: 306d46a5741b0854d885b8e30018d1c4, type: 3}
   cardType: 0
   cardColor: 2
   greenPath:
@@ -28,12 +28,12 @@ MonoBehaviour:
     canMoveLeft: 1
     canMoveRight: 1
   instantiatedGreenPath:
-    canMoveUp: 0
-    canMoveDown: 0
-    canMoveLeft: 0
-    canMoveRight: 0
+    canMoveUp: 1
+    canMoveDown: 1
+    canMoveLeft: 1
+    canMoveRight: 1
   instantiatedRedPath:
-    canMoveUp: 0
-    canMoveDown: 0
-    canMoveLeft: 0
-    canMoveRight: 0
+    canMoveUp: 1
+    canMoveDown: 1
+    canMoveLeft: 1
+    canMoveRight: 1
