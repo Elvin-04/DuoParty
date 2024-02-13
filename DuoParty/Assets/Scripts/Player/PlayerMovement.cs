@@ -8,6 +8,7 @@ using Unity.VisualScripting;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private string color;
+    [SerializeField] private Animator animator;
     [SerializeField] public TrailRenderer trailRenderer;
 
     public int caseSize;
@@ -50,8 +51,12 @@ public class PlayerMovement : MonoBehaviour
     {
         if (isMoving)
         {
+            animator.SetTrigger("isWalking 0");
+            Vector3 dir = (Vector3) dest - transform.position;
+            float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
             transform.position = Vector2.MoveTowards(transform.position, dest, speed*Time.deltaTime);
-            if(Vector2.Distance(dest, transform.position) < 0.05f)
+            transform.rotation = Quaternion.Euler(0, 0, angle);
+            if (Vector2.Distance(dest, transform.position) < 0.05f)
             {
                 actCase = destCase;
                 destCase = null;
