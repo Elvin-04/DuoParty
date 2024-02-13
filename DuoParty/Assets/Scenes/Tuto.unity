@@ -1944,8 +1944,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 13965088}
-  - {fileID: 661877649}
-  - {fileID: 355420381}
+  - {fileID: 1603610770}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1978,15 +1977,21 @@ MonoBehaviour:
   scientist: {fileID: 355420380}
   sphereFocus: {fileID: 2058063088}
   squareFocus: {fileID: 1181424375}
+  focusSpeed: 10
+  ScientistAndBubble: {fileID: 1603610769}
+  leftPosition: {x: 0, y: 0}
+  rightPosition: {x: 670, y: 0}
   tutoSteps:
-  - isTextInstruction: 0
+  - isTextInstruction: 1
     isPlayerAction: 0
-    isFocusText: 1
-    texts: []
-    focusTexts:
-    - position: {x: 0, y: 0}
-      text: aaaa
-      shape: 0
+    isFocusText: 0
+    texts:
+    - Welcome to Pandemic Partners. I will explain how to play and go over the rules
+      of the game.
+    - This is a cooperative game where you and your partner will need to give commands
+      as the game progresses.
+    - Let me introduce the game as a whole.
+    focusTexts: []
 --- !u!1 &123348272
 GameObject:
   m_ObjectHideFlags: 0
@@ -4071,17 +4076,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 355420380}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: -1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2136727827}
-  m_Father: {fileID: 110864622}
+  m_Father: {fileID: 1603610770}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -718.0829, y: -318.87283}
+  m_AnchoredPosition: {x: -392.33612, y: -15.715021}
   m_SizeDelta: {x: 441.4648, y: 441.4648}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &355420382
@@ -5829,17 +5834,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 661877648}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 182763854}
-  m_Father: {fileID: 110864622}
+  m_Father: {fileID: 1603610770}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -125, y: -300}
+  m_AnchoredPosition: {x: 200.7467, y: 3.1577759}
   m_SizeDelta: {x: 829.4932, y: 466.59}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &661877651
@@ -9819,7 +9824,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 205}
+  m_AnchoredPosition: {x: 116, y: 176}
   m_SizeDelta: {x: 250, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1181424378
@@ -12821,6 +12826,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1598100423}
   m_CullTransparentMesh: 1
+--- !u!1 &1603610769
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1603610770}
+  - component: {fileID: 1603610771}
+  m_Layer: 5
+  m_Name: ScientistBubble
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1603610770
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603610769}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 661877649}
+  - {fileID: 355420381}
+  m_Father: {fileID: 110864622}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1246.8643, y: 479.22}
+  m_Pivot: {x: 0, y: 0}
+--- !u!222 &1603610771
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603610769}
+  m_CullTransparentMesh: 1
 --- !u!1 &1613845217
 GameObject:
   m_ObjectHideFlags: 0
@@ -12933,7 +12984,7 @@ MonoBehaviour:
     m_ActionName: Game/MouseMove[/Mouse/position]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 110864623}
         m_TargetAssemblyTypeName: Tutorial, Assembly-CSharp
         m_MethodName: EnterButton
         m_Mode: 0
@@ -16141,8 +16192,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 32.7, y: 0.8}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -152, y: 165}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2058063090
 MonoBehaviour:

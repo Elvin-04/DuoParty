@@ -22,10 +22,21 @@ public class Tutorial : MonoBehaviour
     [SerializeField] private GameObject sphereFocus;
     [SerializeField] private GameObject squareFocus;
 
+    [SerializeField] private float focusSpeed;
+
+    [SerializeField] private GameObject ScientistAndBubble;
+
+    [Header("Scientist positions")]
+    [SerializeField] private Vector2 leftPosition;
+    [SerializeField] private Vector2 rightPosition;
+
     public List<Texts> tutoSteps;
     private int currentIndex = 0;
 
     private int localIndex = 0;
+
+    private Vector2 focusZoneDestination;
+    private bool moveFocusZone;
 
     private void Start()
     {
@@ -53,6 +64,21 @@ public class Tutorial : MonoBehaviour
         StartCoroutine(DemiSecDelay());
     }
 
+     private void Update()
+    {
+        if(moveFocusZone)
+        {
+            if(sphereFocus.activeSelf)
+            {
+                sphereFocus.GetComponent<RectTransform>().anchoredPosition = Vector2.Lerp(sphereFocus.GetComponent<RectTransform>().anchoredPosition, focusZoneDestination, focusSpeed * Time.deltaTime);
+                if (Vector2.Distance(sphereFocus.GetComponent<RectTransform>().anchoredPosition, focusZoneDestination) <= 0.05f)
+                {
+                    moveFocusZone = false;
+                }
+            }
+        }
+    }
+
     IEnumerator DemiSecDelay()
     {
         yield return new WaitForSeconds(0.5f);
@@ -68,7 +94,8 @@ public class Tutorial : MonoBehaviour
                 bubble.SetActive(true);
                 scientist.SetActive(true);
                 bubbleText.text = tutoSteps[currentIndex].texts[localIndex];
-                if(localIndex + 1 < tutoSteps[currentIndex].texts.Count)
+
+                if (localIndex + 1 < tutoSteps[currentIndex].texts.Count)
                 {
                     localIndex++;
                 }
@@ -83,17 +110,53 @@ public class Tutorial : MonoBehaviour
                 bubble.SetActive(true);
                 scientist.SetActive(true);
                 bubbleText.text = tutoSteps[currentIndex].focusTexts[localIndex].text;
+
+                if (tutoSteps[currentIndex].focusTexts[localIndex].scientistPosition == ScientistPosition.LEFT)
+                    ScientistAndBubble.GetComponent<RectTransform>().anchoredPosition = leftPosition;
+                else
+                    ScientistAndBubble.GetComponent<RectTransform>().anchoredPosition = rightPosition;
+
                 if (tutoSteps[currentIndex].focusTexts[localIndex].shape == FocusZoneShape.SPHERE)
                 {
-                    sphereFocus.SetActive(true);
-                    sphereFocus.GetComponent<RectTransform>().anchoredPosition = tutoSteps[currentIndex].focusTexts[localIndex].position;
+                    if(sphereFocus.activeSelf)
+                    {
+                        moveFocusZone = true;
+                        focusZoneDestination = tutoSteps[currentIndex].focusTexts[localIndex].position;
+                    }
+                    else
+                    {
+                        squareFocus.SetActive(true);
+                        sphereFocus.SetActive(true);
+                        sphereFocus.GetComponent<RectTransform>().anchoredPosition = tutoSteps[currentIndex].focusTexts[localIndex].position;
+                    }
                 }
                 else
                 {
-                    squareFocus.SetActive(true);
-                    squareFocus.GetComponent<RectTransform>().anchoredPosition = tutoSteps[currentIndex].focusTexts[localIndex].position;
+                    if (squareFocus.activeSelf)
+                    {
+                        moveFocusZone = true;
+                        focusZoneDestination = tutoSteps[currentIndex].focusTexts[localIndex].position;
+                    }
+                    else
+                    {
+                        sphereFocus.SetActive(false);
+                        squareFocus.SetActive(true);
+                        squareFocus.GetComponent<RectTransform>().anchoredPosition = tutoSteps[currentIndex].focusTexts[localIndex].position;
+                    }
                 }
-                
+
+                if (localIndex + 1 < tutoSteps[currentIndex].focusTexts.Count)
+                {
+                    localIndex++;
+                }
+                else
+                {
+                    localIndex = 0;
+                    currentIndex++;
+                }
+
+
+
             }
         }
         else
@@ -109,6 +172,7 @@ public class Tutorial : MonoBehaviour
             UpdateTuto();
         }
     }
+
 }
 
 [System.Serializable]
@@ -127,10 +191,17 @@ public struct FocusText
     public Vector2 position;
     public string text;
     public FocusZoneShape shape;
+    public ScientistPosition scientistPosition;
 }
 
 public enum FocusZoneShape
 {
     SQUARE,
     SPHERE,
+}
+
+public enum ScientistPosition
+{
+    LEFT,
+    RIGHT,
 }
