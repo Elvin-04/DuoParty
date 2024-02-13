@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Red T-path
   type: 
-  cardImage: {fileID: 21300000, guid: 297c132c6350c074286871caacd6b276, type: 3}
+  cardImage: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   cardType: 0
   cardColor: 1
   greenPath:

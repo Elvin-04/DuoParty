@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class GridManager : MonoBehaviour
@@ -17,6 +16,8 @@ public class GridManager : MonoBehaviour
     [SerializeField] private int _ArmouredDoorCount;
     [SerializeField] private int _spawnCount;
     [SerializeField] private int _endCount;
+
+    [SerializeField] private GameObject hole;
 
     private int _total;
     private int _totalBase;
@@ -71,6 +72,8 @@ public class GridManager : MonoBehaviour
             }
             else x++;
         }
+
+        AddHolesStart();
     }
 
 
@@ -98,18 +101,21 @@ public class GridManager : MonoBehaviour
             if (_keyCount > 0)
             {
                 _centerCases[_rand].SetKey();
+                AddHole(_centerCases[_rand]);
                 _centerCases.Remove(_centerCases[_rand]);
                 _keyCount--;
             }
             else if (_vaccineRedCount > 0)
             {
                 _centerCases[_rand].SetVaccineRed();
+                AddHole(_centerCases[_rand]);
                 _centerCases.Remove(_centerCases[_rand]);
                 _vaccineRedCount--;
             }
             else if (_vaccineGreenCount > 0)
             {
                 _centerCases[_rand].SetVaccineGreen();
+                AddHole(_centerCases[_rand]);
                 _centerCases.Remove(_centerCases[_rand]);
                 _vaccineGreenCount--;
             }
@@ -180,6 +186,25 @@ public class GridManager : MonoBehaviour
             InvestmentBaseElement();
             return;
         }
+    }
+
+
+    private void AddHolesStart()
+    {
+        AddHole(GetSpawnOfColor(cardcolors.red));
+        AddHole(GetSpawnOfColor(cardcolors.green));
+        AddHole(GetEndOfColor(cardcolors.red));
+        AddHole(GetEndOfColor(cardcolors.green));
+    }
+
+
+
+    public void AddHole(Case _case)
+    {
+        GameObject newHole = Instantiate(hole, _case.caseTransform);
+        newHole.transform.SetParent(_case.transform);
+        newHole.transform.position = _case.transform.position;
+
     }
 
     public List<Case> GetGrid()
