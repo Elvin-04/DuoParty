@@ -1,5 +1,9 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Collections;
+using System;
+using UnityEditorInternal;
+using Unity.VisualScripting;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -15,8 +19,11 @@ public class PlayerMovement : MonoBehaviour
     public bool canMoveLeft;
     public bool isMoving;
     private Vector2 dest;
+    private bool _canMoove = true;
+    private InputAction.CallbackContext _tempContext;
 
     int turn;
+    private bool isButtonPressed;
 
     public Cards card;
     public Case actCase;
@@ -30,10 +37,13 @@ public class PlayerMovement : MonoBehaviour
     private void Start()
     {
         isMoving = false;
+
         if(color ==  "Red")
             turn = 1;
         else
             turn = 0;
+
+        _canMoove = true;
     }
 
     private void Update()
@@ -47,6 +57,7 @@ public class PlayerMovement : MonoBehaviour
                 destCase = null;
                 transform.position = dest;
                 isMoving = false;
+                trailRenderer.enabled = true;
 
                 if (!keyContainer.hasItem && actCase.isKey)
                 {
@@ -61,6 +72,23 @@ public class PlayerMovement : MonoBehaviour
                 }
             }
         }
+
+
+        if(isButtonPressed && !isMoving)
+        {
+            if (_canMoove)
+            {
+                SetDestination(_tempContext);
+                _canMoove = false;
+                StartCoroutine(TurnMoove());
+            }
+        }
+    }
+
+    IEnumerator TurnMoove()
+    {
+        yield return new WaitForSeconds(0.25f);
+        _canMoove = true;
     }
 
     public bool HasAllItems()
@@ -70,46 +98,63 @@ public class PlayerMovement : MonoBehaviour
 
     public void GridMovementPlayer(InputAction.CallbackContext ctx)
     {
-        if (ctx.performed && !isMoving && RoundByRound.instance.turn == turn)
+        _tempContext = ctx;
+
+        if (ctx.started && RoundByRound.instance.turn == turn)
         {
-            
-            if(ctx.ReadValue<Vector2>().x != 0 && ctx.ReadValue<Vector2>().y != 0)
+            isButtonPressed = true;
+        }
+        if (ctx.canceled)
+        {
+            isButtonPressed = false;
+        }
+
+        //if (ctx.performed && !isMoving && RoundByRound.instance.turn == turn)
+        //{
+        //    SetDestination(ctx);
+
+        //}
+
+
+    }
+
+    private void SetDestination(InputAction.CallbackContext ctx)
+    {
+        if (ctx.ReadValue<Vector2>().x != 0 && ctx.ReadValue<Vector2>().y != 0)
+        {
+            return;
+        }
+
+
+        dest = new Vector2(transform.position.x, transform.position.y) + ctx.ReadValue<Vector2>();
+
+        RaycastHit2D hit = Physics2D.Raycast(dest, Vector2.zero);
+
+        if (hit.collider != null && hit.collider.TryGetComponent<Case>(out Case _case) && (_case.GetColor() == color || _case.GetColor() == "RedAndGreen" || _case.GetColor() == ""))
+        {
+
+            destCase = _case;
+
+            Path newPath = destCase.GetPathByColor(color);
+            Path lastPath = actCase.GetPathByColor(color);
+
+            _case.GetCard();
+            if (ctx.ReadValue<Vector2>().x == 1 && _case != null && newPath.canMoveLeft && (actCase == null || lastPath.canMoveRight))
             {
-                return;
+                isMoving = true;
             }
-                    
-                    
-            dest = new Vector2( transform.position.x, transform.position.y ) + ctx.ReadValue<Vector2>();
-
-            RaycastHit2D hit = Physics2D.Raycast(dest, Vector2.zero);
-
-            if (hit.collider != null && hit.collider.TryGetComponent<Case>(out Case _case) && (_case.GetColor() == color || _case.GetColor() == "RedAndGreen" || _case.GetColor() == ""))
+            else if (ctx.ReadValue<Vector2>().x == -1 && _case != null && newPath.canMoveRight && (actCase == null || lastPath.canMoveLeft))
             {
-                
-                destCase = _case;
-
-                Path newPath = destCase.GetPathByColor(color);
-                Path lastPath = actCase.GetPathByColor(color);
-
-                _case.GetCard();
-                if (ctx.ReadValue<Vector2>().x == 1 && _case != null && newPath.canMoveLeft && (actCase == null || lastPath.canMoveRight))
-                {
-                    isMoving = true;
-                }
-                else if (ctx.ReadValue<Vector2>().x == -1 && _case != null && newPath.canMoveRight && (actCase == null || lastPath.canMoveLeft))
-                {
-                    isMoving = true;
-                }
-                else if (ctx.ReadValue<Vector2>().y == 1 && _case != null && newPath.canMoveDown && (actCase == null || lastPath.canMoveUp))
-                {
-                    isMoving = true;
-                }
-                else if (ctx.ReadValue<Vector2>().y == -1 && _case != null && newPath.canMoveUp && (actCase == null || lastPath.canMoveDown))
-                {
-                    isMoving = true;
-                }
+                isMoving = true;
             }
-
+            else if (ctx.ReadValue<Vector2>().y == 1 && _case != null && newPath.canMoveDown && (actCase == null || lastPath.canMoveUp))
+            {
+                isMoving = true;
+            }
+            else if (ctx.ReadValue<Vector2>().y == -1 && _case != null && newPath.canMoveUp && (actCase == null || lastPath.canMoveDown))
+            {
+                isMoving = true;
+            }
         }
     }
 }
