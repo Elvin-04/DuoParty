@@ -7,6 +7,9 @@ public class ItemContainer : MonoBehaviour
     public bool isKeysContenair;
     public bool hasItem;
     [SerializeField] private Sprite KeySprite;
+    [SerializeField] private Sprite VaccineSpriteRed;
+    [SerializeField] private Sprite VaccineSpriteGreen;
+    [SerializeField] private string color;
 
     public void addItem(GameObject currentCase)
     {
@@ -14,9 +17,13 @@ public class ItemContainer : MonoBehaviour
         {
             itemImage.sprite = KeySprite;
         }
+        else if(color == "Red")
+        {
+            itemImage.sprite = VaccineSpriteRed;
+        }
         else
         {
-            itemImage.sprite = currentCase.GetComponent<SpriteRenderer>().sprite;
+            itemImage.sprite = VaccineSpriteGreen;
         }
         hasItem = true;
     }

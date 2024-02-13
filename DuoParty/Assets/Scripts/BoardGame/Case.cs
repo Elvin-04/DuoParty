@@ -48,6 +48,8 @@ public class Case : MonoBehaviour
     [SerializeField] private Cards redCross;
     [SerializeField] private Cards greenCross;
 
+    public Transform caseTransform;
+
     [Header("For the pathfinding")]
     public int x;
     public int y;
@@ -87,6 +89,7 @@ public class Case : MonoBehaviour
 
     private void Start()
     {
+        caseTransform = transform;
 
         defaultSprite = GetComponent<SpriteRenderer>().sprite;
 
@@ -348,15 +351,22 @@ public class Case : MonoBehaviour
 
     public void CreateCross(string color)
     {
-        Path path = GetPathByColor(color);
+        /*Path path = GetPathByColor(color);
         path.canMoveLeft = true;
         path.canMoveRight = true;
         path.canMoveUp = true;
-        path.canMoveDown = true;
+        path.canMoveDown = true;*/
         if (color == "Red")
+        {
             GetComponent<SpriteRenderer>().sprite = redCrossSprite;
+            SetRedPath();
+        }
         else
+        {
             GetComponent<SpriteRenderer>().sprite = greenCrossSprite;
+            SetGreenPath();
+        }
+            
     }
 
     public void ResetCard()
