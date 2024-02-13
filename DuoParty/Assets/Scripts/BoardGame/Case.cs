@@ -62,6 +62,10 @@ public class Case : MonoBehaviour
         get { return gCost + hCost; }
     }
 
+    public Sprite GetDefaultSprite()
+    {
+        return defaultSprite;
+    }
     public void ChangeInteracible()
     {
         isInteractible = !isInteractible;
@@ -179,6 +183,16 @@ public class Case : MonoBehaviour
     public Cards GetCard()
     {
         return card;
+    }
+
+    public void AddImage(Cards _card)
+    {
+        gameObject.GetComponent<SpriteRenderer>().sprite = _card.cardImage;
+    }
+
+    public void ResetImage()
+    {
+        gameObject.GetComponent<SpriteRenderer>().sprite = defaultSprite;
     }
 
     public void AddCard(Cards _card)

@@ -512,7 +512,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemImage: {fileID: 1344390574}
   hasItem: 0
-  bonus: 0
+  bonus: 1
   caseRef: {fileID: 0}
 --- !u!114 &13082028
 MonoBehaviour:
@@ -11345,7 +11345,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 306d46a5741b0854d885b8e30018d1c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13774,14 +13774,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_Color: {r: 0.47843137, g: 0.47843137, b: 0.47843137, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: d7954e2e4f7d3fa449a636fdc0f09cfb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -25037,9 +25037,9 @@ MonoBehaviour:
   itemImage: {fileID: 868634774}
   isKeysContenair: 1
   hasItem: 0
-  KeySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
-  VaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  VaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  KeySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
+  VaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  VaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   color: Red
 --- !u!114 &868634774
 MonoBehaviour:
@@ -27661,14 +27661,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_Color: {r: 0.47843137, g: 0.47843137, b: 0.47843137, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: d7954e2e4f7d3fa449a636fdc0f09cfb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -33886,7 +33886,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1223398657
 RectTransform:
   m_ObjectHideFlags: 0
@@ -33921,9 +33921,9 @@ MonoBehaviour:
   itemImage: {fileID: 1223398659}
   isKeysContenair: 0
   hasItem: 0
-  KeySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
-  VaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  VaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  KeySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
+  VaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  VaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   color: Green
 --- !u!114 &1223398659
 MonoBehaviour:
@@ -33938,7 +33938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.47843137, g: 0.47843137, b: 0.47843137, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -38695,7 +38695,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemImage: {fileID: 1646141932}
   hasItem: 0
-  bonus: 0
+  bonus: 1
   caseRef: {fileID: 0}
 --- !u!114 &1457568680
 MonoBehaviour:
@@ -39682,7 +39682,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1517693883
 RectTransform:
   m_ObjectHideFlags: 0
@@ -39717,9 +39717,9 @@ MonoBehaviour:
   itemImage: {fileID: 1517693885}
   isKeysContenair: 1
   hasItem: 0
-  KeySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
-  VaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  VaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  KeySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
+  VaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  VaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   color: Green
 --- !u!114 &1517693885
 MonoBehaviour:
@@ -41420,7 +41420,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemImage: {fileID: 376642475}
   hasItem: 0
-  bonus: 0
+  bonus: 2
   caseRef: {fileID: 0}
 --- !u!114 &1590807784
 MonoBehaviour:
@@ -43380,9 +43380,9 @@ MonoBehaviour:
   itemImage: {fileID: 1672474723}
   isKeysContenair: 0
   hasItem: 0
-  KeySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
-  VaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  VaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  KeySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
+  VaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  VaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   color: Red
 --- !u!114 &1672474723
 MonoBehaviour:
@@ -43479,7 +43479,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 306d46a5741b0854d885b8e30018d1c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -49108,7 +49108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemImage: {fileID: 2096699691}
   hasItem: 0
-  bonus: 0
+  bonus: 2
   caseRef: {fileID: 0}
 --- !u!114 &1990741059
 MonoBehaviour:

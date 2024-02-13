@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityEngine.UIElements;
 
 public class DragnDrop : MonoBehaviour
 {
@@ -20,6 +21,8 @@ public class DragnDrop : MonoBehaviour
     [SerializeField] private InventoryManager player2inventory;
 
     [SerializeField] private GridManager gridManager;
+
+    private GameObject oldMouseOverGameObject;
 
     private BonusContainer bonusContainer;
 
@@ -58,6 +61,24 @@ public class DragnDrop : MonoBehaviour
                         cardHand.GetComponent<Hand>().TrunCardRight();
                     }
                 }
+                RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
+
+                if (oldMouseOverGameObject != null)
+                {
+                    gridManager.RemoveHole(oldMouseOverGameObject.GetComponent<Case>());
+                    oldMouseOverGameObject.GetComponent<Case>().ResetImage();
+                }
+                if (hit.collider != null && hit.collider.TryGetComponent<Case>(out Case _case) && _case.GetInteractible() && hit.collider.gameObject.GetComponent<Case>().GetCard() == null)
+                {
+                    gridManager.AddHole(hit.collider.GetComponent<Case>());
+                    hit.collider.GetComponent<Case>().AddImage(cardHand.GetComponent<Hand>().card);
+                    if (oldMouseOverGameObject != null && hit.collider.transform.rotation.z != cardHand.GetComponent<Hand>().rotation)
+                    {
+                        print("aa");
+                        hit.collider.gameObject.transform.rotation = Quaternion.Euler(0f, 0f, cardHand.GetComponent<Hand>().rotation);
+                    }
+                    oldMouseOverGameObject = hit.collider.gameObject;
+                }
             }
 
             // dragging card
@@ -70,6 +91,7 @@ public class DragnDrop : MonoBehaviour
                 {
                     bonusContainer = result.GetComponentInParent<BonusContainer>();
                 }
+                
             }
             else if (draging && Input.GetMouseButtonUp(0) && (result.tag == "Card" || result.tag == "BonusSlot"))
             {
@@ -153,7 +175,7 @@ public class DragnDrop : MonoBehaviour
                         {
                             FindObjectOfType<AudioManager>().PlaySound("card droped");
                             hit.collider.gameObject.GetComponent<Case>().AddCard(cardHand.GetComponent<Hand>().card);
-                            hit.collider.gameObject.transform.Rotate(0f, 0f, cardHand.GetComponent<Hand>().rotation);
+                            hit.collider.gameObject.transform.rotation = Quaternion.Euler(0f, 0f, cardHand.GetComponent<Hand>().rotation);
                             cardHand.GetComponent<Hand>().RemoveCard();
                             particle.transform.position = hit.collider.transform.position;
                             particle.Play();
@@ -167,7 +189,7 @@ public class DragnDrop : MonoBehaviour
                                 AddBonusToPlayer(cardHand.gameObject.tag, _case);
                             }
                             hit.collider.gameObject.GetComponent<Case>().AddCard(cardHand.GetComponent<Hand>().card);
-                            hit.collider.gameObject.transform.Rotate(0f, 0f, cardHand.GetComponent<Hand>().rotation);
+                            hit.collider.gameObject.transform.rotation = Quaternion.Euler(0f, 0f, cardHand.GetComponent<Hand>().rotation);
                             cardHand.GetComponent<Hand>().RemoveCard();
                         }
                         else if (result.tag == "BonusSlot" && hit.collider != null && hit.collider.TryGetComponent<Case>(out _case) && _case.GetInteractible() && (_case.GetCard() != null || _case.GetArmouredDoor()))
@@ -238,7 +260,6 @@ public class DragnDrop : MonoBehaviour
 
     private bool NotEndSpawnOrBonus(Case currentCase)
     {
-        print((!currentCase.GetIsEnd() && !currentCase.GetIsSpawn() && !currentCase.isKey && !currentCase.isVaccineGreen && !currentCase.isVaccineRed));
         return (!currentCase.GetIsEnd() && !currentCase.GetIsSpawn() && !currentCase.isKey && !currentCase.isVaccineGreen && !currentCase.isVaccineRed);
     }
 
