@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Red Cross
   type: 
-  cardImage: {fileID: 21300000, guid: 1b0183390ea4bfc4cb92c38d50e318e1, type: 3}
+  cardImage: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   cardType: 0
   cardColor: 0
   greenPath:
