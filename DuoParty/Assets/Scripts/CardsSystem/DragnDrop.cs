@@ -2,7 +2,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
-using UnityEngine.UIElements;
 
 public class DragnDrop : MonoBehaviour
 {
@@ -63,18 +62,17 @@ public class DragnDrop : MonoBehaviour
                 }
                 RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
 
-                if (oldMouseOverGameObject != null)
+                if (oldMouseOverGameObject != null && oldMouseOverGameObject.GetComponent<Case>().GetCard() == null)
                 {
                     gridManager.RemoveHole(oldMouseOverGameObject.GetComponent<Case>());
                     oldMouseOverGameObject.GetComponent<Case>().ResetImage();
                 }
-                if (hit.collider != null && hit.collider.TryGetComponent<Case>(out Case _case) && _case.GetInteractible() && hit.collider.gameObject.GetComponent<Case>().GetCard() == null)
+                if (hit.collider != null && hit.collider.TryGetComponent<Case>(out Case _case) && _case.GetInteractible() && hit.collider.gameObject.GetComponent<Case>().GetCard() == null && !_case.isReveal)
                 {
                     gridManager.AddHole(hit.collider.GetComponent<Case>());
                     hit.collider.GetComponent<Case>().AddImage(cardHand.GetComponent<Hand>().card);
                     if (oldMouseOverGameObject != null && hit.collider.transform.rotation.z != cardHand.GetComponent<Hand>().rotation)
                     {
-                        print("aa");
                         hit.collider.gameObject.transform.rotation = Quaternion.Euler(0f, 0f, cardHand.GetComponent<Hand>().rotation);
                     }
                     oldMouseOverGameObject = hit.collider.gameObject;
@@ -107,6 +105,7 @@ public class DragnDrop : MonoBehaviour
                 // place card in game
                 else
                 {
+                    oldMouseOverGameObject = null;
                     RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
 
                     //drop the card
@@ -116,6 +115,7 @@ public class DragnDrop : MonoBehaviour
                         gridManager.AddHole(hit.collider.GetComponent<Case>());
                         if (_case.isArmouredDoor)
                         {
+                            _case.isReveal = true;
                             stopAll.StopAllCards();
                             //FindObjectOfType<AudioManager>().PlaySound("armouredDoor activated");
                             PlaceInSecondHand();
@@ -141,6 +141,7 @@ public class DragnDrop : MonoBehaviour
                         }
                         else if (_case.isBomb)
                         {
+                            _case.isReveal = true;
                             stopAll.StopAllCards();
                             //FindObjectOfType<AudioManager>().PlaySound("alarm activated");
                             PlaceInSecondHand();
@@ -151,28 +152,33 @@ public class DragnDrop : MonoBehaviour
                                 _case.up.GetComponent<SpriteRenderer>().sprite = porte_blinde;
                                 gridManager.AddHole(_case.up.GetComponent<Case>());
                                 _case.up.LockMovements();
+                                _case.up.isReveal = true;
                             }
                             if (_case.down.GetCard() == null && _case.down.GetInteractible())
                             {
                                 _case.down.GetComponent<SpriteRenderer>().sprite = porte_blinde;
                                 gridManager.AddHole(_case.down.GetComponent<Case>());
                                 _case.down.LockMovements();
+                                _case.down.isReveal = true;
                             }
                             if (_case.right.GetCard() == null && _case.right.GetInteractible())
                             {
                                 _case.right.GetComponent<SpriteRenderer>().sprite = porte_blinde;
                                 gridManager.AddHole(_case.right.GetComponent<Case>());
                                 _case.right.LockMovements();
+                                _case.right.isReveal = true;
                             }
                             if (_case.left.GetCard() == null && _case.left.GetInteractible())
                             {
                                 _case.left.GetComponent<SpriteRenderer>().sprite = porte_blinde;
                                 gridManager.AddHole(_case.left.GetComponent<Case>());
                                 _case.left.LockMovements();
+                                _case.left.isReveal = true;
                             }
                         }
                         else
                         {
+                            _case.isReveal = true;
                             FindObjectOfType<AudioManager>().PlaySound("card droped");
                             hit.collider.gameObject.GetComponent<Case>().AddCard(cardHand.GetComponent<Hand>().card);
                             hit.collider.gameObject.transform.rotation = Quaternion.Euler(0f, 0f, cardHand.GetComponent<Hand>().rotation);

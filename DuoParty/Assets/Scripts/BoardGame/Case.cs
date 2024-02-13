@@ -31,6 +31,7 @@ public class Case : MonoBehaviour
     public bool isBomb;
     public bool isArmouredDoor;
 
+    public bool isReveal;
     [SerializeField] private Sprite keySprite;
     [SerializeField] private Sprite vaccineSpriteRed;
     [SerializeField] private Sprite vaccineSpriteGreen;

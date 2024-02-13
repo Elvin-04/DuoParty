@@ -1201,6 +1201,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -1651,6 +1652,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -2580,6 +2582,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -2946,6 +2949,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -3228,6 +3232,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -3678,6 +3683,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -3876,6 +3882,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -4074,6 +4081,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -4272,6 +4280,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -4688,6 +4697,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -5054,6 +5064,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -5667,6 +5678,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -6033,6 +6045,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -6399,6 +6412,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -6765,6 +6779,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -7131,6 +7146,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -7497,6 +7513,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -8031,6 +8048,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -8313,6 +8331,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -9099,6 +9118,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -9938,6 +9958,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -10877,6 +10898,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -12321,6 +12343,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -12687,6 +12710,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -12969,6 +12993,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -13167,6 +13192,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -13860,6 +13886,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -14058,6 +14085,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -15633,6 +15661,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -15915,6 +15944,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -16533,6 +16563,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -16731,6 +16762,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -17097,6 +17129,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -17379,6 +17412,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -18165,6 +18199,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -23251,6 +23286,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -25224,6 +25260,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -25674,6 +25711,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -26124,6 +26162,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -26742,6 +26781,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -27192,6 +27232,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -27390,6 +27431,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -27831,6 +27873,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -28292,6 +28335,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -28994,6 +29038,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -29360,6 +29405,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -30146,6 +30192,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -30861,6 +30908,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -31311,6 +31359,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -31593,6 +31642,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -31875,6 +31925,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -32549,6 +32600,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -32747,6 +32799,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -33197,6 +33250,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -33731,6 +33785,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -34183,6 +34238,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -34655,6 +34711,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -35021,6 +35078,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -35303,6 +35361,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -35501,6 +35560,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -39275,6 +39335,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -40240,6 +40301,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -40438,6 +40500,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -40636,6 +40699,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -41822,6 +41886,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -42602,6 +42667,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -43642,6 +43708,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -44680,6 +44747,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -45333,6 +45401,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -46362,6 +46431,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -46980,6 +47050,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -47598,6 +47669,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -48048,6 +48120,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -48834,6 +48907,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -49461,6 +49535,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -49911,6 +49986,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -50445,6 +50521,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -50811,6 +50888,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -51261,6 +51339,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -51870,6 +51949,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
@@ -52236,6 +52316,7 @@ MonoBehaviour:
   isHammer: 0
   isBomb: 0
   isArmouredDoor: 0
+  isReveal: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
   vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
   vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
