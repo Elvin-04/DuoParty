@@ -1202,8 +1202,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -1216,6 +1216,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -1651,8 +1652,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -1665,6 +1666,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -2579,8 +2581,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -2593,6 +2595,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -2944,8 +2947,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -2958,6 +2961,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -3225,8 +3229,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -3239,6 +3243,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -3674,8 +3679,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -3688,6 +3693,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -3871,8 +3877,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -3885,6 +3891,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -4068,8 +4075,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -4082,6 +4089,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -4265,8 +4273,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -4279,6 +4287,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -4680,8 +4689,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -4694,6 +4703,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -5045,8 +5055,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -5059,6 +5069,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -5657,8 +5668,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -5671,6 +5682,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -6022,8 +6034,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -6036,6 +6048,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -6387,8 +6400,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -6401,6 +6414,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -6752,8 +6766,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -6766,6 +6780,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -7117,8 +7132,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -7131,6 +7146,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -7482,8 +7498,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -7496,6 +7512,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -8015,8 +8032,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -8029,6 +8046,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -8296,8 +8314,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -8310,6 +8328,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -9081,8 +9100,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -9095,6 +9114,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -9506,6 +9526,7 @@ MonoBehaviour:
   _ArmouredDoorCount: 2
   _spawnCount: 2
   _endCount: 2
+  hole: {fileID: 8196226738584110675, guid: bbca057edc288f0478b8e1a16e54fdf4, type: 3}
   _borderCases: []
   _centerCases: []
 --- !u!4 &350744200
@@ -9918,8 +9939,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -9932,6 +9953,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -10856,8 +10878,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -10870,6 +10892,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -12299,8 +12322,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -12313,6 +12336,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -12664,8 +12688,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -12678,6 +12702,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -12945,8 +12970,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -12959,6 +12984,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -13142,8 +13168,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -13156,6 +13182,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -13834,8 +13861,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -13848,6 +13875,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -14031,8 +14059,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -14045,6 +14073,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -15605,8 +15634,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -15619,6 +15648,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -15886,8 +15916,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -15900,6 +15930,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -16503,8 +16534,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -16517,6 +16548,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -16700,8 +16732,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -16714,6 +16746,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -17065,8 +17098,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -17079,6 +17112,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -17346,8 +17380,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -17360,6 +17394,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -18131,8 +18166,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -18145,6 +18180,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -23216,8 +23252,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -23230,6 +23266,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -25001,6 +25038,9 @@ MonoBehaviour:
   isKeysContenair: 1
   hasItem: 0
   KeySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  VaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
+  VaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  color: Red
 --- !u!114 &868634774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25185,8 +25225,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -25199,6 +25239,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -25634,8 +25675,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -25648,6 +25689,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -26083,8 +26125,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -26097,6 +26139,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -26700,8 +26743,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -26714,6 +26757,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -27149,8 +27193,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -27163,6 +27207,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -27346,8 +27391,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -27360,6 +27405,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -27786,8 +27832,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -27800,6 +27846,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -28246,8 +28293,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -28260,6 +28307,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -28947,8 +28995,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -28961,6 +29009,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -29312,8 +29361,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -29326,6 +29375,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -30097,8 +30147,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -30111,6 +30161,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -30811,8 +30862,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -30825,6 +30876,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -31260,8 +31312,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -31274,6 +31326,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -31541,8 +31594,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -31555,6 +31608,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -31822,8 +31876,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -31836,6 +31890,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -32096,6 +32151,7 @@ MonoBehaviour:
   particle: {fileID: 722827075}
   player1inventory: {fileID: 1389582143}
   player2inventory: {fileID: 505479547}
+  gridManager: {fileID: 350744199}
 --- !u!1 &1177842208
 GameObject:
   m_ObjectHideFlags: 0
@@ -32494,8 +32550,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -32508,6 +32564,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -32691,8 +32748,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -32705,6 +32762,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -33140,8 +33198,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -33154,6 +33212,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -33673,8 +33732,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -33687,6 +33746,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -33862,6 +33922,9 @@ MonoBehaviour:
   isKeysContenair: 0
   hasItem: 0
   KeySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  VaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
+  VaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  color: Green
 --- !u!114 &1223398659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34121,8 +34184,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -34135,6 +34198,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -34592,8 +34656,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -34606,6 +34670,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -34957,8 +35022,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -34971,6 +35036,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -35238,8 +35304,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -35252,6 +35318,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -35435,8 +35502,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -35449,6 +35516,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -39208,8 +39276,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -39222,6 +39290,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -39649,6 +39718,9 @@ MonoBehaviour:
   isKeysContenair: 1
   hasItem: 0
   KeySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  VaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
+  VaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  color: Green
 --- !u!114 &1517693885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40169,8 +40241,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -40183,6 +40255,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -40366,8 +40439,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -40380,6 +40453,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -40563,8 +40637,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -40577,6 +40651,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -41748,8 +41823,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -41762,6 +41837,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -42527,8 +42603,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -42541,6 +42617,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -43304,6 +43381,9 @@ MonoBehaviour:
   isKeysContenair: 0
   hasItem: 0
   KeySprite: {fileID: 21300000, guid: f0e473e6a07ff114785e43cc54a41a88, type: 3}
+  VaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
+  VaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  color: Red
 --- !u!114 &1672474723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43563,8 +43643,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -43577,6 +43657,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -44600,8 +44681,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -44614,6 +44695,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -45252,8 +45334,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -45266,6 +45348,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -46280,8 +46363,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -46294,6 +46377,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -46897,8 +46981,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -46911,6 +46995,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -47514,8 +47599,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -47528,6 +47613,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -47963,8 +48049,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -47977,6 +48063,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -48748,8 +48835,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -48762,6 +48849,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -49374,8 +49462,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -49388,6 +49476,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -49823,8 +49912,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -49837,6 +49926,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -50356,8 +50446,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -50370,6 +50460,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -50721,8 +50812,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -50735,6 +50826,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -51170,8 +51262,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -51184,6 +51276,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -51778,8 +51871,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -51792,6 +51885,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -52143,8 +52237,8 @@ MonoBehaviour:
   isBomb: 0
   isArmouredDoor: 0
   keySprite: {fileID: 21300000, guid: 8913fafdff185a042bc228124ff81e30, type: 3}
-  vaccineSpriteRed: {fileID: 21300000, guid: 5019b0214a0daf342b4600448575cbfb, type: 3}
-  vaccineSpriteGreen: {fileID: 21300000, guid: c9d844bf5d8d9d74b80b28a76bfd0dc7, type: 3}
+  vaccineSpriteRed: {fileID: 21300000, guid: 2dcf396413f7497468d6abe741302f01, type: 3}
+  vaccineSpriteGreen: {fileID: 21300000, guid: 04624019c3638ba4390ad98a3e4700f7, type: 3}
   spawnSpriteGreen: {fileID: 21300000, guid: 9f34a09d54842c846b5f49cadaaf271a, type: 3}
   spawnSpriteRed: {fileID: 21300000, guid: 492558bdc109d064fb6fd362a7c0000c, type: 3}
   endSpriteGreen: {fileID: 21300000, guid: 889de9b7617f9fc4a836a00d36ef42a2, type: 3}
@@ -52157,6 +52251,7 @@ MonoBehaviour:
   neutralCross: {fileID: 11400000, guid: 30b0232e1a9cc0e41852cb157cdfd378, type: 2}
   redCross: {fileID: 11400000, guid: 39a76a68fd63c3e4b9c89092ae2df5de, type: 2}
   greenCross: {fileID: 11400000, guid: edef54cebb707214e9515a6f1e123e87, type: 2}
+  caseTransform: {fileID: 0}
   x: 0
   y: 0
   parent: {fileID: 0}
@@ -52446,6 +52541,63 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &7211326346260329250
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 640717051135296007, guid: bba29d0acf31a0443830c384f2919bd5, type: 3}
+      propertyPath: m_Name
+      value: fogg
+      objectReference: {fileID: 0}
+    - target: {fileID: 1199561981572044881, guid: bba29d0acf31a0443830c384f2919bd5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.7129
+      objectReference: {fileID: 0}
+    - target: {fileID: 1199561981572044881, guid: bba29d0acf31a0443830c384f2919bd5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.1066
+      objectReference: {fileID: 0}
+    - target: {fileID: 1199561981572044881, guid: bba29d0acf31a0443830c384f2919bd5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1199561981572044881, guid: bba29d0acf31a0443830c384f2919bd5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1199561981572044881, guid: bba29d0acf31a0443830c384f2919bd5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1199561981572044881, guid: bba29d0acf31a0443830c384f2919bd5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1199561981572044881, guid: bba29d0acf31a0443830c384f2919bd5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1199561981572044881, guid: bba29d0acf31a0443830c384f2919bd5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1199561981572044881, guid: bba29d0acf31a0443830c384f2919bd5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1199561981572044881, guid: bba29d0acf31a0443830c384f2919bd5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bba29d0acf31a0443830c384f2919bd5, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -52458,3 +52610,4 @@ SceneRoots:
   - {fileID: 1122658928}
   - {fileID: 420481718}
   - {fileID: 722827076}
+  - {fileID: 7211326346260329250}

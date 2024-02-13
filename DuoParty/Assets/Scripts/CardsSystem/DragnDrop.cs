@@ -19,6 +19,8 @@ public class DragnDrop : MonoBehaviour
     [SerializeField] private InventoryManager player1inventory;
     [SerializeField] private InventoryManager player2inventory;
 
+    [SerializeField] private GridManager gridManager;
+
     private BonusContainer bonusContainer;
 
     private void Update()
@@ -89,6 +91,7 @@ public class DragnDrop : MonoBehaviour
                     if (hit.collider != null && hit.collider.TryGetComponent<Case>(out Case _case) && _case.GetInteractible() && hit.collider.gameObject.GetComponent<Case>().GetCard() == null
                         && !_case.isKey && !_case.isVaccineGreen && !_case.isVaccineRed)
                     {
+                        gridManager.AddHole(hit.collider.GetComponent<Case>());
                         if (_case.isArmouredDoor)
                         {
                             stopAll.StopAllCards();
@@ -124,21 +127,25 @@ public class DragnDrop : MonoBehaviour
                             if (_case.up.GetCard() == null && _case.up.GetInteractible())
                             {
                                 _case.up.GetComponent<SpriteRenderer>().sprite = porte_blinde;
+                                gridManager.AddHole(_case.up.GetComponent<Case>());
                                 _case.up.LockMovements();
                             }
                             if (_case.down.GetCard() == null && _case.down.GetInteractible())
                             {
                                 _case.down.GetComponent<SpriteRenderer>().sprite = porte_blinde;
+                                gridManager.AddHole(_case.down.GetComponent<Case>());
                                 _case.down.LockMovements();
                             }
                             if (_case.right.GetCard() == null && _case.right.GetInteractible())
                             {
                                 _case.right.GetComponent<SpriteRenderer>().sprite = porte_blinde;
+                                gridManager.AddHole(_case.right.GetComponent<Case>());
                                 _case.right.LockMovements();
                             }
                             if (_case.left.GetCard() == null && _case.left.GetInteractible())
                             {
                                 _case.left.GetComponent<SpriteRenderer>().sprite = porte_blinde;
+                                gridManager.AddHole(_case.left.GetComponent<Case>());
                                 _case.left.LockMovements();
                             }
                         }
