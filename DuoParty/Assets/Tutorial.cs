@@ -15,15 +15,17 @@ public class Tutorial : MonoBehaviour
     [SerializeField] private Cards crossCard;
 
     [SerializeField] private GameObject darkBackground;
-    [SerializeField] private List<GameObject> focusZones;
     [SerializeField] private GameObject bubble;
     [SerializeField] private TextMeshProUGUI bubbleText;
     [SerializeField] private GameObject scientist;
 
+    [SerializeField] private GameObject sphereFocus;
+    [SerializeField] private GameObject squareFocus;
+
     public List<Texts> tutoSteps;
     private int currentIndex = 0;
 
-    private int textIndexInStep = 0;
+    private int localIndex = 0;
 
     private void Start()
     {
@@ -41,6 +43,9 @@ public class Tutorial : MonoBehaviour
 
         redDeck.hand.AddCard(crossCard);
         greenDeck.hand.AddCard(crossCard);
+
+        squareFocus.SetActive(false);
+        sphereFocus.SetActive(false);
 
         bubble.SetActive(false);
         scientist.SetActive(false);
@@ -62,44 +67,39 @@ public class Tutorial : MonoBehaviour
             {
                 bubble.SetActive(true);
                 scientist.SetActive(true);
-                bubbleText.text = tutoSteps[currentIndex].texts[textIndexInStep];
-                if(textIndexInStep + 1 < tutoSteps[currentIndex].texts.Count)
+                bubbleText.text = tutoSteps[currentIndex].texts[localIndex];
+                if(localIndex + 1 < tutoSteps[currentIndex].texts.Count)
                 {
-                    textIndexInStep++;
+                    localIndex++;
                 }
                 else
                 {
-                    textIndexInStep = 0;
+                    localIndex = 0;
                     currentIndex++;
                 }
             }
-            else if (tutoSteps[currentIndex].isPlayerAction)
+            else if (tutoSteps[currentIndex].isFocusText)
             {
-                bubble.SetActive(false);
-                scientist.SetActive(false);
+                bubble.SetActive(true);
+                scientist.SetActive(true);
+                bubbleText.text = tutoSteps[currentIndex].focusTexts[localIndex].text;
+                if (tutoSteps[currentIndex].focusTexts[localIndex].shape == FocusZoneShape.SPHERE)
+                {
+                    sphereFocus.SetActive(true);
+                    sphereFocus.GetComponent<RectTransform>().anchoredPosition = tutoSteps[currentIndex].focusTexts[localIndex].position;
+                }
+                else
+                {
+                    squareFocus.SetActive(true);
+                    squareFocus.GetComponent<RectTransform>().anchoredPosition = tutoSteps[currentIndex].focusTexts[localIndex].position;
+                }
+                
             }
         }
         else
         {
 
         }
-
-
-
-        //if (currentIndex < tutoSteps.Count && tutoSteps[currentIndex].isTextInstruction && localIndex < tutoSteps[currentIndex].texts.Count)
-        //{
-        //    bubble.SetActive(true);
-        //    scientist.SetActive(true);
-        //    bubbleText.text = tutoSteps[currentIndex].texts[localIndex];
-        //    localIndex++;
-        //}
-        
-        //else
-        //{
-        //    localIndex = 0;
-        //    bubble.SetActive(false);
-        //    scientist.SetActive(false);
-        //}
     }
 
     public void EnterButton(InputAction.CallbackContext ctx)
