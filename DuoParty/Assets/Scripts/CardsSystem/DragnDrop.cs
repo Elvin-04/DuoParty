@@ -19,6 +19,8 @@ public class DragnDrop : MonoBehaviour
     [SerializeField] private InventoryManager player1inventory;
     [SerializeField] private InventoryManager player2inventory;
 
+    [SerializeField] private GridManager gridManager;
+
     private BonusContainer bonusContainer;
 
     private void Update()
@@ -89,8 +91,10 @@ public class DragnDrop : MonoBehaviour
                     if (hit.collider != null && hit.collider.TryGetComponent<Case>(out Case _case) && _case.GetInteractible() && hit.collider.gameObject.GetComponent<Case>().GetCard() == null
                         && !_case.isKey && !_case.isVaccineGreen && !_case.isVaccineRed)
                     {
+                        gridManager.AddHole(hit.collider.GetComponent<Case>());
                         if (_case.isArmouredDoor)
                         {
+                            stopAll.StopAllCards();
                             //FindObjectOfType<AudioManager>().PlaySound("armouredDoor activated");
                             PlaceInSecondHand();
                             _case.GetComponent<SpriteRenderer>().sprite = porte_blinde;
@@ -115,6 +119,7 @@ public class DragnDrop : MonoBehaviour
                         }
                         else if (_case.isBomb)
                         {
+                            stopAll.StopAllCards();
                             //FindObjectOfType<AudioManager>().PlaySound("alarm activated");
                             PlaceInSecondHand();
                             _case.GetComponent<SpriteRenderer>().sprite = porte_blinde;
@@ -122,24 +127,27 @@ public class DragnDrop : MonoBehaviour
                             if (_case.up.GetCard() == null && _case.up.GetInteractible())
                             {
                                 _case.up.GetComponent<SpriteRenderer>().sprite = porte_blinde;
+                                gridManager.AddHole(_case.up.GetComponent<Case>());
                                 _case.up.LockMovements();
                             }
                             if (_case.down.GetCard() == null && _case.down.GetInteractible())
                             {
                                 _case.down.GetComponent<SpriteRenderer>().sprite = porte_blinde;
+                                gridManager.AddHole(_case.down.GetComponent<Case>());
                                 _case.down.LockMovements();
                             }
                             if (_case.right.GetCard() == null && _case.right.GetInteractible())
                             {
                                 _case.right.GetComponent<SpriteRenderer>().sprite = porte_blinde;
+                                gridManager.AddHole(_case.right.GetComponent<Case>());
                                 _case.right.LockMovements();
                             }
                             if (_case.left.GetCard() == null && _case.left.GetInteractible())
                             {
                                 _case.left.GetComponent<SpriteRenderer>().sprite = porte_blinde;
+                                gridManager.AddHole(_case.left.GetComponent<Case>());
                                 _case.left.LockMovements();
                             }
-
                         }
                         else
                         {
@@ -147,9 +155,9 @@ public class DragnDrop : MonoBehaviour
                             hit.collider.gameObject.GetComponent<Case>().AddCard(cardHand.GetComponent<Hand>().card);
                             hit.collider.gameObject.transform.Rotate(0f, 0f, cardHand.GetComponent<Hand>().rotation);
                             cardHand.GetComponent<Hand>().RemoveCard();
-                            stopAll.StopAllCards();
                             particle.transform.position = hit.collider.transform.position;
                             particle.Play();
+                            stopAll.StopAllCards();
                         }
                         if (result.tag == "Card" && hit.collider != null && hit.collider.TryGetComponent<Case>(out _case) && !_case.isArmouredDoor && !_case.isBomb && _case.GetInteractible() && hit.collider.gameObject.GetComponent<Case>().GetCard() == null
                         && !_case.isKey && !_case.isVaccineGreen && !_case.isVaccineRed)
@@ -161,7 +169,6 @@ public class DragnDrop : MonoBehaviour
                             hit.collider.gameObject.GetComponent<Case>().AddCard(cardHand.GetComponent<Hand>().card);
                             hit.collider.gameObject.transform.Rotate(0f, 0f, cardHand.GetComponent<Hand>().rotation);
                             cardHand.GetComponent<Hand>().RemoveCard();
-                            stopAll.StopAllCards();
                         }
                         else if (result.tag == "BonusSlot" && hit.collider != null && hit.collider.TryGetComponent<Case>(out _case) && _case.GetInteractible() && (_case.GetCard() != null || _case.GetArmouredDoor()))
                         {
@@ -177,7 +184,7 @@ public class DragnDrop : MonoBehaviour
                             }
 
                         }
-
+                        
                     }
                     // return image in his place
                     CardReturn(result.gameObject);
