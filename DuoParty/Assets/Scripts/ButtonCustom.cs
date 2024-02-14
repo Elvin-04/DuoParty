@@ -7,9 +7,9 @@ using TMPro;
 
 public class ButtonCustom : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
-    public bool _interactable = true;
+    public bool _interactable = true; 
+    public bool _interactableImage = false;
 
-    Vector3 cachedScale;
 
     [Header("Sprites")]
     [SerializeField] private Sprite _disable;
@@ -17,6 +17,7 @@ public class ButtonCustom : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
 
     [Header("Colors")]
     [SerializeField] private Color _enterColor;
+    [SerializeField] private Color _enterColorImage;
     [SerializeField] private Color _exitColor;
     [SerializeField] private Color _clickColor;
 
@@ -34,7 +35,6 @@ public class ButtonCustom : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     private void Start()
     {
         m_enable = GetComponent<Image>().sprite;
-        cachedScale = transform.localScale;
     }
 
     private void Update()
@@ -44,23 +44,33 @@ public class ButtonCustom : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        transform.localScale = new Vector3(3f, 3f, 3f);
         if (_interactable)
         {
             _onEnter.Invoke();
             if (GetComponentInChildren<TMP_Text>() != null)
                 GetComponentInChildren<TMP_Text>().color = _enterColor;
         }
+        if (_interactableImage)
+        {
+            _onEnter.Invoke();
+            if (GetComponentInChildren<Image>() != null)
+                GetComponentInChildren<Image>().color = _enterColorImage;
+        }
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        transform.localScale = cachedScale;
         if (_interactable)
         {
             _onExit.Invoke();
             if (GetComponentInChildren<TMP_Text>() != null)
                 GetComponentInChildren<TMP_Text>().color = _exitColor;
+        }
+        if (_interactableImage)
+        {
+            _onExit.Invoke();
+            if (GetComponentInChildren<Image>() != null)
+                GetComponentInChildren<Image>().color = _exitColor;
         }
     }
 

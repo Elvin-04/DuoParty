@@ -1,0 +1,54 @@
+{
+    "name": "MenuInput",
+    "maps": [
+        {
+            "name": "Menu",
+            "id": "a5df2e64-be72-47e8-852e-f40ec40dd311",
+            "actions": [
+                {
+                    "name": "Active/DesactiveMenu",
+                    "type": "Button",
+                    "id": "feb4ccd3-ec31-4348-984e-f2ddfeb61e09",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Active/DesactiveEndmenu",
+                    "type": "Button",
+                    "id": "4e5b08b0-78bb-43e9-aa7c-c7739e0053d7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "361247ee-27d6-4417-9a1a-169f22561a1c",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Active/DesactiveMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6bee9d87-e33e-4596-ad18-ca382b91f5b7",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Active/DesactiveEndmenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
