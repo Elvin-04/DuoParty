@@ -258,7 +258,7 @@ MonoBehaviour:
   m_text: Menu
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 469944b5d13870446ab9cf74ca6f0c2f, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 4415239812531162538, guid: 469944b5d13870446ab9cf74ca6f0c2f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -384,8 +384,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interactable: 1
+  _interactableImage: 0
   _disable: {fileID: 0}
   _enterColor: {r: 1, g: 0.99777603, b: 0, a: 1}
+  _enterColorImage: {r: 0, g: 0, b: 0, a: 0}
   _exitColor: {r: 1, g: 1, b: 1, a: 1}
   _clickColor: {r: 1, g: 1, b: 1, a: 1}
   _onClick:
@@ -499,8 +501,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interactable: 1
+  _interactableImage: 0
   _disable: {fileID: 0}
   _enterColor: {r: 1, g: 0.99777603, b: 0, a: 1}
+  _enterColorImage: {r: 0, g: 0, b: 0, a: 0}
   _exitColor: {r: 1, g: 1, b: 1, a: 1}
   _clickColor: {r: 1, g: 1, b: 1, a: 1}
   _onClick:
@@ -1000,6 +1004,7 @@ MonoBehaviour:
   _menu: {fileID: 501886467}
   _endMenu: {fileID: 1568215936}
   _audioSource: {fileID: 0}
+  _animator: {fileID: 0}
 --- !u!114 &272449093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1300,7 +1305,7 @@ MonoBehaviour:
   m_text: Quit
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 469944b5d13870446ab9cf74ca6f0c2f, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 4415239812531162538, guid: 469944b5d13870446ab9cf74ca6f0c2f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1526,7 +1531,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &501886468
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1876,7 +1881,7 @@ MonoBehaviour:
   m_text: Restrart
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 469944b5d13870446ab9cf74ca6f0c2f, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 4415239812531162538, guid: 469944b5d13870446ab9cf74ca6f0c2f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2002,8 +2007,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interactable: 1
+  _interactableImage: 0
   _disable: {fileID: 0}
   _enterColor: {r: 1, g: 0.99777603, b: 0, a: 1}
+  _enterColorImage: {r: 0, g: 0, b: 0, a: 0}
   _exitColor: {r: 1, g: 1, b: 1, a: 1}
   _clickColor: {r: 1, g: 1, b: 1, a: 1}
   _onClick:
@@ -2117,8 +2124,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interactable: 1
+  _interactableImage: 0
   _disable: {fileID: 0}
   _enterColor: {r: 1, g: 0.99777603, b: 0, a: 1}
+  _enterColorImage: {r: 0, g: 0, b: 0, a: 0}
   _exitColor: {r: 1, g: 1, b: 1, a: 1}
   _clickColor: {r: 1, g: 1, b: 1, a: 1}
   _onClick:
@@ -2414,8 +2423,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interactable: 1
+  _interactableImage: 0
   _disable: {fileID: 0}
   _enterColor: {r: 1, g: 0.99777603, b: 0, a: 1}
+  _enterColorImage: {r: 0, g: 0, b: 0, a: 0}
   _exitColor: {r: 1, g: 1, b: 1, a: 1}
   _clickColor: {r: 1, g: 1, b: 1, a: 1}
   _onClick:
@@ -2755,8 +2766,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interactable: 1
+  _interactableImage: 0
   _disable: {fileID: 0}
   _enterColor: {r: 1, g: 0.99777603, b: 0, a: 1}
+  _enterColorImage: {r: 0, g: 0, b: 0, a: 0}
   _exitColor: {r: 1, g: 1, b: 1, a: 1}
   _clickColor: {r: 1, g: 1, b: 1, a: 1}
   _onClick:

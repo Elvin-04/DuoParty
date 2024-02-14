@@ -114,7 +114,6 @@ public void Credit()
     {
 
         GameObject.Find("MenuManager").transform.Find("Credit").gameObject.SetActive(true);
-        GameObject.Find("MenuManager").transform.Find("GameName").gameObject.SetActive(false);
         GameObject.Find("MenuManager").transform.Find("CreditPanel").gameObject.SetActive(false);
         GameObject.Find("MenuManager").transform.Find("PlayPanel").gameObject.SetActive(false);
         GameObject.Find("MenuManager").transform.Find("InformationPanel").gameObject.SetActive(false);
@@ -123,7 +122,6 @@ public void Credit()
     public void CreditClose()
         {
             GameObject.Find("MenuManager").transform.Find("Credit").gameObject.SetActive(false);
-        GameObject.Find("MenuManager").transform.Find("GameName").gameObject.SetActive(true);
         GameObject.Find("MenuManager").transform.Find("CreditPanel").gameObject.SetActive(true);
             GameObject.Find("MenuManager").transform.Find("PlayPanel").gameObject.SetActive(true);
             GameObject.Find("MenuManager").transform.Find("InformationPanel").gameObject.SetActive(true);
@@ -133,13 +131,11 @@ public void Credit()
     {
         if (_uiActive == false)
         {
-            GameObject.Find("MenuManager").transform.Find("GameName").gameObject.SetActive(false);
             GameObject.Find("MenuManager").transform.Find("PlayPanel").gameObject.SetActive(false);
             _uiActive = true;
         }
         else
         {
-            GameObject.Find("MenuManager").transform.Find("GameName").gameObject.SetActive(true);
             GameObject.Find("MenuManager").transform.Find("PlayPanel").gameObject.SetActive(true);
             _uiActive = false;
         }
