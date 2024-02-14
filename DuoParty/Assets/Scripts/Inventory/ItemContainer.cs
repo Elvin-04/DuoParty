@@ -11,19 +11,18 @@ public class ItemContainer : MonoBehaviour
     [SerializeField] private Sprite VaccineSpriteGreen;
     [SerializeField] private string color;
 
-    public void addItem(GameObject currentCase)
+
+    private void Start()
     {
-        if (isKeysContenair)
+        itemImage.color = Color.grey;
+    }
+
+
+    public void addItem()
+    {
+        if (!hasItem)
         {
-            itemImage.sprite = KeySprite;
-        }
-        else if(color == "Red")
-        {
-            itemImage.sprite = VaccineSpriteRed;
-        }
-        else
-        {
-            itemImage.sprite = VaccineSpriteGreen;
+            itemImage.color = Color.white;
         }
         hasItem = true;
     }
