@@ -117,7 +117,7 @@ public class DragnDrop : MonoBehaviour
                         {
                             _case.isReveal = true;
                             stopAll.StopAllCards();
-                            //FindObjectOfType<AudioManager>().PlaySound("armouredDoor activated");
+                            FindObjectOfType<AudioManager>().PlaySound("armouredDoor activated");
                             PlaceInSecondHand();
                             _case.GetComponent<SpriteRenderer>().sprite = porte_blinde;
                             _case.LockMovements();
@@ -143,7 +143,7 @@ public class DragnDrop : MonoBehaviour
                         {
                             _case.isReveal = true;
                             stopAll.StopAllCards();
-                            //FindObjectOfType<AudioManager>().PlaySound("alarm activated");
+                            FindObjectOfType<AudioManager>().PlaySound("alarm activated");
                             PlaceInSecondHand();
                             _case.GetComponent<SpriteRenderer>().sprite = porte_blinde;
                             _case.LockMovements();
@@ -193,6 +193,7 @@ public class DragnDrop : MonoBehaviour
                             if (_case.isHammer || _case.isAccessCard)
                             {
                                 AddBonusToPlayer(cardHand.gameObject.tag, _case);
+                                FindObjectOfType<AudioManager>().PlaySound("item picked up");
                             }
                             hit.collider.gameObject.GetComponent<Case>().AddCard(cardHand.GetComponent<Hand>().card);
                             hit.collider.gameObject.transform.rotation = Quaternion.Euler(0f, 0f, cardHand.GetComponent<Hand>().rotation);
@@ -210,9 +211,7 @@ public class DragnDrop : MonoBehaviour
                                 _case.isArmouredDoor = false;
                                 bonusContainer.removeItem();
                             }
-
                         }
-                        
                     }
                     // return image in his place
                     CardReturn(result.gameObject);
