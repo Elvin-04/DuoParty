@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using TMPro;
 using System.Collections;
 using UnityEngine.InputSystem;
+using System.Runtime.CompilerServices;
+using Unity.VisualScripting;
 
 public class Tutorial : MonoBehaviour
 {
@@ -20,7 +22,6 @@ public class Tutorial : MonoBehaviour
     [SerializeField] private GameObject scientist;
 
     [SerializeField] private GameObject sphereFocus;
-    [SerializeField] private GameObject squareFocus;
 
     [SerializeField] private float focusSpeed;
 
@@ -37,6 +38,9 @@ public class Tutorial : MonoBehaviour
 
     private Vector2 focusZoneDestination;
     private bool moveFocusZone;
+
+    private Vector2 focusZoneScaleDest;
+    private bool scaleFocusZone;
 
     private void Start()
     {
@@ -55,7 +59,6 @@ public class Tutorial : MonoBehaviour
         redDeck.hand.AddCard(crossCard);
         greenDeck.hand.AddCard(crossCard);
 
-        squareFocus.SetActive(false);
         sphereFocus.SetActive(false);
 
         bubble.SetActive(false);
@@ -68,13 +71,19 @@ public class Tutorial : MonoBehaviour
     {
         if(moveFocusZone)
         {
-            if(sphereFocus.activeSelf)
+            sphereFocus.GetComponent<RectTransform>().anchoredPosition = Vector2.Lerp(sphereFocus.GetComponent<RectTransform>().anchoredPosition, focusZoneDestination, focusSpeed * Time.deltaTime);
+            if (Vector2.Distance(sphereFocus.GetComponent<RectTransform>().anchoredPosition, focusZoneDestination) <= 0.05f)
             {
-                sphereFocus.GetComponent<RectTransform>().anchoredPosition = Vector2.Lerp(sphereFocus.GetComponent<RectTransform>().anchoredPosition, focusZoneDestination, focusSpeed * Time.deltaTime);
-                if (Vector2.Distance(sphereFocus.GetComponent<RectTransform>().anchoredPosition, focusZoneDestination) <= 0.05f)
-                {
-                    moveFocusZone = false;
-                }
+                moveFocusZone = false;
+            }
+        }
+
+        if (scaleFocusZone)
+        {
+            sphereFocus.GetComponent<RectTransform>().sizeDelta = Vector2.Lerp(sphereFocus.GetComponent<RectTransform>().sizeDelta, focusZoneScaleDest, focusSpeed * Time.deltaTime);
+            if (Vector2.Distance(sphereFocus.GetComponent<RectTransform>().sizeDelta, focusZoneScaleDest) <= 0.05f)
+            {
+                scaleFocusZone = false;
             }
         }
     }
@@ -93,6 +102,7 @@ public class Tutorial : MonoBehaviour
             {
                 bubble.SetActive(true);
                 scientist.SetActive(true);
+                sphereFocus.SetActive(false);
                 bubbleText.text = tutoSteps[currentIndex].texts[localIndex];
 
                 if (localIndex + 1 < tutoSteps[currentIndex].texts.Count)
@@ -116,34 +126,21 @@ public class Tutorial : MonoBehaviour
                 else
                     ScientistAndBubble.GetComponent<RectTransform>().anchoredPosition = rightPosition;
 
-                if (tutoSteps[currentIndex].focusTexts[localIndex].shape == FocusZoneShape.SPHERE)
+
+                if (sphereFocus.activeSelf)
                 {
-                    if(sphereFocus.activeSelf)
-                    {
-                        moveFocusZone = true;
-                        focusZoneDestination = tutoSteps[currentIndex].focusTexts[localIndex].position;
-                    }
-                    else
-                    {
-                        squareFocus.SetActive(true);
-                        sphereFocus.SetActive(true);
-                        sphereFocus.GetComponent<RectTransform>().anchoredPosition = tutoSteps[currentIndex].focusTexts[localIndex].position;
-                    }
+                    moveFocusZone = true;
+                    focusZoneDestination = tutoSteps[currentIndex].focusTexts[localIndex].position;
+                    scaleFocusZone = true;
+                    focusZoneScaleDest = tutoSteps[currentIndex].focusTexts[localIndex].scale;
                 }
                 else
                 {
-                    if (squareFocus.activeSelf)
-                    {
-                        moveFocusZone = true;
-                        focusZoneDestination = tutoSteps[currentIndex].focusTexts[localIndex].position;
-                    }
-                    else
-                    {
-                        sphereFocus.SetActive(false);
-                        squareFocus.SetActive(true);
-                        squareFocus.GetComponent<RectTransform>().anchoredPosition = tutoSteps[currentIndex].focusTexts[localIndex].position;
-                    }
+                    sphereFocus.SetActive(true);
+                    sphereFocus.GetComponent<RectTransform>().anchoredPosition = tutoSteps[currentIndex].focusTexts[localIndex].position;
+                    sphereFocus.GetComponent<RectTransform>().sizeDelta = tutoSteps[currentIndex].focusTexts[localIndex].scale;
                 }
+
 
                 if (localIndex + 1 < tutoSteps[currentIndex].focusTexts.Count)
                 {
@@ -189,16 +186,11 @@ public struct Texts
 public struct FocusText
 {
     public Vector2 position;
+    public Vector2 scale;
     public string text;
-    public FocusZoneShape shape;
     public ScientistPosition scientistPosition;
 }
 
-public enum FocusZoneShape
-{
-    SQUARE,
-    SPHERE,
-}
 
 public enum ScientistPosition
 {
