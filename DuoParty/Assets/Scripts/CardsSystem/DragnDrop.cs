@@ -67,7 +67,7 @@ public class DragnDrop : MonoBehaviour
                     gridManager.RemoveHole(oldMouseOverGameObject.GetComponent<Case>());
                     oldMouseOverGameObject.GetComponent<Case>().ResetImage();
                 }
-                if (hit.collider != null && hit.collider.TryGetComponent<Case>(out Case _case) && _case.GetInteractible() && hit.collider.gameObject.GetComponent<Case>().GetCard() == null && !_case.isReveal)
+                if (cardHand.GetComponent<Hand>() != null && hit.collider != null && hit.collider.TryGetComponent<Case>(out Case _case) && _case.GetInteractible() && hit.collider.gameObject.GetComponent<Case>().GetCard() == null && !_case.isReveal)
                 {
                     gridManager.AddHole(hit.collider.GetComponent<Case>());
                     hit.collider.GetComponent<Case>().AddImage(cardHand.GetComponent<Hand>().card);
@@ -216,6 +216,7 @@ public class DragnDrop : MonoBehaviour
                     }
                     // return image in his place
                     CardReturn(result.gameObject);
+                    cardHand = null;
                 }
             }
         }
