@@ -195,6 +195,13 @@ public class GridManager : MonoBehaviour
         AddHole(GetSpawnOfColor(cardcolors.green));
         AddHole(GetEndOfColor(cardcolors.red));
         AddHole(GetEndOfColor(cardcolors.green));
+        foreach(Case _case in cases)
+        {
+            if (_case.GetCard() != null)
+            {
+                AddHole(_case);
+            }
+        }
     }
 
 
