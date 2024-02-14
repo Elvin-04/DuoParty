@@ -32223,12 +32223,10 @@ MonoBehaviour:
   greenTrashHand: {fileID: 576103608}
   stopAll: {fileID: 1613845222}
   porte_blinde: {fileID: 21300000, guid: bd1affdbb2197c64f9694815eb182be2, type: 3}
-  camera_trap: {fileID: 21300000, guid: 4340764c49ec3e4488e55bd9f89ca171, type: 3}
   particle: {fileID: 722827075}
   player1inventory: {fileID: 1389582143}
   player2inventory: {fileID: 505479547}
   gridManager: {fileID: 350744199}
-  renderer: {fileID: 0}
 --- !u!1 &1177842208
 GameObject:
   m_ObjectHideFlags: 0

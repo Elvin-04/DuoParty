@@ -1,7 +1,9 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityEngine.UIElements;
 
 public class DragnDrop : MonoBehaviour
 {
@@ -15,6 +17,7 @@ public class DragnDrop : MonoBehaviour
     [SerializeField] private OneCardPerRound stopAll;
 
     [SerializeField] private Sprite porte_blinde;
+    [SerializeField] private Sprite camera_trap;
     [SerializeField] private ParticleSystem particle;
     [SerializeField] private InventoryManager player1inventory;
     [SerializeField] private InventoryManager player2inventory;
@@ -24,6 +27,7 @@ public class DragnDrop : MonoBehaviour
     private GameObject oldMouseOverGameObject;
 
     private BonusContainer bonusContainer;
+
 
     private void Update()
     {
@@ -62,19 +66,15 @@ public class DragnDrop : MonoBehaviour
                 }
                 RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
 
-                if (result.tag == "Card" && oldMouseOverGameObject != null && oldMouseOverGameObject.GetComponent<Case>().GetCard() == null)
+                if (oldMouseOverGameObject != null && oldMouseOverGameObject.GetComponent<Case>().GetCard() == null)
                 {
-                    if(!oldMouseOverGameObject.GetComponent<Case>().isReveal)
-                        gridManager.RemoveHole(oldMouseOverGameObject.GetComponent<Case>());
+                    gridManager.RemoveHole(oldMouseOverGameObject.GetComponent<Case>());
                     oldMouseOverGameObject.GetComponent<Case>().ResetImage();
-                    oldMouseOverGameObject.GetComponent<Case>().ResetDarkImage();
                 }
-                if (result.tag == "Card" && hit.collider != null && hit.collider.TryGetComponent<Case>(out Case _case) && _case.GetInteractible() && hit.collider.gameObject.GetComponent<Case>().GetCard() == null)
+                if (hit.collider != null && hit.collider.TryGetComponent<Case>(out Case _case) && _case.GetInteractible() && hit.collider.gameObject.GetComponent<Case>().GetCard() == null && !_case.isReveal)
                 {
-                    if(!_case.isReveal)
-                        gridManager.AddHole(hit.collider.GetComponent<Case>());
+                    gridManager.AddHole(hit.collider.GetComponent<Case>());
                     hit.collider.GetComponent<Case>().AddImage(cardHand.GetComponent<Hand>().card);
-                    hit.collider.GetComponent<Case>().MakeImageDarker();
                     if (oldMouseOverGameObject != null && hit.collider.transform.rotation.z != cardHand.GetComponent<Hand>().rotation)
                     {
                         hit.collider.gameObject.transform.rotation = Quaternion.Euler(0f, 0f, cardHand.GetComponent<Hand>().rotation);
@@ -113,19 +113,18 @@ public class DragnDrop : MonoBehaviour
                     RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
 
                     //drop the card
-                    if (result.tag == "Card" && hit.collider != null && hit.collider.TryGetComponent<Case>(out Case _case) && _case.GetInteractible() && hit.collider.gameObject.GetComponent<Case>().GetCard() == null
-                    && !_case.isKey && !_case.isVaccineGreen && !_case.isVaccineRed)
+                    if (hit.collider != null && hit.collider.TryGetComponent<Case>(out Case _case) && _case.GetInteractible() && hit.collider.gameObject.GetComponent<Case>().GetCard() == null
+                        && !_case.isKey && !_case.isVaccineGreen && !_case.isVaccineRed)
                     {
                         gridManager.AddHole(hit.collider.GetComponent<Case>());
                         if (_case.isArmouredDoor)
                         {
                             _case.isReveal = true;
                             stopAll.StopAllCards();
-                            //FindObjectOfType<AudioManager>().PlaySound("armouredDoor activated");
+                            FindObjectOfType<AudioManager>().PlaySound("armouredDoor activated");
                             PlaceInSecondHand();
                             _case.GetComponent<SpriteRenderer>().sprite = porte_blinde;
                             _case.LockMovements();
-                            _case.ResetDarkImage();
 
                             if (_case.up != null && NotEndSpawnOrBonus(_case.up) && _case.up.GetCard() != null && _case.up.GetEColor() != cardcolors.redAndGreen)
                             {
@@ -148,48 +147,16 @@ public class DragnDrop : MonoBehaviour
                         {
                             _case.isReveal = true;
                             stopAll.StopAllCards();
-                            _case.ResetDarkImage();
-                            //FindObjectOfType<AudioManager>().PlaySound("alarm activated");
+                            FindObjectOfType<AudioManager>().PlaySound("alarm activated");
                             PlaceInSecondHand();
-                            _case.GetComponent<SpriteRenderer>().sprite = porte_blinde;
+                            _case.GetComponent<SpriteRenderer>().sprite = camera_trap;
+                            
                             _case.LockMovements();
-                            if (_case.up.GetCard() == null && _case.up.GetInteractible())
-                            {
-                                _case.up.GetComponent<SpriteRenderer>().sprite = porte_blinde;
-                                gridManager.AddHole(_case.up.GetComponent<Case>());
-                                _case.up.LockMovements();
-                                _case.up.ResetDarkImage();
-                                _case.up.isReveal = true;
-                            }
-                            if (_case.down.GetCard() == null && _case.down.GetInteractible())
-                            {
-                                _case.down.GetComponent<SpriteRenderer>().sprite = porte_blinde;
-                                gridManager.AddHole(_case.down.GetComponent<Case>());
-                                _case.down.LockMovements();
-                                _case.down.ResetDarkImage();
-                                _case.down.isReveal = true;
-                            }
-                            if (_case.right.GetCard() == null && _case.right.GetInteractible())
-                            {
-                                _case.right.GetComponent<SpriteRenderer>().sprite = porte_blinde;
-                                gridManager.AddHole(_case.right.GetComponent<Case>());
-                                _case.right.LockMovements();
-                                _case.right.ResetDarkImage();
-                                _case.right.isReveal = true;
-                            }
-                            if (_case.left.GetCard() == null && _case.left.GetInteractible())
-                            {
-                                _case.left.GetComponent<SpriteRenderer>().sprite = porte_blinde;
-                                gridManager.AddHole(_case.left.GetComponent<Case>());
-                                _case.left.LockMovements();
-                                _case.left.ResetDarkImage();
-                                _case.left.isReveal = true;
-                            }
+                            StartCoroutine(TrapCamera(_case));
                         }
                         else
                         {
                             _case.isReveal = true;
-                            _case.ResetDarkImage();
                             FindObjectOfType<AudioManager>().PlaySound("card droped");
                             hit.collider.gameObject.GetComponent<Case>().AddCard(cardHand.GetComponent<Hand>().card);
                             hit.collider.gameObject.transform.rotation = Quaternion.Euler(0f, 0f, cardHand.GetComponent<Hand>().rotation);
@@ -197,32 +164,39 @@ public class DragnDrop : MonoBehaviour
                             particle.transform.position = hit.collider.transform.position;
                             particle.Play();
                             stopAll.StopAllCards();
+                        }
+                        if (result.tag == "Card" && hit.collider != null && hit.collider.TryGetComponent<Case>(out _case) && !_case.isArmouredDoor && !_case.isBomb && _case.GetInteractible() && hit.collider.gameObject.GetComponent<Case>().GetCard() == null
+                        && !_case.isKey && !_case.isVaccineGreen && !_case.isVaccineRed)
+                        {
                             if (_case.isHammer || _case.isAccessCard)
                             {
                                 AddBonusToPlayer(cardHand.gameObject.tag, _case);
+                                FindObjectOfType<AudioManager>().PlaySound("item picked up");
                             }
-                        } 
-                    }
-                    else if (result.tag == "BonusSlot" && hit.collider != null && hit.collider.TryGetComponent<Case>(out _case) && _case.GetInteractible() && (_case.GetCard() != null || _case.GetArmouredDoor()))
-                    {
-                        if (_case.GetCard() != null && bonusContainer.bonus == TypeOfBonus.hammer)
-                        {
-                            _case.ResetCard();
-                            bonusContainer.removeItem();
+                            hit.collider.gameObject.GetComponent<Case>().AddCard(cardHand.GetComponent<Hand>().card);
+                            hit.collider.gameObject.transform.rotation = Quaternion.Euler(0f, 0f, cardHand.GetComponent<Hand>().rotation);
+                            cardHand.GetComponent<Hand>().RemoveCard();
                         }
-                        else if (_case.GetArmouredDoor() && bonusContainer.bonus == TypeOfBonus.accessCard)
+                        else if (result.tag == "BonusSlot" && hit.collider != null && hit.collider.TryGetComponent<Case>(out _case) && _case.GetInteractible() && (_case.GetCard() != null || _case.GetArmouredDoor()))
                         {
-                            _case.isArmouredDoor = false;
-                            _case.ResetCard();
-                            bonusContainer.removeItem();
+                            if (_case.GetCard() != null && bonusContainer.bonus == TypeOfBonus.hammer)
+                            {
+                                _case.ResetCard();
+                                bonusContainer.removeItem();
+                            }
+                            else if (_case.GetArmouredDoor() && bonusContainer.bonus == TypeOfBonus.accessCard)
+                            {
+                                _case.isArmouredDoor = false;
+                                bonusContainer.removeItem();
+                            }
                         }
-
                     }
                     // return image in his place
                     CardReturn(result.gameObject);
                 }
             }
         }
+
 
 
 
@@ -253,16 +227,16 @@ public class DragnDrop : MonoBehaviour
         }
     }
 
-    private void AddBonusToPlayer(string tag, Case _case)
+    private void AddBonusToPlayer(string tag, Case currentCase)
     {
         switch (tag)
         {
             case ("Player1"):
-                player1inventory.AddItemInInventory(_case);
+                player1inventory.AddItemInInventory(currentCase.gameObject);
                 break;
 
             case ("Player2"):
-                player2inventory.AddItemInInventory(_case);
+                player2inventory.AddItemInInventory(currentCase.gameObject);
                 break;
 
         }
@@ -273,4 +247,82 @@ public class DragnDrop : MonoBehaviour
         return (!currentCase.GetIsEnd() && !currentCase.GetIsSpawn() && !currentCase.isKey && !currentCase.isVaccineGreen && !currentCase.isVaccineRed);
     }
 
+    IEnumerator TrapCamera(Case _case)
+    {
+        if (_case.up.GetCard() == null && _case.up.GetInteractible())
+        {
+            StartCoroutine(blinking(_case.up.GetComponent<SpriteRenderer>(), 1));
+            gridManager.AddHole(_case.up.GetComponent<Case>());
+            _case.up.LockMovements();
+            _case.up.isReveal = true;
+        }
+        if (_case.down.GetCard() == null && _case.down.GetInteractible())
+        {
+            StartCoroutine(blinking(_case.down.GetComponent<SpriteRenderer>(), 1));
+            gridManager.AddHole(_case.down.GetComponent<Case>());
+            _case.down.LockMovements();
+            _case.down.isReveal = true;
+        }
+        if (_case.right.GetCard() == null && _case.right.GetInteractible())
+        {
+            StartCoroutine(blinking(_case.right.GetComponent<SpriteRenderer>(), 1));
+            gridManager.AddHole(_case.right.GetComponent<Case>());
+            _case.right.LockMovements();
+            _case.right.isReveal = true;
+        }
+        if (_case.left.GetCard() == null && _case.left.GetInteractible())
+        {
+            StartCoroutine(blinking(_case.left.GetComponent<SpriteRenderer>(), 1));
+            gridManager.AddHole(_case.left.GetComponent<Case>());
+            _case.left.LockMovements();
+            _case.left.isReveal = true;
+        }
+        yield return new WaitForSeconds(1);
+        if (_case.up.GetCard() == null && _case.up.GetInteractible())
+        {
+            _case.up.GetComponent<SpriteRenderer>().sprite = porte_blinde;
+        }
+        if (_case.down.GetCard() == null && _case.down.GetInteractible())
+        {
+            _case.down.GetComponent<SpriteRenderer>().sprite = porte_blinde;
+        }
+        if (_case.right.GetCard() == null && _case.right.GetInteractible())
+        {
+            _case.right.GetComponent<SpriteRenderer>().sprite = porte_blinde;
+        }
+        if (_case.left.GetCard() == null && _case.left.GetInteractible())
+        {
+            _case.left.GetComponent<SpriteRenderer>().sprite = porte_blinde;
+        }
+    }
+
+    IEnumerator blinking(SpriteRenderer sr, float Totaltime)
+    {
+        float time = 0f;
+        while(time / Totaltime < 0.25f)
+        {
+            time += Time.deltaTime;
+            sr.color = new Color(1,1-time/Totaltime*4,1-time/Totaltime*4, 1);
+            yield return new WaitForEndOfFrame();
+        }
+        while (time / Totaltime < 0.5f)
+        {
+            time += Time.deltaTime;
+            sr.color = new Color(1,0 + time / Totaltime * 2, 0 + time / Totaltime * 2, 1);
+            yield return new WaitForEndOfFrame();
+
+        }
+        while (time / Totaltime < 0.75f)
+        {
+            time += Time.deltaTime;
+            sr.color = new Color(1, 1 - time / Totaltime * 0.5f, 1 - time / Totaltime * 0.5f, 1);
+            yield return new WaitForEndOfFrame();
+        }
+        while (time / Totaltime < 1f)
+        {
+            time += Time.deltaTime;
+            sr.color = new Color(1, 0 + time / Totaltime , 0 + time / Totaltime, 1);
+            yield return new WaitForEndOfFrame();
+        }
+    }
 }
