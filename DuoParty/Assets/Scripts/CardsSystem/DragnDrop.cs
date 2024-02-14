@@ -9,6 +9,7 @@ public class DragnDrop : MonoBehaviour
 {
     [SerializeField] EventSystem eventSystem;
     [SerializeField] GraphicRaycaster m_Raycaster;
+    [SerializeField] Animator revealAnimation;
     private bool draging = false;
     [SerializeField] private GameObject DragNDrop;
     [SerializeField] private GameObject cardHand;
@@ -163,6 +164,7 @@ public class DragnDrop : MonoBehaviour
                         }
                         else
                         {
+                            
                             _case.isReveal = true;
                             _case.ResetDarkImage();
                             FindObjectOfType<AudioManager>().PlaySound("card droped");
