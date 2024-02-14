@@ -40,4 +40,10 @@ public class AnimationEventCallFunctions : MonoBehaviour
     {
         buttonManager.InformationPanel();
     }
+
+
+    public void UiPanel()
+    {
+        buttonManager.UiActive();
+    }
 }

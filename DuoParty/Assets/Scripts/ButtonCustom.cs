@@ -17,6 +17,7 @@ public class ButtonCustom : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
 
     [Header("Colors")]
     [SerializeField] private Color _enterColor;
+    [SerializeField] private Color _enterColorImage;
     [SerializeField] private Color _exitColor;
     [SerializeField] private Color _clickColor;
 
@@ -53,7 +54,7 @@ public class ButtonCustom : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
         {
             _onEnter.Invoke();
             if (GetComponentInChildren<Image>() != null)
-                GetComponentInChildren<Image>().color = _enterColor;
+                GetComponentInChildren<Image>().color = _enterColorImage;
         }
     }
 
