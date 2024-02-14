@@ -64,13 +64,13 @@ public class PlayerMovement : MonoBehaviour
 
                 if (!keyContainer.hasItem && actCase.isKey)
                 {
-                    keyContainer.addItem(actCase.gameObject);
+                    keyContainer.addItem();
                     actCase.RemoveBonus();
                 }
                     
                 else if (!vaccinContainer.hasItem && ((actCase.isVaccineRed && color == "Red") || (actCase.isVaccineGreen && color == "Green")))
                 {
-                    vaccinContainer.addItem(actCase.gameObject);
+                    vaccinContainer.addItem();
                     actCase.RemoveBonus();
                 }
             }

@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -5,38 +6,40 @@ public class BonusContainer : MonoBehaviour
 {
     [SerializeField] private Image itemImage;
     public bool hasItem;
-    public TypeOfBonus bonus = TypeOfBonus.none;
+    public TypeOfBonus bonus;
     public Case caseRef;
-    private Image defaultSprite;
+    public int number = 0;
+    [SerializeField] private TextMeshProUGUI numberText;
 
     private void Start()
     {
-        defaultSprite = GetComponent<Image>();
+        itemImage.color = Color.grey;
+        updateText();
     }
 
-    public void addItem(GameObject currentCase)
+    public void addItem()
     {
+        itemImage.color = Color.white;
         hasItem = true;
-
-        if (currentCase.GetComponent<Case>().isHammer)
-        {
-            bonus = TypeOfBonus.hammer;
-            itemImage.sprite = caseRef.GetHammerSprite();
-        }
-        else if(currentCase.GetComponent<Case>().isAccessCard)
-        {
-            bonus = TypeOfBonus.accessCard;
-            itemImage.sprite= caseRef.GetAccessCardSprite();
-        }
-            
+        number++;
+        updateText();
     }
 
     public void removeItem()
     {
-        itemImage.sprite = defaultSprite.sprite;
-        hasItem = false;
+        itemImage.color = Color.grey;
+        number--;
+        updateText();
+        if (number == 0)
+        {
+            hasItem = false;
+        }
     }
 
+    private void updateText()
+    {
+        numberText.text = number.ToString();
+    }
 
 }
 

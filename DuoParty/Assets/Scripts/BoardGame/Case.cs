@@ -92,6 +92,16 @@ public class Case : MonoBehaviour
         return accessCardSprite;
     }
 
+    public void MakeImageDarker()
+    {
+        GetComponent<SpriteRenderer>().color = Color.grey;
+    }
+
+    public void ResetDarkImage()
+    {
+        GetComponent<SpriteRenderer>().color = Color.white;
+    }
+
     private void Start()
     {
         caseTransform = transform;
