@@ -179,12 +179,12 @@ public class DragnDrop : MonoBehaviour
                         else
                         {
                             _case.isReveal = true;
-                            FindObjectOfType<AudioManager>().PlaySound("card droped");
+                            //FindObjectOfType<AudioManager>().PlaySound("card droped");
                             hit.collider.gameObject.GetComponent<Case>().AddCard(cardHand.GetComponent<Hand>().card);
                             hit.collider.gameObject.transform.rotation = Quaternion.Euler(0f, 0f, cardHand.GetComponent<Hand>().rotation);
                             cardHand.GetComponent<Hand>().RemoveCard();
-                            particle.transform.position = hit.collider.transform.position;
-                            particle.Play();
+                            //particle.transform.position = hit.collider.transform.position;
+                            //particle.Play();
                             stopAll.StopAllCards();
                         }
                         if (result.tag == "Card" && hit.collider != null && hit.collider.TryGetComponent<Case>(out _case) && !_case.isArmouredDoor && !_case.isBomb && _case.GetInteractible() && hit.collider.gameObject.GetComponent<Case>().GetCard() == null
