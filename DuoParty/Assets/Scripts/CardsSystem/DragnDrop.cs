@@ -168,8 +168,10 @@ public class DragnDrop : MonoBehaviour
                         if (result.tag == "Card" && hit.collider != null && hit.collider.TryGetComponent<Case>(out _case) && !_case.isArmouredDoor && !_case.isBomb && _case.GetInteractible() && hit.collider.gameObject.GetComponent<Case>().GetCard() == null
                         && !_case.isKey && !_case.isVaccineGreen && !_case.isVaccineRed)
                         {
+                            print("aa");
                             if (_case.isHammer || _case.isAccessCard)
                             {
+                                print("aa");
                                 AddBonusToPlayer(cardHand.gameObject.tag, _case);
                                 FindObjectOfType<AudioManager>().PlaySound("item picked up");
                             }
@@ -232,11 +234,11 @@ public class DragnDrop : MonoBehaviour
         switch (tag)
         {
             case ("Player1"):
-                player1inventory.AddItemInInventory(currentCase.gameObject);
+                player1inventory.AddItemInInventory(currentCase);
                 break;
 
             case ("Player2"):
-                player2inventory.AddItemInInventory(currentCase.gameObject);
+                player2inventory.AddItemInInventory(currentCase);
                 break;
 
         }
@@ -255,6 +257,7 @@ public class DragnDrop : MonoBehaviour
             gridManager.AddHole(_case.up.GetComponent<Case>());
             _case.up.LockMovements();
             _case.up.isReveal = true;
+            _case.up.isArmouredDoor = true;
         }
         if (_case.down.GetCard() == null && _case.down.GetInteractible())
         {
@@ -262,6 +265,7 @@ public class DragnDrop : MonoBehaviour
             gridManager.AddHole(_case.down.GetComponent<Case>());
             _case.down.LockMovements();
             _case.down.isReveal = true;
+            _case.down.isArmouredDoor = true;
         }
         if (_case.right.GetCard() == null && _case.right.GetInteractible())
         {
@@ -269,6 +273,7 @@ public class DragnDrop : MonoBehaviour
             gridManager.AddHole(_case.right.GetComponent<Case>());
             _case.right.LockMovements();
             _case.right.isReveal = true;
+            _case.right.isArmouredDoor = true;
         }
         if (_case.left.GetCard() == null && _case.left.GetInteractible())
         {
@@ -276,6 +281,7 @@ public class DragnDrop : MonoBehaviour
             gridManager.AddHole(_case.left.GetComponent<Case>());
             _case.left.LockMovements();
             _case.left.isReveal = true;
+            _case.left.isArmouredDoor = true;
         }
         yield return new WaitForSeconds(1);
         if (_case.up.GetCard() == null && _case.up.GetInteractible())
