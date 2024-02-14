@@ -45029,6 +45029,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fogg
       objectReference: {fileID: 0}
+    - target: {fileID: 640717051135296007, guid: bba29d0acf31a0443830c384f2919bd5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1199561981572044881, guid: bba29d0acf31a0443830c384f2919bd5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.7129
@@ -45068,6 +45072,10 @@ PrefabInstance:
     - target: {fileID: 1199561981572044881, guid: bba29d0acf31a0443830c384f2919bd5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8044170516976132414, guid: bba29d0acf31a0443830c384f2919bd5, type: 3}
+      propertyPath: m_Color.a
+      value: 0.9411765
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
