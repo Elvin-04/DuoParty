@@ -68,17 +68,11 @@ public class DragnDrop : MonoBehaviour
 
                 if (result.tag == "Card" && oldMouseOverGameObject != null && oldMouseOverGameObject.GetComponent<Case>().GetCard() == null && ((!oldMouseOverGameObject.GetComponent<Case>().isArmouredDoor && !oldMouseOverGameObject.GetComponent<Case>().isBomb) || (!oldMouseOverGameObject.GetComponent<Case>().isReveal)))
                 {
-                    if (!oldMouseOverGameObject.GetComponent<Case>().isReveal)
-                        gridManager.RemoveHole(oldMouseOverGameObject.GetComponent<Case>());
-                    oldMouseOverGameObject.GetComponent<Case>().ResetImage();
-                    oldMouseOverGameObject.GetComponent<Case>().ResetDarkImage();
+                    oldMouseOverGameObject.GetComponent<Highlight>().ToggleHighlight(false);
                 }
                 if (result.tag == "Card" && hit.collider != null && hit.collider.TryGetComponent<Case>(out Case _case) && _case.GetInteractible() && hit.collider.gameObject.GetComponent<Case>().GetCard() == null && ((!hit.collider.gameObject.GetComponent<Case>().isArmouredDoor && !hit.collider.gameObject.GetComponent<Case>().isBomb) || (!hit.collider.GetComponent<Case>().isReveal)))
                 {
-                    if (!_case.isReveal)
-                        gridManager.AddHole(hit.collider.GetComponent<Case>());
-                    hit.collider.GetComponent<Case>().AddImage(cardHand.GetComponent<Hand>().card);
-                    hit.collider.GetComponent<Case>().MakeImageDarker();
+                    hit.collider.GetComponent<Highlight>().ToggleHighlight(true);
                     if (oldMouseOverGameObject != null && hit.collider.transform.rotation.z != cardHand.GetComponent<Hand>().rotation)
                     {
                         hit.collider.gameObject.transform.rotation = Quaternion.Euler(0f, 0f, cardHand.GetComponent<Hand>().rotation);
@@ -164,6 +158,7 @@ public class DragnDrop : MonoBehaviour
                         else
                         {
                             _case.isReveal = true;
+                            hit.collider.GetComponent<Highlight>().ToggleHighlight(false);
                             _case.ResetDarkImage();
                             FindObjectOfType<AudioManager>().PlaySound("card droped");
                             hit.collider.gameObject.GetComponent<Case>().AddCard(cardHand.GetComponent<Hand>().card);
