@@ -66,16 +66,16 @@ public class DragnDrop : MonoBehaviour
                 }
                 RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
 
-                if (result.tag == "Card" && oldMouseOverGameObject != null && oldMouseOverGameObject.GetComponent<Case>().GetCard() == null)
+                if (result.tag == "Card" && oldMouseOverGameObject != null && oldMouseOverGameObject.GetComponent<Case>().GetCard() == null && ((!oldMouseOverGameObject.GetComponent<Case>().isArmouredDoor && !oldMouseOverGameObject.GetComponent<Case>().isBomb) || (!oldMouseOverGameObject.GetComponent<Case>().isReveal)))
                 {
-                    if(!oldMouseOverGameObject.GetComponent<Case>().isReveal)
+                    if (!oldMouseOverGameObject.GetComponent<Case>().isReveal)
                         gridManager.RemoveHole(oldMouseOverGameObject.GetComponent<Case>());
                     oldMouseOverGameObject.GetComponent<Case>().ResetImage();
                     oldMouseOverGameObject.GetComponent<Case>().ResetDarkImage();
                 }
-                if (result.tag == "Card" && hit.collider != null && hit.collider.TryGetComponent<Case>(out Case _case) && _case.GetInteractible() && hit.collider.gameObject.GetComponent<Case>().GetCard() == null)
+                if (result.tag == "Card" && hit.collider != null && hit.collider.TryGetComponent<Case>(out Case _case) && _case.GetInteractible() && hit.collider.gameObject.GetComponent<Case>().GetCard() == null && ((!hit.collider.gameObject.GetComponent<Case>().isArmouredDoor && !hit.collider.gameObject.GetComponent<Case>().isBomb) || (!hit.collider.GetComponent<Case>().isReveal)))
                 {
-                    if(!_case.isReveal)
+                    if (!_case.isReveal)
                         gridManager.AddHole(hit.collider.GetComponent<Case>());
                     hit.collider.GetComponent<Case>().AddImage(cardHand.GetComponent<Hand>().card);
                     hit.collider.GetComponent<Case>().MakeImageDarker();
@@ -97,7 +97,7 @@ public class DragnDrop : MonoBehaviour
                 {
                     bonusContainer = result.GetComponentInParent<BonusContainer>();
                 }
-                
+
             }
             else if (draging && Input.GetMouseButtonUp(0) && (result.tag == "Card" || result.tag == "BonusSlot"))
             {
@@ -146,7 +146,7 @@ public class DragnDrop : MonoBehaviour
                             if (_case.right != null && NotEndSpawnOrBonus(_case.right) && _case.right.GetCard() != null && _case.right.GetEColor() != cardcolors.redAndGreen)
                             {
                                 _case.right.CreateCross(_case.right.GetColor());
-                            } 
+                            }
                         }
                         else if (_case.isBomb)
                         {
@@ -156,7 +156,7 @@ public class DragnDrop : MonoBehaviour
                             FindObjectOfType<AudioManager>().PlaySound("alarm activated");
                             PlaceInSecondHand();
                             _case.GetComponent<SpriteRenderer>().sprite = camera_trap;
-                            
+
                             _case.LockMovements();
 
                             StartCoroutine(TrapCamera(_case));
@@ -177,7 +177,7 @@ public class DragnDrop : MonoBehaviour
                                 AddBonusToPlayer(cardHand.gameObject.tag, _case);
                                 FindObjectOfType<AudioManager>().PlaySound("item picked up");
                             }
-                        } 
+                        }
                     }
                     else if (result.tag == "BonusSlot" && hit.collider != null && hit.collider.TryGetComponent<Case>(out _case) && _case.GetInteractible() && (_case.GetCard() != null || _case.GetArmouredDoor()))
                     {
@@ -258,6 +258,7 @@ public class DragnDrop : MonoBehaviour
             _case.up.LockMovements();
             _case.up.ResetDarkImage();
             _case.up.isReveal = true;
+            _case.up.isArmouredDoor = true;
         }
         if (_case.down.GetCard() == null && _case.down.GetInteractible())
         {
@@ -266,14 +267,16 @@ public class DragnDrop : MonoBehaviour
             _case.down.LockMovements();
             _case.down.ResetDarkImage();
             _case.down.isReveal = true;
+            _case.down.isArmouredDoor = true;
         }
         if (_case.right.GetCard() == null && _case.right.GetInteractible())
         {
             StartCoroutine(blinking(_case.right.GetComponent<SpriteRenderer>(), 1));
             gridManager.AddHole(_case.right.GetComponent<Case>());
             _case.right.LockMovements();
-            _case.right.ResetDarkImage();  
+            _case.right.ResetDarkImage();
             _case.right.isReveal = true;
+            _case.right.isArmouredDoor = true;
         }
         if (_case.left.GetCard() == null && _case.left.GetInteractible())
         {
@@ -282,6 +285,7 @@ public class DragnDrop : MonoBehaviour
             _case.left.LockMovements();
             _case.left.ResetDarkImage();
             _case.left.isReveal = true;
+            _case.left.isArmouredDoor = true;
         }
         yield return new WaitForSeconds(1);
         if (_case.up.GetCard() == null && _case.up.GetInteractible())
@@ -305,16 +309,16 @@ public class DragnDrop : MonoBehaviour
     IEnumerator blinking(SpriteRenderer sr, float Totaltime)
     {
         float time = 0f;
-        while(time / Totaltime < 0.25f)
+        while (time / Totaltime < 0.25f)
         {
             time += Time.deltaTime;
-            sr.color = new Color(1,1-time/Totaltime*4,1-time/Totaltime*4, 1);
+            sr.color = new Color(1, 1 - time / Totaltime * 4, 1 - time / Totaltime * 4, 1);
             yield return new WaitForEndOfFrame();
         }
         while (time / Totaltime < 0.5f)
         {
             time += Time.deltaTime;
-            sr.color = new Color(1,0 + time / Totaltime * 2, 0 + time / Totaltime * 2, 1);
+            sr.color = new Color(1, 0 + time / Totaltime * 2, 0 + time / Totaltime * 2, 1);
             yield return new WaitForEndOfFrame();
 
         }
@@ -327,7 +331,7 @@ public class DragnDrop : MonoBehaviour
         while (time / Totaltime < 1f)
         {
             time += Time.deltaTime;
-            sr.color = new Color(1, 0 + time / Totaltime , 0 + time / Totaltime, 1);
+            sr.color = new Color(1, 0 + time / Totaltime, 0 + time / Totaltime, 1);
             yield return new WaitForEndOfFrame();
         }
     }
