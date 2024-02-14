@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private string color;
     [SerializeField] private Animator animator;
+    [SerializeField] private ParticleSystem particleSystemKey;
     [SerializeField] public TrailRenderer trailRenderer;
 
     public int caseSize;
@@ -65,6 +66,7 @@ public class PlayerMovement : MonoBehaviour
                 if (!keyContainer.hasItem && actCase.isKey)
                 {
                     keyContainer.addItem();
+                    //particleSystemKey.Play();
                     actCase.RemoveBonus();
                 }
                     
