@@ -1,4 +1,6 @@
 using System.Collections.Generic;
+using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class GridManager : MonoBehaviour
@@ -212,6 +214,19 @@ public class GridManager : MonoBehaviour
         newHole.transform.SetParent(_case.transform);
         newHole.transform.position = _case.transform.position;
 
+    }
+
+    public void RemoveHole(Case _case)
+    {
+        Destroy(GetChildGameObject(_case.gameObject, "Hole(Clone)"));
+    }
+
+    private GameObject GetChildGameObject(GameObject gameObject, string name) // get a child game object
+    {
+        var allKids = gameObject.GetComponentsInChildren<Transform>();
+        var kid = allKids.FirstOrDefault(k => k.gameObject.name == name);
+        if (kid == null) return null;
+        return kid.gameObject;
     }
 
     public List<Case> GetGrid()
