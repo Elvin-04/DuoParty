@@ -1870,7 +1870,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.98, y: 3.86, z: -2.967615}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -1891,7 +1891,7 @@ MonoBehaviour:
   animator: {fileID: 49397143}
   trailRenderer: {fileID: 49397142}
   caseSize: 1
-  speed: 10
+  speed: 7
   moveDist: {x: 1, y: 1}
   canModeDown: 0
   canModeUp: 0
@@ -39152,7 +39152,7 @@ MonoBehaviour:
   animator: {fileID: 1472543729}
   trailRenderer: {fileID: 1472543728}
   caseSize: 1
-  speed: 10
+  speed: 7
   moveDist: {x: 1, y: 1}
   canModeDown: 0
   canModeUp: 0

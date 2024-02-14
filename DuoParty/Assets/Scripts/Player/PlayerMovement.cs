@@ -52,10 +52,8 @@ public class PlayerMovement : MonoBehaviour
         if (isMoving)
         {
             animator.SetTrigger("isWalking 0");
-            Vector3 dir = (Vector3) dest - transform.position;
-            float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+
             transform.position = Vector2.MoveTowards(transform.position, dest, speed*Time.deltaTime);
-            transform.rotation = Quaternion.Euler(0, 0, angle);
             if (Vector2.Distance(dest, transform.position) < 0.05f)
             {
                 actCase = destCase;
@@ -133,6 +131,8 @@ public class PlayerMovement : MonoBehaviour
 
         dest = new Vector2(transform.position.x, transform.position.y) + ctx.ReadValue<Vector2>();
 
+        
+
         RaycastHit2D hit = Physics2D.Raycast(dest, Vector2.zero);
 
         if (hit.collider != null && hit.collider.TryGetComponent<Case>(out Case _case) && (_case.GetColor() == color || _case.GetColor() == "RedAndGreen" || _case.GetColor() == ""))
@@ -147,18 +147,25 @@ public class PlayerMovement : MonoBehaviour
             if (ctx.ReadValue<Vector2>().x == 1 && _case != null && newPath.canMoveLeft && (actCase == null || lastPath.canMoveRight))
             {
                 isMoving = true;
+                transform.rotation = Quaternion.Euler(new Vector3(0, 0, -90));
             }
             else if (ctx.ReadValue<Vector2>().x == -1 && _case != null && newPath.canMoveRight && (actCase == null || lastPath.canMoveLeft))
             {
                 isMoving = true;
+                transform.rotation = Quaternion.Euler(new Vector3(0, 0, 90));
+
             }
             else if (ctx.ReadValue<Vector2>().y == 1 && _case != null && newPath.canMoveDown && (actCase == null || lastPath.canMoveUp))
             {
                 isMoving = true;
+                transform.rotation = Quaternion.Euler(new Vector3(0, 0, 0));
+
             }
             else if (ctx.ReadValue<Vector2>().y == -1 && _case != null && newPath.canMoveUp && (actCase == null || lastPath.canMoveDown))
             {
                 isMoving = true;
+                transform.rotation = Quaternion.Euler(new Vector3(0, 0, 180));
+
             }
         }
     }
