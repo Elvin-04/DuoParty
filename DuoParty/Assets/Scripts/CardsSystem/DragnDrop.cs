@@ -68,11 +68,11 @@ public class DragnDrop : MonoBehaviour
 
                 if (result.tag == "Card" && oldMouseOverGameObject != null && oldMouseOverGameObject.GetComponent<Case>().GetCard() == null && ((!oldMouseOverGameObject.GetComponent<Case>().isArmouredDoor && !oldMouseOverGameObject.GetComponent<Case>().isBomb) || (!oldMouseOverGameObject.GetComponent<Case>().isReveal)))
                 {
-                    oldMouseOverGameObject.GetComponent<Highlight>().ToggleHighlight(false);
+                    oldMouseOverGameObject.GetComponent<Highlight>().ToggleHighlight(false, Color.white);
                 }
                 if (result.tag == "Card" && hit.collider != null && hit.collider.TryGetComponent<Case>(out Case _case) && _case.GetInteractible() && hit.collider.gameObject.GetComponent<Case>().GetCard() == null && ((!hit.collider.gameObject.GetComponent<Case>().isArmouredDoor && !hit.collider.gameObject.GetComponent<Case>().isBomb) || (!hit.collider.GetComponent<Case>().isReveal)))
                 {
-                    hit.collider.GetComponent<Highlight>().ToggleHighlight(true);
+                    hit.collider.GetComponent<Highlight>().ToggleHighlight(true, Color.white);
                     if (oldMouseOverGameObject != null && hit.collider.transform.rotation.z != cardHand.GetComponent<Hand>().rotation)
                     {
                         hit.collider.gameObject.transform.rotation = Quaternion.Euler(0f, 0f, cardHand.GetComponent<Hand>().rotation);
@@ -109,14 +109,14 @@ public class DragnDrop : MonoBehaviour
                 {
                     oldMouseOverGameObject = null;
                     RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
-
                     //drop the card
                     if (result.tag == "Card" && hit.collider != null && hit.collider.TryGetComponent<Case>(out Case _case) && _case.GetInteractible() && hit.collider.gameObject.GetComponent<Case>().GetCard() == null
                     && !_case.isKey && !_case.isVaccineGreen && !_case.isVaccineRed)
                     {
                         gridManager.AddHole(hit.collider.GetComponent<Case>());
-                        if (_case.isArmouredDoor)
+                        if (_case.isArmouredDoor && !_case.isReveal)
                         {
+                            _case.gameObject.GetComponent<Highlight>().StartRedBlink();
                             _case.isReveal = true;
                             stopAll.StopAllCards();
                             FindObjectOfType<AudioManager>().PlaySound("armouredDoor activated");
@@ -142,7 +142,7 @@ public class DragnDrop : MonoBehaviour
                                 _case.right.CreateCross(_case.right.GetColor());
                             }
                         }
-                        else if (_case.isBomb)
+                        else if (_case.isBomb && !_case.isReveal)
                         {
                             _case.isReveal = true;
                             stopAll.StopAllCards();
@@ -158,7 +158,7 @@ public class DragnDrop : MonoBehaviour
                         else
                         {
                             _case.isReveal = true;
-                            hit.collider.GetComponent<Highlight>().ToggleHighlight(false);
+                            hit.collider.GetComponent<Highlight>().ToggleHighlight(false, Color.white);
                             _case.ResetDarkImage();
                             FindObjectOfType<AudioManager>().PlaySound("card droped");
                             hit.collider.gameObject.GetComponent<Case>().AddCard(cardHand.GetComponent<Hand>().card);
@@ -173,6 +173,12 @@ public class DragnDrop : MonoBehaviour
                                 FindObjectOfType<AudioManager>().PlaySound("item picked up");
                             }
                         }
+                    }
+                    else if (result.tag == "Card" && hit.collider != null && hit.collider.TryGetComponent<Case>(out _case) && _case.GetInteractible() && (_case.isBomb && _case.isReveal) || (hit.collider.TryGetComponent<Case>(out _case) && _case.isArmouredDoor && _case.isReveal) || _case.GetCard() != null || _case.isEnd || _case.isKey || _case.isVaccineGreen || _case.isVaccineRed || _case.isSpawn)
+                    {
+
+                        print("aaa");
+                        _case.gameObject.GetComponent<Highlight>().StartRedBlink();
                     }
                     else if (result.tag == "BonusSlot" && hit.collider != null && hit.collider.TryGetComponent<Case>(out _case) && _case.GetInteractible() && (_case.GetCard() != null || _case.GetArmouredDoor()))
                     {
