@@ -101,6 +101,7 @@ public class PlayerMovement : MonoBehaviour
     public void GridMovementPlayer(InputAction.CallbackContext ctx)
     {
         _tempContext = ctx;
+        Debug.Log("test");
 
         if (ctx.started && RoundByRound.instance.turn == turn)
         {

@@ -15,6 +15,15 @@
                     "initialStateCheck": false
                 },
                 {
+                    "name": "Active/DesactiveMenu",
+                    "type": "Button",
+                    "id": "1732b683-2b96-46f4-91ba-aa208fc017e7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
                     "name": "Move",
                     "type": "Value",
                     "id": "af5265be-9de9-478d-ae40-c10fcb6157e9",
@@ -128,6 +137,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Enter",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d66c710d-dbc1-47d0-ab93-e23e448ca656",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Active/DesactiveMenu",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

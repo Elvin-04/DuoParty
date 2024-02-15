@@ -1,9 +1,14 @@
+using JetBrains.Annotations;
+using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class ButtonManager : MonoBehaviour
 {
-    [SerializeField] private GameObject _game ,_menu, _endMenu;
+    [SerializeField] private GameObject _game, _menu, _endMenu;
     public AudioSource _audioSource;
     private bool _pauseActive;
     private bool _endActive;
@@ -43,7 +48,7 @@ public class ButtonManager : MonoBehaviour
     }
     public void PlayGame()
     {
-        SceneManager.LoadScene("SetNames");
+        SceneManager.LoadScene("MiseEnCommun");
         Time.timeScale = 1f;
     }
     public void MainMenu()
@@ -67,7 +72,7 @@ public class ButtonManager : MonoBehaviour
     }
     public void EndMenu()
     {
-        if (!_endActive)
+        if (!_pauseActive)
         {
             GameObject.Find("MenuManager").transform.Find("EndMenu").gameObject.SetActive(true);
             _endActive = true;
