@@ -1,9 +1,9 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using static UnityEngine.UI.Button;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
-using TMPro;
+using static UnityEngine.UI.Button;
 
 public class ButtonCustom : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {

@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.UI;
 
 public class ButtonShowArrow : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
