@@ -82,7 +82,7 @@ public class DragnDrop : MonoBehaviour
             }
 
             // dragging card
-            if (Input.GetMouseButtonDown(0) && ((result.tag == "Card" && result.GetComponentInParent<Hand>().card != null) || (result.tag == "BonusSlot" && result.GetComponentInParent<BonusContainer>().hasItem)) /*&& !draging*/)
+            if (Input.GetMouseButtonDown(0) && ((result.tag == "Card" && result.GetComponentInParent<Hand>().card != null) || (result.tag == "BonusSlot" && result.GetComponentInParent<BonusContainer>().hasItem)))
             {
                 FindObjectOfType<AudioManager>().PlaySound("card picked up");
                 draging = true;
