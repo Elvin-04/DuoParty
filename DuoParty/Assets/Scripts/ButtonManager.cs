@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class ButtonManager : MonoBehaviour
 {
-    [SerializeField] private GameObject _menu, _endMenu;
+    [SerializeField] private GameObject _game ,_menu, _endMenu;
     public AudioSource _audioSource;
     private bool _pauseActive;
     private bool _endActive;
@@ -55,17 +55,19 @@ public class ButtonManager : MonoBehaviour
         if (!_pauseActive) 
         {
             GameObject.Find("MenuManager").transform.Find("PauseMenu").gameObject.SetActive(true);
+            _game.SetActive(false);
             _pauseActive = true;
         }
         else
         {
             GameObject.Find("MenuManager").transform.Find("PauseMenu").gameObject.SetActive(false);
+            _game.SetActive(true);
             _pauseActive = false;
         }
     }
     public void EndMenu()
     {
-        if (!_pauseActive)
+        if (!_endActive)
         {
             GameObject.Find("MenuManager").transform.Find("EndMenu").gameObject.SetActive(true);
             _endActive = true;
