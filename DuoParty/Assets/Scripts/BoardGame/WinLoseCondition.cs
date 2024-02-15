@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class WinLoseCondition : MonoBehaviour
 {
@@ -14,10 +15,14 @@ public class WinLoseCondition : MonoBehaviour
     [SerializeField] private Hand player2DefundHand;
     [SerializeField] private Hand player2Hand;
 
-    [SerializeField] private GameObject player1Key;
-    [SerializeField] private GameObject player2Key;
-    [SerializeField] private GameObject player1Vac;
-    [SerializeField] private GameObject player2Vac;
+    [SerializeField] private GameObject player1Quest;
+    [SerializeField] private GameObject player2Quest;
+
+    [SerializeField] private Sprite Check;
+    [SerializeField] private Image itemCheck1;
+    [SerializeField] private Image itemCheck2;
+    
+    
 
 
     [Header("Other Infos")]
@@ -162,32 +167,36 @@ public class WinLoseCondition : MonoBehaviour
 
         if (hit1.collider != null && hit1.collider.GetComponent<Case>() && hit1.collider.GetComponent<Case>().GetEnd() && hit1.collider.GetComponent<Case>().GetEColor() == cardcolors.red)
         {
-            player1Key.SetActive(true);
-            player1Vac.SetActive(true);
+            player1Quest.SetActive(true);
             if (player1.GetComponent<PlayerMovement>().HasAllItems())
+            {
                 player1Finish = true;
+                itemCheck1.sprite = Check;
+            }
+
         }
         else
         {
             player1Finish = false;
-            player1Key.SetActive(false);
-            player1Vac.SetActive(false);
+            player1Quest.SetActive(false);
         }
 
         RaycastHit2D hit2 = Physics2D.Raycast(new Vector2(player2.transform.position.x, player2.transform.position.y), Vector2.zero);
 
         if (hit2.collider != null && hit2.collider.GetComponent<Case>() && hit2.collider.GetComponent<Case>().GetEnd() && hit2.collider.GetComponent<Case>().GetEColor() == cardcolors.green)
         {
-            player2Key.SetActive(true);
-            player2Vac.SetActive(true);
+            player2Quest.SetActive(true);
             if (player2.GetComponent<PlayerMovement>().HasAllItems())
+            {
                 player2Finish = true;
+                itemCheck2.sprite = Check;
+            }
+
         }
         else
         {
             player2Finish = false;
-            player2Key.SetActive(false);
-            player2Vac.SetActive(false);
+            player2Quest.SetActive(false);
         }
 
         if (player1Finish && player2Finish)
