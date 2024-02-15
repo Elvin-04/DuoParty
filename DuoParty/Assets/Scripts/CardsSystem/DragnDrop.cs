@@ -107,6 +107,7 @@ public class DragnDrop : MonoBehaviour
                 // place card in game
                 else
                 {
+                    bool cardAdded = false;
                     oldMouseOverGameObject = null;
                     RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
                     //drop the card
@@ -156,15 +157,13 @@ public class DragnDrop : MonoBehaviour
 
                             StartCoroutine(TrapCamera(_case));
                         }
-                        else
+                        else if(!_case.isBomb && !_case.isArmouredDoor)
                         {
+                            cardAdded = true;
                             _case.isReveal = true;
                             hit.collider.GetComponent<Highlight>().ToggleHighlight(false, Color.white);
                             _case.ResetDarkImage();
                             FindObjectOfType<AudioManager>().PlaySound("card droped");
-                            hit.collider.gameObject.GetComponent<Case>().AddCard(cardHand.GetComponent<Hand>().card);
-                            hit.collider.gameObject.transform.rotation = Quaternion.Euler(0f, 0f, cardHand.GetComponent<Hand>().rotation);
-                            cardHand.GetComponent<Hand>().RemoveCard();
                             particle.transform.position = hit.collider.transform.position;
                             particle.Play();
                             stopAll.StopAllCards();
@@ -175,10 +174,8 @@ public class DragnDrop : MonoBehaviour
                             }
                         }
                     }
-                    else if (result.tag == "Card" && hit.collider != null && hit.collider.TryGetComponent<Case>(out _case) && _case.GetInteractible() && (_case.isBomb && _case.isReveal) || (hit.collider.TryGetComponent<Case>(out _case) && _case.isArmouredDoor && _case.isReveal) || _case.GetCard() != null || _case.isEnd || _case.isKey || _case.isVaccineGreen || _case.isVaccineRed || _case.isSpawn)
+                    if (result.tag == "Card" && hit.collider != null && hit.collider.TryGetComponent<Case>(out _case) && ((_case.isBomb && _case.isReveal) || (hit.collider.TryGetComponent<Case>(out _case) && _case.isArmouredDoor && _case.isReveal) || _case.GetCard() != null || _case.isEnd || _case.isKey || _case.isVaccineGreen || _case.isVaccineRed || _case.isSpawn))
                     {
-
-                        print("aaa");
                         _case.gameObject.GetComponent<Highlight>().StartRedBlink();
                     }
                     else if (result.tag == "BonusSlot" && hit.collider != null && hit.collider.TryGetComponent<Case>(out _case) && _case.GetInteractible() && (_case.GetCard() != null || _case.GetArmouredDoor()))
@@ -194,6 +191,12 @@ public class DragnDrop : MonoBehaviour
                             _case.ResetCard();
                             bonusContainer.removeItem();
                         }
+                    }
+                    if (cardAdded)
+                    {
+                        hit.collider.gameObject.GetComponent<Case>().AddCard(cardHand.GetComponent<Hand>().card);
+                        hit.collider.gameObject.transform.rotation = Quaternion.Euler(0f, 0f, cardHand.GetComponent<Hand>().rotation);
+                        cardHand.GetComponent<Hand>().RemoveCard();
                     }
                     // return image in his place
                     CardReturn(result.gameObject);
