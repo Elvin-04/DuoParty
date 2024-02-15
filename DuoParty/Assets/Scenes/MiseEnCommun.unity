@@ -35985,11 +35985,12 @@ MonoBehaviour:
   redTrashHand: {fileID: 1419558950}
   greenTrashHand: {fileID: 576103608}
   stopAll: {fileID: 1613845222}
-  porte_blinde: {fileID: 21300000, guid: bd1affdbb2197c64f9694815eb182be2, type: 3}
+  porte_blinde: {fileID: 21300000, guid: ba62da81bc0fc0e419fd2f2f490b3f43, type: 3}
   camera_trap: {fileID: 21300000, guid: 4340764c49ec3e4488e55bd9f89ca171, type: 3}
   particle: {fileID: 722827075}
   player1inventory: {fileID: 125925205}
   player2inventory: {fileID: 384313173}
+  gameObjectAnimPrefab: {fileID: 2056311317214714770, guid: f8cb9164ba497994aaf24b9ff32368cf, type: 3}
   gridManager: {fileID: 350744199}
 --- !u!1 &1177842208
 GameObject:
