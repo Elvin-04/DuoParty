@@ -117,6 +117,7 @@ public class DragnDrop : MonoBehaviour
                         gridManager.AddHole(hit.collider.GetComponent<Case>());
                         if (_case.isArmouredDoor)
                         {
+                            _case.transform.rotation = Quaternion.identity;
                             _case.isReveal = true;
                             stopAll.StopAllCards();
                             FindObjectOfType<AudioManager>().PlaySound("armouredDoor activated");
@@ -246,6 +247,12 @@ public class DragnDrop : MonoBehaviour
 
     IEnumerator TrapCamera(Case _case)
     {
+        _case.transform.rotation = Quaternion.identity;
+        _case.up.transform.rotation = Quaternion.identity;
+        _case.down.transform.rotation = Quaternion.identity;
+        _case.right.transform.rotation = Quaternion.identity;
+        _case.left.transform.rotation = Quaternion.identity;
+
         if (_case.up.GetCard() == null && _case.up.GetInteractible())
         {
             StartCoroutine(blinking(_case.up.GetComponent<SpriteRenderer>(), 1));
