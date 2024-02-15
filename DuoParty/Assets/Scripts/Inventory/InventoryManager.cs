@@ -11,11 +11,13 @@ public class InventoryManager : MonoBehaviour
         {
             if (inventory[i].bonus == TypeOfBonus.hammer && currentCase.isHammer)
             {
+                inventory[i].GetComponent<Highlight>().StartGreenBlink();
                 inventory[i].addItem();
                 return;
             }
             else if(inventory[i].bonus == TypeOfBonus.accessCard && currentCase.isAccessCard)
             {
+                inventory[i].GetComponent<Highlight>().StartGreenBlink();
                 inventory[i].addItem();
                 return;
             }
