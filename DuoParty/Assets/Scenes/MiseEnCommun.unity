@@ -17104,6 +17104,7 @@ MonoBehaviour:
   cardImage: {fileID: 441662282}
   isDefundHand: 1
   rotation: 0
+  trashImage: {fileID: 21300000, guid: efa0ff1358e8c4447a63f2b61aa005c9, type: 3}
   defundHand: {fileID: 576103608}
   deck: {fileID: 0}
 --- !u!1 &583992867
@@ -38472,6 +38473,7 @@ MonoBehaviour:
   cardImage: {fileID: 1432305904}
   isDefundHand: 0
   rotation: 0
+  trashImage: {fileID: 21300000, guid: efa0ff1358e8c4447a63f2b61aa005c9, type: 3}
   defundHand: {fileID: 0}
   deck: {fileID: 987837844}
 --- !u!1 &1245576030
@@ -41787,6 +41789,7 @@ MonoBehaviour:
   cardImage: {fileID: 1679081109}
   isDefundHand: 1
   rotation: 0
+  trashImage: {fileID: 21300000, guid: efa0ff1358e8c4447a63f2b61aa005c9, type: 3}
   defundHand: {fileID: 1419558950}
   deck: {fileID: 0}
 --- !u!1 &1419706506
@@ -45233,6 +45236,7 @@ MonoBehaviour:
   cardImage: {fileID: 1226207413}
   isDefundHand: 0
   rotation: 0
+  trashImage: {fileID: 21300000, guid: efa0ff1358e8c4447a63f2b61aa005c9, type: 3}
   defundHand: {fileID: 0}
   deck: {fileID: 1236214527}
 --- !u!1 &1567500668

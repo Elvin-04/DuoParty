@@ -7,6 +7,7 @@ public class Hand : MonoBehaviour
     public Image cardImage;
     public bool isDefundHand;
     public float rotation;
+    [SerializeField] private Sprite trashImage;
     [SerializeField] public GameObject defundHand;
     [SerializeField] private Deck deck;
 
@@ -27,8 +28,8 @@ public class Hand : MonoBehaviour
     {
         rotation = 0f;
         card = null;
-        cardImage.sprite = null;
-        cardImage.color = new Color(cardImage.color.r, cardImage.color.g, cardImage.color.b, 0f);
+        cardImage.sprite = trashImage;
+        cardImage.color = new Color(cardImage.color.r, cardImage.color.g, cardImage.color.b, 1f);
         cardImage.transform.rotation = Quaternion.Euler(new Vector3 (0f, 0f, 0f));
         if (isDefundHand)
         {
