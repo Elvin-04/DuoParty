@@ -9,7 +9,7 @@ public class DragnDrop : MonoBehaviour
 {
     [SerializeField] EventSystem eventSystem;
     [SerializeField] GraphicRaycaster m_Raycaster;
-    [SerializeField] Animator revealAnimation;
+
     private bool draging = false;
     [SerializeField] private GameObject DragNDrop;
     [SerializeField] private GameObject cardHand;
@@ -23,12 +23,18 @@ public class DragnDrop : MonoBehaviour
     [SerializeField] private InventoryManager player1inventory;
     [SerializeField] private InventoryManager player2inventory;
 
+    [SerializeField] GameObject gameObjectAnimPrefab;
+
     [SerializeField] private GridManager gridManager;
 
     private GameObject oldMouseOverGameObject;
 
     private BonusContainer bonusContainer;
 
+    private void Start()
+    {
+        //gameObjectAnimInst = Instantiate(gameObjectAnimPrefab) as GameObject;
+    }
 
     private void Update()
     {
@@ -164,7 +170,6 @@ public class DragnDrop : MonoBehaviour
                         }
                         else
                         {
-                            
                             _case.isReveal = true;
                             _case.ResetDarkImage();
                             FindObjectOfType<AudioManager>().PlaySound("card droped");
@@ -172,8 +177,12 @@ public class DragnDrop : MonoBehaviour
                             hit.collider.gameObject.transform.rotation = Quaternion.Euler(0f, 0f, cardHand.GetComponent<Hand>().rotation);
                             cardHand.GetComponent<Hand>().RemoveCard();
                             particle.transform.position = hit.collider.transform.position;
+                            gameObjectAnimPrefab.transform.position = hit.collider.transform.position;
                             particle.Play();
                             stopAll.StopAllCards();
+                            GameObject temp = Instantiate(gameObjectAnimPrefab);
+                            //temp.GetComponent<Animator>().SetBool("reavealAnim", true);
+                            Destroy(temp, 0.683f);
                             if (_case.isHammer || _case.isAccessCard)
                             {
                                 AddBonusToPlayer(cardHand.gameObject.tag, _case);
@@ -200,12 +209,8 @@ public class DragnDrop : MonoBehaviour
                 }
             }
         }
-
-
-
-
-
     }
+
     private void CardReturn(GameObject card)
     {
         card.transform.SetParent(cardHand.transform);
