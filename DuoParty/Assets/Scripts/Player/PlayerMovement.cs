@@ -1,10 +1,6 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using System.Collections;
-using System;
-using UnityEditorInternal;
-using Unity.VisualScripting;
-using UnityEngine.UIElements;
 
 public class PlayerMovement : MonoBehaviour
 {

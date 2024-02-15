@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
-using UnityEngine.UIElements;
 
 public class DragnDrop : MonoBehaviour
 {
@@ -55,6 +54,8 @@ public class DragnDrop : MonoBehaviour
                 // rotate dragged card
                 if (result.tag == "Card")
                 {
+                    if(cardHand)
+
                     if (Input.GetKeyDown(KeyCode.Q))
                     {
                         cardHand.GetComponent<Hand>().TrunCardLeft();
