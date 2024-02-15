@@ -171,14 +171,14 @@ public class WinLoseCondition : MonoBehaviour
             if (player1.GetComponent<PlayerMovement>().HasAllItems())
             {
                 player1Finish = true;
-                itemCheck1.sprite = Check;
+                //itemCheck1.sprite = Check;
             }
 
         }
         else
         {
             player1Finish = false;
-            player1Quest.SetActive(false);
+            //player1Quest.SetActive(false);
         }
 
         RaycastHit2D hit2 = Physics2D.Raycast(new Vector2(player2.transform.position.x, player2.transform.position.y), Vector2.zero);
@@ -189,14 +189,14 @@ public class WinLoseCondition : MonoBehaviour
             if (player2.GetComponent<PlayerMovement>().HasAllItems())
             {
                 player2Finish = true;
-                itemCheck2.sprite = Check;
+                //itemCheck2.sprite = Check;
             }
 
         }
         else
         {
             player2Finish = false;
-            player2Quest.SetActive(false);
+            //player2Quest.SetActive(false);
         }
 
         if (player1Finish && player2Finish)
