@@ -43780,11 +43780,13 @@ MonoBehaviour:
   - {fileID: 987837843}
   - {fileID: 1240434390}
   - {fileID: 1679081108}
+  - {fileID: 1432305903}
   playerTwoSprites:
   - {fileID: 94447489}
   - {fileID: 1236214526}
   - {fileID: 1564585733}
   - {fileID: 441662280}
+  - {fileID: 1226207412}
   turn: 0
 --- !u!4 &1613845221
 Transform:
