@@ -1014,11 +1014,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemImage: {fileID: 35934803}
+  checkImage: {fileID: 0}
   isKeysContenair: 0
   hasItem: 0
   KeySprite: {fileID: 0}
   VaccineSpriteRed: {fileID: 0}
   VaccineSpriteGreen: {fileID: 0}
+  Check: {fileID: 0}
   color: 
 --- !u!114 &35934803
 MonoBehaviour:
@@ -31971,11 +31973,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemImage: {fileID: 1100358777}
+  checkImage: {fileID: 0}
   isKeysContenair: 1
   hasItem: 0
   KeySprite: {fileID: 0}
   VaccineSpriteRed: {fileID: 0}
   VaccineSpriteGreen: {fileID: 0}
+  Check: {fileID: 0}
   color: 
 --- !u!114 &1100358777
 MonoBehaviour:
@@ -43837,6 +43841,10 @@ MonoBehaviour:
   player2Deck: {fileID: 1236214527}
   player2DefundHand: {fileID: 576103613}
   player2Hand: {fileID: 1564585736}
+  player1Key: {fileID: 0}
+  player2Key: {fileID: 0}
+  player1Vac: {fileID: 0}
+  player2Vac: {fileID: 0}
   grid: {fileID: 350744199}
   player1Finish: 0
   player2Finish: 0
@@ -44140,11 +44148,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemImage: {fileID: 1621543642}
+  checkImage: {fileID: 0}
   isKeysContenair: 0
   hasItem: 0
   KeySprite: {fileID: 0}
   VaccineSpriteRed: {fileID: 0}
   VaccineSpriteGreen: {fileID: 0}
+  Check: {fileID: 0}
   color: 
 --- !u!114 &1621543642
 MonoBehaviour:
@@ -46719,11 +46729,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemImage: {fileID: 1757794548}
+  checkImage: {fileID: 0}
   isKeysContenair: 1
   hasItem: 0
   KeySprite: {fileID: 0}
   VaccineSpriteRed: {fileID: 0}
   VaccineSpriteGreen: {fileID: 0}
+  Check: {fileID: 0}
   color: 
 --- !u!114 &1757794548
 MonoBehaviour:

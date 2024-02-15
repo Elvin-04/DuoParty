@@ -14,6 +14,12 @@ public class WinLoseCondition : MonoBehaviour
     [SerializeField] private Hand player2DefundHand;
     [SerializeField] private Hand player2Hand;
 
+    [SerializeField] private GameObject player1Key;
+    [SerializeField] private GameObject player2Key;
+    [SerializeField] private GameObject player1Vac;
+    [SerializeField] private GameObject player2Vac;
+
+
     [Header("Other Infos")]
     [SerializeField] private GridManager grid;
     public bool player1Finish;
@@ -154,19 +160,35 @@ public class WinLoseCondition : MonoBehaviour
 
         RaycastHit2D hit1 = Physics2D.Raycast(new Vector2(player1.transform.position.x, player1.transform.position.y), Vector2.zero);
 
-        if (hit1.collider != null && hit1.collider.GetComponent<Case>() && hit1.collider.GetComponent<Case>().GetEnd() && hit1.collider.GetComponent<Case>().GetEColor() == cardcolors.red && player1.GetComponent<PlayerMovement>().HasAllItems())
+        if (hit1.collider != null && hit1.collider.GetComponent<Case>() && hit1.collider.GetComponent<Case>().GetEnd() && hit1.collider.GetComponent<Case>().GetEColor() == cardcolors.red)
         {
-            player1Finish = true;
+            player1Key.SetActive(true);
+            player1Vac.SetActive(true);
+            if (player1.GetComponent<PlayerMovement>().HasAllItems())
+                player1Finish = true;
         }
-        else player1Finish = false;
+        else
+        {
+            player1Finish = false;
+            player1Key.SetActive(false);
+            player1Vac.SetActive(false);
+        }
 
         RaycastHit2D hit2 = Physics2D.Raycast(new Vector2(player2.transform.position.x, player2.transform.position.y), Vector2.zero);
 
-        if (hit2.collider != null && hit2.collider.GetComponent<Case>() && hit2.collider.GetComponent<Case>().GetEnd() && hit2.collider.GetComponent<Case>().GetEColor() == cardcolors.green && player2.GetComponent<PlayerMovement>().HasAllItems())
+        if (hit2.collider != null && hit2.collider.GetComponent<Case>() && hit2.collider.GetComponent<Case>().GetEnd() && hit2.collider.GetComponent<Case>().GetEColor() == cardcolors.green)
         {
-            player2Finish = true;
+            player2Key.SetActive(true);
+            player2Vac.SetActive(true);
+            if (player2.GetComponent<PlayerMovement>().HasAllItems())
+                player2Finish = true;
         }
-        else player2Finish = false;
+        else
+        {
+            player2Finish = false;
+            player2Key.SetActive(false);
+            player2Vac.SetActive(false);
+        }
 
         if (player1Finish && player2Finish)
         {
