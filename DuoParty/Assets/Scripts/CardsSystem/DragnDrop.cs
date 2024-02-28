@@ -134,6 +134,7 @@ public class DragnDrop : MonoBehaviour
                             _case.GetComponent<SpriteRenderer>().sprite = porte_blinde;
                             _case.LockMovements();
                             _case.ResetDarkImage();
+                            
 
                             if (_case.up != null && NotEndSpawnOrBonus(_case.up) && _case.up.GetCard() != null && _case.up.GetEColor() != cardcolors.redAndGreen)
                             {

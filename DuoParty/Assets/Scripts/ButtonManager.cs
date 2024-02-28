@@ -48,7 +48,7 @@ public class ButtonManager : MonoBehaviour
     }
     public void PlayGame()
     {
-        SceneManager.LoadScene("MiseEnCommun");
+        SceneManager.LoadScene("SetNames");
         Time.timeScale = 1f;
     }
     public void MainMenu()

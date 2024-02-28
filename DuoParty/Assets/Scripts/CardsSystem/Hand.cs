@@ -18,7 +18,12 @@ public class Hand : MonoBehaviour
         {
             defundHand.GetComponent<DefundHand>().AddDefundCard(card);
         }
-        if(previousHand != null) transform.Rotate(0f, 0f, previousHand.rotation);
+        if (previousHand != null)
+        {
+            transform.Rotate(0f, 0f, previousHand.rotation);
+        }
+
+        
         card = newCard;
         cardImage.sprite = newCard.cardImage;
         cardImage.color = new Color(cardImage.color.r, cardImage.color.g, cardImage.color.b, 255f);
@@ -39,8 +44,8 @@ public class Hand : MonoBehaviour
         else
             deck.PullCard();
     }
-      /*****************************************/
-     /*              turn cards               */
+    /*****************************************/
+    /*              turn cards               */
     /*****************************************/
     public void TrunCardRight()
     {
@@ -50,7 +55,7 @@ public class Hand : MonoBehaviour
             rotation = (rotation == 0f ? 270f : rotation -= 90f);
             cardImage.transform.Rotate(0f, 0f, -90f);
         }
-        
+
     }
 
     public void TrunCardLeft()

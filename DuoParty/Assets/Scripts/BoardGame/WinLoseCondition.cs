@@ -71,7 +71,9 @@ public class WinLoseCondition : MonoBehaviour
     public void Lose()
     {
         Debug.Log("LOSE");
-        //TODO  switch scene to game over scene
+        Debug.Log("tset");
+        GameObject.Find("MenuManager").transform.Find("EndMenu").gameObject.SetActive(true);
+        GameObject.Find("EndMenu").transform.Find("DefeatText").gameObject.SetActive(true);
     }
 
     public bool PathFinding(Case start, Case end, string newColor)
@@ -220,8 +222,8 @@ public class WinLoseCondition : MonoBehaviour
          && player2Deck.deckCard.Count == 0 && player2DefundHand.defundHand.GetComponent<DefundHand>().defundDeckCard.Count == 0 && player2Hand.card == null && player1DefundHand.card == null)
         {
             Lose();
-            GameObject.Find("MenuManager").transform.Find("EndMenu").gameObject.SetActive(true);
-            GameObject.Find("EndMenu").transform.Find("DefeatText").gameObject.SetActive(true);
+            
+            
         }
 
           /**********************************************/

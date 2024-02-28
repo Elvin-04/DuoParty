@@ -20,6 +20,8 @@ public class FadeCredits : MonoBehaviour
             Destroy(this);
             return;
         }
+
+        
     }
     private void OnEnable()
     {
